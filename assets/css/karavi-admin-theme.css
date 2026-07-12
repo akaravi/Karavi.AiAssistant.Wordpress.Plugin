@@ -1,0 +1,233 @@
+/**
+ * Karavi AI Assistant — admin/dashboard theme (light / dark / auto).
+ * Scoped to Karavi screens via body.karavi-ai-assistant-theme-* classes.
+ */
+.karavi-ai-assistant-theme-target,
+.karavi-ai-assistant-settings-wrap,
+#karavi-ai-assistant-dashboard-page,
+.karavi-ai-assistant-dashboard-wrap {
+    color: var(--kai-text-primary);
+    font-family: var(--kai-font-sans);
+    font-size: var(--kai-font-size-md);
+    line-height: var(--kai-line-height);
+}
+
+.karavi-ai-assistant-settings-wrap .postbox .hndle,
+#karavi-ai-assistant-dashboard-page .karavi-ai-assistant-card > h2,
+.karavi-ai-assistant-dashboard-wrap .karavi-ai-assistant-card > h2 {
+    font-size: var(--kai-font-size-lg);
+    line-height: var(--kai-line-height-tight);
+    font-weight: 600;
+}
+
+.karavi-ai-assistant-settings-wrap .form-table th,
+.karavi-ai-assistant-settings-wrap .form-table td {
+    padding-block: var(--kai-space-3);
+}
+
+.karavi-ai-assistant-settings-wrap .description,
+.karavi-ai-assistant-settings-wrap p.description {
+    font-size: var(--kai-font-size-sm);
+    color: var(--kai-text-muted);
+}
+
+body.karavi-ai-assistant-theme-light .karavi-ai-assistant-settings-wrap,
+body.karavi-ai-assistant-theme-light #karavi-ai-assistant-dashboard-page,
+body.karavi-ai-assistant-theme-light .karavi-ai-assistant-dashboard-wrap {
+    color-scheme: light;
+    --kai-surface-base: #ffffff;
+    --kai-surface-muted: #f8fafc;
+    --kai-surface-subtle: #f1f5f9;
+    --kai-surface-elevated: #ffffff;
+    --kai-border: #e2e8f0;
+    --kai-border-strong: #cbd5e1;
+    --kai-border-wp: #dcdcde;
+    --kai-text-primary: #0f172a;
+    --kai-text-secondary: #334155;
+    --kai-text-muted: #64748b;
+}
+
+body.karavi-ai-assistant-theme-dark .karavi-ai-assistant-settings-wrap,
+body.karavi-ai-assistant-theme-dark #karavi-ai-assistant-dashboard-page,
+body.karavi-ai-assistant-theme-dark .karavi-ai-assistant-dashboard-wrap {
+    color-scheme: dark;
+    --kai-surface-base: #1e293b;
+    --kai-surface-muted: #0f172a;
+    --kai-surface-subtle: #334155;
+    --kai-surface-elevated: #1e293b;
+    --kai-border: #334155;
+    --kai-border-strong: #475569;
+    --kai-border-wp: #3d4a5c;
+    --kai-text-primary: #f1f5f9;
+    --kai-text-secondary: #cbd5e1;
+    --kai-text-muted: #94a3b8;
+    --kai-info-bg: #0f2744;
+    --kai-error-bg: #3f1d1d;
+}
+
+@media (prefers-color-scheme: dark) {
+    body.karavi-ai-assistant-theme-auto .karavi-ai-assistant-settings-wrap,
+    body.karavi-ai-assistant-theme-auto #karavi-ai-assistant-dashboard-page,
+    body.karavi-ai-assistant-theme-auto .karavi-ai-assistant-dashboard-wrap {
+        color-scheme: dark;
+        --kai-surface-base: #1e293b;
+        --kai-surface-muted: #0f172a;
+        --kai-surface-subtle: #334155;
+        --kai-surface-elevated: #1e293b;
+        --kai-border: #334155;
+        --kai-border-strong: #475569;
+        --kai-border-wp: #3d4a5c;
+        --kai-text-primary: #f1f5f9;
+        --kai-text-secondary: #cbd5e1;
+        --kai-text-muted: #94a3b8;
+        --kai-info-bg: #0f2744;
+        --kai-error-bg: #3f1d1d;
+    }
+}
+
+body.karavi-ai-assistant-theme-dark .karavi-ai-assistant-settings-wrap .postbox,
+body.karavi-ai-assistant-theme-dark .karavi-ai-assistant-settings-wrap .karavi-ai-assistant-card,
+body.karavi-ai-assistant-theme-dark #karavi-ai-assistant-dashboard-page .karavi-ai-assistant-card,
+body.karavi-ai-assistant-theme-dark #karavi-ai-assistant-dashboard-page .ab-test-stat-card,
+body.karavi-ai-assistant-theme-auto .karavi-ai-assistant-settings-wrap .postbox,
+body.karavi-ai-assistant-theme-auto .karavi-ai-assistant-settings-wrap .karavi-ai-assistant-card,
+body.karavi-ai-assistant-theme-auto #karavi-ai-assistant-dashboard-page .karavi-ai-assistant-card,
+body.karavi-ai-assistant-theme-auto #karavi-ai-assistant-dashboard-page .ab-test-stat-card {
+    background: var(--kai-surface-elevated);
+    border-color: var(--kai-border-strong);
+    color: var(--kai-text-primary);
+}
+
+@media (prefers-color-scheme: dark) {
+    body.karavi-ai-assistant-theme-auto .karavi-ai-assistant-settings-wrap .postbox,
+    body.karavi-ai-assistant-theme-auto .karavi-ai-assistant-settings-wrap .karavi-ai-assistant-card,
+    body.karavi-ai-assistant-theme-auto #karavi-ai-assistant-dashboard-page .karavi-ai-assistant-card,
+    body.karavi-ai-assistant-theme-auto #karavi-ai-assistant-dashboard-page .ab-test-stat-card {
+        background: var(--kai-surface-elevated);
+        border-color: var(--kai-border-strong);
+        color: var(--kai-text-primary);
+    }
+}
+
+body.karavi-ai-assistant-theme-dark .karavi-ai-assistant-settings-wrap .form-table th,
+body.karavi-ai-assistant-theme-dark .karavi-ai-assistant-settings-wrap .form-table td,
+body.karavi-ai-assistant-theme-dark .karavi-ai-assistant-settings-wrap .description,
+body.karavi-ai-assistant-theme-dark #karavi-ai-assistant-dashboard-page .description,
+body.karavi-ai-assistant-theme-auto .karavi-ai-assistant-settings-wrap .form-table th,
+body.karavi-ai-assistant-theme-auto .karavi-ai-assistant-settings-wrap .form-table td,
+body.karavi-ai-assistant-theme-auto .karavi-ai-assistant-settings-wrap .description,
+body.karavi-ai-assistant-theme-auto #karavi-ai-assistant-dashboard-page .description {
+    color: var(--kai-text-secondary);
+}
+
+@media (prefers-color-scheme: dark) {
+    body.karavi-ai-assistant-theme-auto .karavi-ai-assistant-settings-wrap .form-table th,
+    body.karavi-ai-assistant-theme-auto .karavi-ai-assistant-settings-wrap .form-table td,
+    body.karavi-ai-assistant-theme-auto .karavi-ai-assistant-settings-wrap .description,
+    body.karavi-ai-assistant-theme-auto #karavi-ai-assistant-dashboard-page .description {
+        color: var(--kai-text-secondary);
+    }
+}
+
+body.karavi-ai-assistant-theme-dark .karavi-ai-assistant-settings-wrap input[type="text"],
+body.karavi-ai-assistant-theme-dark .karavi-ai-assistant-settings-wrap input[type="password"],
+body.karavi-ai-assistant-theme-dark .karavi-ai-assistant-settings-wrap input[type="url"],
+body.karavi-ai-assistant-theme-dark .karavi-ai-assistant-settings-wrap input[type="email"],
+body.karavi-ai-assistant-theme-dark .karavi-ai-assistant-settings-wrap input[type="number"],
+body.karavi-ai-assistant-theme-dark .karavi-ai-assistant-settings-wrap textarea,
+body.karavi-ai-assistant-theme-dark .karavi-ai-assistant-settings-wrap select,
+body.karavi-ai-assistant-theme-auto .karavi-ai-assistant-settings-wrap input[type="text"],
+body.karavi-ai-assistant-theme-auto .karavi-ai-assistant-settings-wrap input[type="password"],
+body.karavi-ai-assistant-theme-auto .karavi-ai-assistant-settings-wrap input[type="url"],
+body.karavi-ai-assistant-theme-auto .karavi-ai-assistant-settings-wrap input[type="email"],
+body.karavi-ai-assistant-theme-auto .karavi-ai-assistant-settings-wrap input[type="number"],
+body.karavi-ai-assistant-theme-auto .karavi-ai-assistant-settings-wrap textarea,
+body.karavi-ai-assistant-theme-auto .karavi-ai-assistant-settings-wrap select {
+    background: var(--kai-surface-base);
+    border-color: var(--kai-border-strong);
+    color: var(--kai-text-primary);
+}
+
+@media (prefers-color-scheme: dark) {
+    body.karavi-ai-assistant-theme-auto .karavi-ai-assistant-settings-wrap input[type="text"],
+    body.karavi-ai-assistant-theme-auto .karavi-ai-assistant-settings-wrap input[type="password"],
+    body.karavi-ai-assistant-theme-auto .karavi-ai-assistant-settings-wrap input[type="url"],
+    body.karavi-ai-assistant-theme-auto .karavi-ai-assistant-settings-wrap input[type="email"],
+    body.karavi-ai-assistant-theme-auto .karavi-ai-assistant-settings-wrap input[type="number"],
+    body.karavi-ai-assistant-theme-auto .karavi-ai-assistant-settings-wrap textarea,
+    body.karavi-ai-assistant-theme-auto .karavi-ai-assistant-settings-wrap select {
+        background: var(--kai-surface-base);
+        border-color: var(--kai-border-strong);
+        color: var(--kai-text-primary);
+    }
+}
+
+body.karavi-ai-assistant-theme-dark .karavi-ai-assistant-seo-improvement-controls,
+body.karavi-ai-assistant-theme-dark .karavi-ai-assistant-seo-suggestion-panel,
+body.karavi-ai-assistant-theme-dark .karavi-ai-assistant-seo-improvement-target-panel-header,
+body.karavi-ai-assistant-theme-dark .karavi-ai-assistant-seo-improvement-targets,
+body.karavi-ai-assistant-theme-auto .karavi-ai-assistant-seo-improvement-controls,
+body.karavi-ai-assistant-theme-auto .karavi-ai-assistant-seo-suggestion-panel,
+body.karavi-ai-assistant-theme-auto .karavi-ai-assistant-seo-improvement-target-panel-header,
+body.karavi-ai-assistant-theme-auto .karavi-ai-assistant-seo-improvement-targets {
+    background: var(--kai-surface-elevated);
+    border-color: var(--kai-border);
+    color: var(--kai-text-primary);
+}
+
+@media (prefers-color-scheme: dark) {
+    body.karavi-ai-assistant-theme-auto .karavi-ai-assistant-seo-improvement-controls,
+    body.karavi-ai-assistant-theme-auto .karavi-ai-assistant-seo-suggestion-panel,
+    body.karavi-ai-assistant-theme-auto .karavi-ai-assistant-seo-improvement-target-panel-header,
+    body.karavi-ai-assistant-theme-auto .karavi-ai-assistant-seo-improvement-targets {
+        background: var(--kai-surface-elevated);
+        border-color: var(--kai-border);
+        color: var(--kai-text-primary);
+    }
+}
+
+body.karavi-ai-assistant-theme-dark .karavi-ai-assistant-shepherd-tour-modern,
+body.karavi-ai-assistant-theme-dark .karavi-ai-assistant-shepherd-tour-modern .shepherd-header,
+body.karavi-ai-assistant-theme-dark .karavi-ai-assistant-shepherd-tour-modern .shepherd-footer,
+body.karavi-ai-assistant-theme-auto .karavi-ai-assistant-shepherd-tour-modern,
+body.karavi-ai-assistant-theme-auto .karavi-ai-assistant-shepherd-tour-modern .shepherd-header,
+body.karavi-ai-assistant-theme-auto .karavi-ai-assistant-shepherd-tour-modern .shepherd-footer {
+    background: var(--kai-surface-elevated) !important;
+    border-color: var(--kai-border) !important;
+    color: var(--kai-text-primary) !important;
+}
+
+@media (prefers-color-scheme: dark) {
+    body.karavi-ai-assistant-theme-auto .karavi-ai-assistant-shepherd-tour-modern,
+    body.karavi-ai-assistant-theme-auto .karavi-ai-assistant-shepherd-tour-modern .shepherd-header,
+    body.karavi-ai-assistant-theme-auto .karavi-ai-assistant-shepherd-tour-modern .shepherd-footer {
+        background: var(--kai-surface-elevated) !important;
+        border-color: var(--kai-border) !important;
+        color: var(--kai-text-primary) !important;
+    }
+}
+
+body.karavi-ai-assistant-theme-dark .karavi-ai-assistant-shepherd-tour-modern .shepherd-title,
+body.karavi-ai-assistant-theme-dark .karavi-ai-assistant-shepherd-tour-modern .shepherd-text,
+body.karavi-ai-assistant-theme-auto .karavi-ai-assistant-shepherd-tour-modern .shepherd-title,
+body.karavi-ai-assistant-theme-auto .karavi-ai-assistant-shepherd-tour-modern .shepherd-text {
+    color: var(--kai-text-secondary) !important;
+}
+
+@media (prefers-color-scheme: dark) {
+    body.karavi-ai-assistant-theme-auto .karavi-ai-assistant-shepherd-tour-modern .shepherd-title,
+    body.karavi-ai-assistant-theme-auto .karavi-ai-assistant-shepherd-tour-modern .shepherd-text {
+        color: var(--kai-text-secondary) !important;
+    }
+}
+
+#wpadminbar #wp-admin-bar-karavi-ai-assistant-theme-toggle .ab-icon {
+    font-family: dashicons !important;
+    font-size: 18px !important;
+    width: auto;
+    margin-inline-end: 4px;
+}
+
+#wpadminbar #wp-admin-bar-karavi-ai-assistant-theme-toggle > .ab-item {
+    cursor: pointer;
+}

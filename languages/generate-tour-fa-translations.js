@@ -1,0 +1,278 @@
+const fs = require('fs');
+const path = require('path');
+
+const keys = JSON.parse(fs.readFileSync(path.join(__dirname, 'tour-ui-keys.json'), 'utf8'));
+const fa = {
+	'A/B Test Dashboard': 'داشبورد تست A/B',
+	'AI Content Engine': 'موتور محتوای AI',
+	'AI Instructions for Posts': 'دستورالعمل AI برای نوشته‌ها',
+	'AI Proactive Messages': 'پیام‌های پیش‌دستانه AI',
+	'AI-Generated Buttons': 'دکمه‌های تولیدشده توسط AI',
+	'Add New Rules': 'افزودن قوانین جدید',
+	'Add Quick Buttons': 'افزودن دکمه‌های سریع',
+	'Add URL, CSS selector click, form submit, popular WordPress action, or WooCommerce product visit goals. The first goal stays primary for A/B decisions, while additional goals enable richer funnel analytics.':
+		'اهداف URL، کلیک CSS selector، ارسال فرم، اکشن رایج وردپرس یا بازدید محصول WooCommerce را اضافه کنید. اولین هدف برای تصمیم A/B اصلی است؛ اهداف بیشتر analytics قیف غنی‌تر می‌دهد.',
+	'Add persistent buttons that always appear in the chat bar. You can link to a URL or have them send a pre-defined message to the AI.':
+		'دکمه‌های دائمی در نوار چت اضافه کنید؛ می‌توانید به URL لینک دهید یا پیام از پیش‌تعریف‌شده به AI بفرستند.',
+	'Advanced Appearance': 'ظاهر پیشرفته',
+	'Allow the AI to call the product search tool for real-time product details.':
+		'به AI اجازه دهید ابزار جستجوی محصول را برای جزئیات لحظه‌ای فراخوانی کند.',
+	'Analyze one item or broader scopes by selecting All Posts and/or All Products from the target panel.':
+		'با انتخاب همه نوشته‌ها و/یا همه محصولات از پنل هدف، یک مورد یا scope گسترده‌تر را تحلیل کنید.',
+	'Analyze with AI': 'تحلیل با AI',
+	'Ask Guide': 'راهنمای پرسش',
+	'Ask about any setting, option, or button that is unclear, then continue follow-ups in the same admin-only chat thread.':
+		'درباره هر تنظیم، گزینه یا دکمه نامشخص بپرسید و پیگیری را در همان thread چت ادمین ادامه دهید.',
+	'At any time, you can download a CSV of your A/B test results for deeper analysis.':
+		'هر زمان می‌توانید CSV نتایج تست A/B را برای تحلیل عمیق‌تر دانلود کنید.',
+	Back: 'بازگشت',
+	'Back to Chatbot': 'بازگشت به چت‌بات',
+	'Back to Content Engine': 'بازگشت به موتور محتوا',
+	'Back to Dashboard': 'بازگشت به داشبورد',
+	'Basic Settings & API': 'تنظیمات پایه و API',
+	'Before writing, analyze any topic to get a report with long-tail keywords, common user questions, and a suggested content outline.':
+		'قبل از نوشتن، هر موضوع را تحلیل کنید تا گزارش با کلمات long-tail، سوالات رایج کاربر و outline پیشنهادی بگیرید.',
+	'Below the Support Center, this section lists raw event entries for manual verification and debugging.':
+		'زیر مرکز پشتیبانی، رویدادهای خام برای تأیید دستی و دیباگ فهرست می‌شوند.',
+	'Bot Name': 'نام بات',
+	'Brand the Headings': 'برندسازی عناوین',
+	'Button Styling': 'استایل دکمه',
+	'Chatbot Settings': 'تنظیمات چت‌بات',
+	'Checks homepage markers and optimization/defer hints to catch conflicts that block chat initialization.':
+		'نشانگرهای homepage و hintهای defer/بهینه‌سازی را برای تداخل‌های مانع راه‌اندازی چت بررسی می‌کند.',
+	'Choose \'Normal\' for a standard side panel or \'Center\' to open a focused modal with a backdrop—perfect for high-priority offers.':
+		'«Normal» برای پنل کناری استاندارد یا «Center» برای modal متمرکز با backdrop—مناسب پیشنهادهای اولویت بالا.',
+	'Choose Analysis Targets': 'انتخاب اهداف تحلیل',
+	'Choose between "Keywords" or "Products" as your source. The engine can write articles based on topics or generate product showcases from your WooCommerce catalog.':
+		'بین «Keywords» یا «Products» به‌عنوان منبع انتخاب کنید. موتور مقاله از موضوعات یا showcase محصول از کاتالوگ WooCommerce می‌سازد.',
+	'Choose between full or compact context to balance accuracy and token usage.':
+		'بین context کامل یا فشرده برای تعادل دقت و مصرف token انتخاب کنید.',
+	'Choose which action initiates this chat (e.g., Time on Page, Scroll Depth, Exit Intent). This is the primary condition that opens the chat window.':
+		'اقدام آغازگر چت را انتخاب کنید (مثلاً زمان در صفحه، عمق اسکرول، Exit Intent)—شرط اصلی باز شدن پنجره چت.',
+	'Choose which content types (pages, posts, products) the AI should use as its knowledge base to answer user questions accurately.':
+		'نوع محتوا (صفحات، نوشته‌ها، محصولات) را برای پایگاه دانش AI انتخاب کنید تا پاسخ‌ها دقیق باشند.',
+	'Choose which sections to show and set the max items so you control how many cross-sells appear per post.':
+		'بخش‌های نمایش و حداکثر آیتم را تنظیم کنید تا تعداد cross-sell در هر نوشته را کنترل کنید.',
+	'Clear Logs': 'پاک‌سازی لاگ‌ها',
+	'Configure Your Chatbot': 'پیکربندی چت‌بات',
+	'Connect an AI Provider': 'اتصال ارائه‌دهنده AI',
+	'Content Excerpt Words': 'تعداد کلمات excerpt محتوا',
+	'Content Insights & Behavior': 'بینش محتوا و رفتار',
+	'Content Source': 'منبع محتوا',
+	'Context Detail Level': 'سطح جزئیات context',
+	'Control how long recommendations stay cached so you get fresh suggestions without hammering the database.':
+		'مدت cache پیشنهادها را کنترل کنید تا پیشنهاد تازه بدون فشار به DB داشته باشید.',
+	'Control how many words are pulled from posts and pages for the AI context.':
+		'تعداد کلمات استخراج‌شده از نوشته‌ها و صفحات برای context AI را کنترل کنید.',
+	'Create as many trigger recipes as you need—time-on-page nudges, scroll prompts, coupon exit modals, and more.':
+		'هر تعداد trigger لازم بسازید—nudge زمان در صفحه، prompt اسکرول، modal کوپن خروج و بیشتر.',
+	'Custom Logo': 'لوگوی سفارشی',
+	'Customize the look of your Quick Chat and AI-Generated buttons. Choose from Filled, Outline, or Subtle styles and adjust shapes and sizes.':
+		'ظاهر دکمه‌های Quick Chat و AI را سفارشی کنید؛ Filled، Outline یا Subtle و شکل/اندازه.',
+	'Define the AI Persona': 'تعریف Persona AI',
+	'Define when the chatbot opens: set delays, scroll depth, exit-intent detection, high-priority overrides, empty-cart checks, and post-conversion suppression.':
+		'زمان باز شدن چت‌بات: تأخیر، عمق اسکرول، exit-intent، اولویت بالا، سبد خالی، سرکوب پس از تبدیل.',
+	'Delivery & Scheduling': 'تحویل و زمان‌بندی',
+	"Don't forget to save your settings! Next, we'll look at the AI Content Engine.":
+		'تنظیمات را ذخیره کنید! بعد سراغ موتور محتوای AI می‌رویم.',
+	'Download Results': 'دانلود نتایج',
+	'Email Notifications': 'اعلان‌های ایمیل',
+	'Enable A/B Testing': 'فعال‌سازی تست A/B',
+	'Enable Redis/Memcached caching to reduce repeated context lookups.':
+		'cache Redis/Memcached را برای کاهش lookup تکراری context فعال کنید.',
+	"Enable the 'Fake Exit Button' to show a custom widget that triggers the modal. You can also use standard mouse-out detection or browser leave warnings.":
+		'«Fake Exit Button» را برای widget سفارشی modal فعال کنید؛ mouse-out یا هشدار خروج مرورگر هم ممکن است.',
+	'Enable the recommendations block to automatically append related products, posts, or services after each generated article.':
+		'بلوک پیشنهادها را فعال کنید تا پس از هر مقاله، محصول/نوشته/خدمت مرتبط اضافه شود.',
+	'Engagement Triggers': 'Triggerهای تعامل',
+	'Event Logs': 'لاگ رویدادها',
+	'Event Logs Controls': 'کنترل‌های لاگ رویداد',
+	'Exit-Intent Toolkit': 'جعبه‌ابزار Exit-Intent',
+	'Filter and Segment Content': 'فیلتر و segment محتوا',
+	'Filter reports by AI-generated vs manual content and include only improved or not-improved items from your SEO workflow.':
+		'گزارش‌ها را بر AI/manual فیلتر کنید و فقط بهبودیافته/نشده از workflow SEO را شامل کنید.',
+	'Final Step: Logs': 'مرحله نهایی: لاگ‌ها',
+	Finish: 'پایان',
+	'Finish 🎉': 'پایان 🎉',
+	'Further target your audience based on specific URL patterns or user segments to ensure highly contextual conversations.':
+		'مخاطب را با الگوی URL یا segment کاربر هدف بگیرید تا مکالمه بسیار contextual باشد.',
+	'Generate Keywords with AI': 'تولید کلمات کلیدی با AI',
+	'Generate actionable SEO recommendations with AI, then apply updates in the editor and track progress over time.':
+		'پیشنهاد SEO عملی با AI بگیرید، در ویرایشگر اعمال کنید و پیشرفت را دنبال کنید.',
+	'Get notified of new leads (when a user starts a chat) and optionally receive full transcripts when conversations go inactive.':
+		'از lead جدید (شروع چت) مطلع شوید و اختیاری transcript کامل وقتی مکالمه غیرفعال شد.',
+	'Give your chatbot a name. This appears at the top of the chat window.':
+		'نام چت‌بات را بگذارید؛ بالای پنجره چت نمایش داده می‌شود.',
+	'Go to Content Insights': 'رفتن به بینش محتوا',
+	'Go to Logs': 'رفتن به لاگ‌ها',
+	'Go to Settings': 'رفتن به تنظیمات',
+	'Goals & Context Rules': 'اهداف و قوانین context',
+	'If the log gets too noisy, you can clear it after confirming your fixes.':
+		'اگر لاگ شلوغ شد، پس از تأیید رفع مشکل پاک کنید.',
+	'Improve Older Posts, Pages, and Products': 'بهبود نوشته‌ها، صفحات و محصولات قدیمی',
+	'Include and Exclude Rules': 'قوانین شامل/مستثنی',
+	'Independent Provider': 'ارائه‌دهنده مستقل',
+	'Inspect timestamp, type, message, and details for each entry to confirm fixes over time.':
+		'timestamp، نوع، پیام و جزئیات هر ردیف را برای تأیید رفع مشکل بررسی کنید.',
+	'Just like the chatbot persona, these instructions guide the AI writer. Define the tone, structure, word count, and any SEO rules you want it to follow.':
+		'مثل persona چت‌بات، نویسنده AI را هدایت می‌کند؛ tone، ساختار، تعداد کلمات و قوانین SEO.',
+	'Let the assistant surface contextual CTAs automatically—great for product searches, quick answers, or routing without manual setup.':
+		'CTAهای contextual را خودکار نشان دهید—جستجوی محصول، پاسخ سریع، مسیریابی بدون setup دستی.',
+	"Let's look at the logs, where you can see all plugin activity.":
+		'لاگ‌ها را ببینید؛ همه فعالیت افزونه اینجاست.',
+	'Limit how many words are pulled from product content when building context for answers.':
+		'محدودیت کلمات استخراج از محتوای محصول برای context پاسخ.',
+	'Log Table': 'جدول لاگ',
+	'Manage & Reset Data': 'مدیریت و بازنشانی داده',
+	'Manual Generation': 'تولید دستی',
+	'Map this trigger to specific conversation goals, enforce prerequisites, and suppress triggers based on visited URLs or conditions.':
+		'trigger را به اهداف مکالمه map کنید، پیش‌نیاز enforce و سرکوب بر اساس URL/شرط.',
+	'Match by Taxonomy': 'تطبیق با taxonomy',
+	'Mobile Panel Settings': 'تنظیمات پنل موبایل',
+	'Need ideas? Describe your business or blog topics, and let the AI generate a list of high-intent keywords for you. They will be added to your queue.':
+		'ایده می‌خواهید؟ کسب‌وکار/موضوعات blog را توضیح دهید؛ AI کلمات high-intent به صف اضافه می‌کند.',
+	'New! Click this button to let AI analyze your recent logs and system info. It will diagnose errors and suggest fixes automatically.':
+		'جدید! AI لاگ و اطلاعات سیستم را تحلیل و خطا را تشخیص و fix پیشنهاد می‌دهد.',
+	'New! Control exactly how the chat window behaves on mobile. Set width/height percentages, anchor it to the bottom or top, and choose horizontal alignment.':
+		'جدید! رفتار پنجره چت در موبایل: درصد عرض/ارتفاع، anchor بالا/پایین، تراز افقی.',
+	'New! You can now let the AI generate the opening message for any trigger based on the page context and a specific persona.':
+		'جدید! AI پیام باز شدن هر trigger را از context صفحه و persona تولید می‌کند.',
+	Next: 'بعدی',
+	"Next, let's set up the chatbot persona, triggers, and appearance.":
+		'حالا persona، triggerها و ظاهر چت‌بات را تنظیم می‌کنیم.',
+	'Next, let\u2019s set up the chatbot persona, triggers, and appearance.':
+		'حالا persona، triggerها و ظاهر چت‌بات را تنظیم می‌کنیم.',
+	'Next: Content Engine': 'بعدی: موتور محتوا',
+	'Open targeted reset options for A/B stats, goal counters, action clicks, or even stored conversations when you need a clean slate.':
+		'بازنشانی هدفمند A/B، شمارنده هدف، کلیک action یا مکالمات ذخیره‌شده.',
+	'Open this workflow to refresh existing content with AI-powered SEO recommendations instead of rewriting from scratch.':
+		'workflow بهبود محتوای موجود با پیشنهاد SEO AI بدون بازنویسی از صفر.',
+	'Panel Position': 'موقعیت پنل',
+	'Performance & Cost Controls': 'کنترل عملکرد و هزینه',
+	'Pick Sections & Limits': 'انتخاب بخش‌ها و محدودیت‌ها',
+	'Pick a cheaper model that will handle short or greeting-type questions.':
+		'مدل ارزان‌تر برای سوالات کوتاه یا سلام.',
+	'Product Excerpt Words': 'تعداد کلمات excerpt محصول',
+	'Product Tool-Calling': 'فراخوانی ابزار محصول',
+	'Provide Site Context': 'ارائه context سایت',
+	'Quickly check your AI provider status, API key configuration, and the number of keywords in your content queue.':
+		'وضعیت provider، API key و تعداد کلمات در صف محتوا را سریع بررسی کنید.',
+	'Recommendations are saved here so you can review later, delete old cards, or mark items as improved when updates are complete.':
+		'پیشنهادها اینجا ذخیره می‌شوند؛ بعداً مرور، حذف کارت قدیمی یا mark بهبود.',
+	'Rename section labels with your own language—for example "You might also love" or "Services we recommend."':
+		'برچسب بخش‌ها را سفارشی کنید—مثلاً «شما ممکن است دوست داشته باشید».',
+	'Rename section labels with your own language—for example “You might also love” or “Services we recommend.”':
+		'برچسب بخش‌ها را سفارشی کنید—مثلاً «شما ممکن است دوست داشته باشید».',
+	'Review how individual triggers are performing over time across 7-day, 30-day, and lifetime windows.':
+		'عملکرد triggerها در پنجره ۷ روز، ۳۰ روز و lifetime.',
+	'Routing Model': 'مدل مسیریابی',
+	'Run Frontend Probe': 'اجرای Frontend Probe',
+	'Run Health Check': 'اجرای Health Check',
+	'Runs a multi-point diagnostic across provider setup, conflict signals, runtime logs, and frontend readiness.':
+		'تشخیص چندنقطه‌ای: setup provider، تداخل، لاگ runtime، آمادگی frontend.',
+	'Save and Continue': 'ذخیره و ادامه',
+	'Saved SEO Suggestions': 'پیشنهادهای SEO ذخیره‌شده',
+	'Search by title and filter by source (AI/manual) and improvement status so your team can prioritize what needs work first.':
+		'جستجو بر عنوان و فیلتر منبع (AI/manual) و وضعیت بهبود برای اولویت‌بندی تیم.',
+	'See views, conversions, and conversion rate for each variation. When confidence reaches 95%, you can apply the winner.':
+		'بازدید، تبدیل و نرخ تبدیل هر variation؛ با اطمینان ۹۵٪ برنده را اعمال کنید.',
+	'Select a provider (like Google, OpenAI, etc.) and enter your API key. Models for that provider are fetched automatically once a valid key is entered.':
+		'provider (Google، OpenAI و…) و API key را وارد کنید؛ مدل‌ها پس از key معتبر خودکار fetch می‌شوند.',
+	"Set 'Firing Frequency' and 'High Priority' to override other triggers. Control exactly when and how often this trigger is delivered.":
+		'«Firing Frequency» و «High Priority» برای override triggerهای دیگر؛ زمان و تکرار تحویل.',
+	'Skim which proactive engagement triggers are active before diving into priorities, cart logic, or exit widgets inside settings.':
+		'triggerهای فعال را قبل از اولویت، منطق سبد یا exit widget در تنظیمات مرور کنید.',
+	'Skip Tour': 'رد کردن تور',
+	'Source and Improvement Filters': 'فیلتر منبع و بهبود',
+	'Suggest SEO Improvements': 'پیشنهاد بهبود SEO',
+	'Support Center & Event Logs': 'مرکز پشتیبانی و لاگ رویداد',
+	'System Health': 'سلامت سیستم',
+	'Test your settings by instantly generating one post using the next available keyword from your queue.':
+		'با تولید فوری یک نوشته از کلمه بعدی صف، تنظیمات را تست کنید.',
+	'Thank You!': 'متشکریم!',
+	'The Logs tab now starts with the Support Center. If any option or button is confusing, ask here first, then run checks for conflicts and errors before reading raw event entries.':
+		'تب Logs با مرکز پشتیبانی شروع می‌شود؛ ابهام را اینجا بپرسید، سپس conflict/error و بعد رویداد خام.',
+	'The first message the user sees when they open the chat. Make it friendly and helpful!':
+		'اولین پیام هنگام باز کردن چت؛ دوستانه و مفید باشد!',
+	'These controls now appear after chat. Filter by type, sort, apply, delete selected rows, or clear all logs.':
+		'کنترل‌ها پس از چت: فیلتر نوع، sort، اعمال، حذف انتخاب‌شده یا پاک همه.',
+	'This engine uses your AI provider to auto-generate SEO-ready posts on a schedule or on demand.':
+		'موتور با provider AI نوشته SEO-ready زمان‌بندی‌شده یا درخواستی تولید می‌کند.',
+	'This is the Advanced Appearance section. Next, we will open it and explain the styling options.':
+		'بخش ظاهر پیشرفته؛ باز می‌کنیم و گزینه‌های استایل را توضیح می‌دهیم.',
+	'This is the Performance & Cost Controls section. Next, we will open it and walk through each option.':
+		'بخش کنترل عملکرد و هزینه؛ باز می‌کنیم و هر گزینه را مرور می‌کنیم.',
+	'This is the core settings area for Variation A. Next, we will open it and configure your AI integration and identity.':
+		'تنظیمات اصلی Variation A؛ AI و هویت را پیکربندی می‌کنیم.',
+	'This is the main control center for your chatbot. Here you can configure AI providers, A/B testing, appearance, and behavior.':
+		'مرکز کنترل چت‌بات؛ provider، A/B، ظاهر و رفتار.',
+	'This is the most important setting. Give the AI clear instructions on its tone, purpose, and rules. A well-defined persona leads to much better results.':
+		'مهم‌ترین تنظیم؛ دستورالعمل tone، هدف و قوانین AI—persona خوب نتیجه بهتر.',
+	'This page provides you with comprehensive analytics and actionable insights regarding your content performance and engagement.':
+		'analytics جامع و بینش عملی از عملکرد و تعامل محتوا.',
+	"This quick tour will guide you through the main features. Let's start with your A/B test performance.":
+		'این تور سریع ویژگی‌های اصلی را نشان می‌دهد. با عملکرد تست A/B شروع می‌کنیم.',
+	'This section connects content performance with trigger decisions. Next, we will open it and explain each option.':
+		'عملکرد محتوا با تصمیم trigger؛ باز می‌کنیم و گزینه‌ها را توضیح می‌دهیم.',
+	'Topic & Keyword Analysis': 'تحلیل موضوع و کلمه کلیدی',
+	'Track Conversions': 'ردیابی تبدیل',
+	'Track all public content, selected post types, or only your target URL rules depending on your campaign goals.':
+		'همه محتوای عمومی، post type انتخابی یا فقط URL هدف بسته به کمپین.',
+	'Tracking Scope': 'محدوده ردیابی',
+	'Trigger Analytics': 'Analytics trigger',
+	'Trigger Overview': 'نمای کلی trigger',
+	'Trigger Type': 'نوع trigger',
+	'Tune Caching': 'تنظیم cache',
+	'Turn On Recommendations': 'فعال‌سازی پیشنهادها',
+	'Turn on A/B testing to experiment with different personas, colors, messages, or buttons. The "Variation B" settings will appear when this is enabled.':
+		'تست A/B را برای persona، رنگ، پیام یا دکمه فعال کنید؛ «Variation B» ظاهر می‌شود.',
+	'Upload a custom icon for the floating chat bubble. If left empty, the default icon is used.':
+		'آیکون سفارشی حباب چت؛ خالی = آیکون پیش‌فرض.',
+	'Use Object Cache': 'استفاده از Object Cache',
+	'Use Target Page URLs and Exclude URL rules to focus insights on revenue pages and hide pages like checkout, preview, or thank-you screens.':
+		'URL هدف و Exclude برای تمرکز روی صفحات درآمد و پنهان checkout/preview/thank-you.',
+	'Use taxonomy relevance and optional custom service taxonomies to keep recommendations laser-focused.':
+		'relevance taxonomy و taxonomy سفارشی خدمات برای پیشنهاد دقیق.',
+	'Verification & Segmentation': 'تأیید و segmentation',
+	'Welcome Message': 'پیام خوش‌آمد',
+	'Welcome to Content Insights!': 'به بینش محتوا خوش آمدید!',
+	'Welcome to KaraviAiAssistant!': 'به KaraviAiAssistant خوش آمدید!',
+	'You can now use a dedicated AI provider and API key for content generation, separate from your chatbot settings.':
+		'provider و API key جدا برای تولید محتوا، مستقل از چت‌بات.',
+	'You have completed the KaraviAiAssistant guided tour. Thank you so much for choosing KaraviAiAssistant! We hope this tour helped you understand all the powerful features at your fingertips. Have a wonderful day and happy generating! 😊':
+		'تور KaraviAiAssistant تمام شد. از انتخاب KaraviAiAssistant سپاسگزاریم! امیدواریم همه قابلیت‌ها را فهمیده باشید. روز خوب و تولید محتوای پربار! 😊',
+};
+
+const missing = keys.filter((k) => {
+	if (fa[k]) return false;
+	const normalized = k.replace(/[\u2018\u2019]/g, "'").replace(/[\u201c\u201d]/g, '"');
+	if (fa[normalized]) {
+		fa[k] = fa[normalized];
+		return false;
+	}
+	return true;
+});
+if (missing.length) {
+	console.error('Missing FA for', missing.length, missing.slice(0, 5));
+	process.exit(1);
+}
+
+const esc = (s) => s.replace(/\\/g, '\\\\').replace(/'/g, "\\'");
+const lines = keys.map((k) => `\t'${esc(k)}' => '${esc(fa[k])}',`);
+const php = `<?php
+/**
+ * Persian translations for KaraviAiAssistant admin guided tour (fa_IR).
+ *
+ * @package KaraviAiAssistant
+ */
+if ( ! defined( 'ABSPATH' ) ) {
+\texit;
+}
+
+return array(
+${lines.join('\n')}
+);
+`;
+
+fs.writeFileSync(path.join(__dirname, 'tour-translations-fa_IR.php'), php, 'utf8');
+console.log('Wrote', keys.length, 'tour translations');

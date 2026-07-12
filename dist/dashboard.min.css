@@ -1,0 +1,224 @@
+#karavi-ai-assistant-dashboard-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: var(--kai-space-4);
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: var(--kai-font-sans);
+    color: var(--kai-text-primary);
+}
+.karavi-ai-assistant-page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: var(--kai-space-3_75);
+}
+.karavi-ai-assistant-page-header h1 {
+    text-align: center !important;
+    width: 100%;
+    margin: 0;
+    font-size: var(--kai-font-size-heading-xl);
+    font-weight: 600;
+    color: var(--kai-text-primary);
+}
+.ab-test-stats-grid {
+    display: flex !important;
+    flex-direction: row !important;
+    gap: var(--kai-space-3_75);
+    margin-bottom: var(--kai-space-5);
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+.ab-test-stat-card {
+    background: var(--kai-surface-elevated);
+    border: 1px solid var(--kai-border-strong);
+    border-radius: var(--kai-radius-md);
+    flex: 1;
+    min-width: 250px;
+    max-width: 320px;
+    padding: var(--kai-space-4);
+    box-sizing: border-box;
+    text-align: center;
+    box-shadow: var(--kai-shadow-sm);
+    transition: box-shadow var(--kai-duration-normal) var(--kai-ease), border-color var(--kai-duration-normal) var(--kai-ease);
+}
+.ab-test-stat-card:hover {
+    box-shadow: var(--kai-shadow-md);
+    border-color: var(--kai-border);
+}
+.ab-test-stat-card h3 {
+    margin: 0 0 var(--kai-space-2_5);
+    border-bottom: 1px solid var(--kai-border);
+    padding-bottom: var(--kai-space-2);
+    text-align: center;
+    font-size: var(--kai-font-size-heading-sm);
+    font-weight: 600;
+    color: var(--kai-text-primary);
+}
+.ab-test-stat-card .stat-rate {
+    font-size: var(--kai-font-size-heading-xl);
+    font-weight: 700;
+    margin: 0;
+    color: var(--karavi-ai-assistant-primary);
+}
+.ab-test-stat-card .stat-desc,
+.ab-test-stat-card .stat-views,
+.ab-test-stat-card .stat-conversions {
+    margin: var(--kai-space-1) 0;
+    text-align: center;
+    font-size: var(--kai-font-size-md);
+    color: var(--kai-text-muted);
+}
+.ab-test-stat-card .conversation-stats {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: var(--kai-space-2);
+    border-top: 1px solid var(--kai-divider);
+    margin-top: var(--kai-space-2_5);
+    padding-top: var(--kai-space-2_5);
+    text-align: left;
+}
+.ab-test-stat-card .conversation-stats p {
+    min-width: 0;
+    margin: 0;
+    padding: var(--kai-space-2);
+    border: 1px solid var(--kai-border);
+    border-radius: var(--kai-radius-sm);
+    background: var(--kai-surface-muted);
+    color: var(--kai-text-secondary);
+    font-size: var(--kai-font-size-2xs);
+    line-height: var(--kai-line-height-tight);
+    overflow-wrap: anywhere;
+}
+.ab-test-stat-card .conversation-stats span {
+    display: block;
+    margin-bottom: var(--kai-space-0_5);
+    color: var(--kai-text-primary);
+    font-size: var(--kai-font-size-lg);
+    font-weight: 700;
+    line-height: 1.1;
+}
+.winner-card .stat-winner {
+    font-size: var(--kai-font-size-heading-sm);
+    font-weight: 700;
+    color: var(--kai-wp-link);
+    text-align: center;
+}
+.karavi-ai-assistant-dashboard-grid {
+    display: flex;
+    flex-direction: column;
+    gap: var(--kai-space-3_75);
+    max-width: 100%;
+    box-sizing: border-box;
+}
+.karavi-ai-assistant-card {
+    background: var(--kai-surface-elevated);
+    border: 1px solid var(--kai-border-strong);
+    box-shadow: var(--kai-shadow-sm);
+    border-radius: var(--kai-radius-md);
+    padding: var(--kai-space-4);
+    box-sizing: border-box;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    transition: box-shadow var(--kai-duration-normal) var(--kai-ease), border-color var(--kai-duration-normal) var(--kai-ease);
+}
+.karavi-ai-assistant-card:hover {
+    box-shadow: var(--kai-shadow-md);
+    border-color: var(--kai-border);
+}
+.karavi-ai-assistant-card h2,
+.karavi-ai-assistant-card h3,
+.karavi-ai-assistant-card h4 {
+    text-align: center !important;
+    margin: 0 0 var(--kai-space-2_5);
+    font-size: var(--kai-font-size-heading-sm);
+    font-weight: 600;
+    color: var(--kai-text-primary);
+}
+.karavi-ai-assistant-card:has(.stats-list:not(:has(li))),
+.karavi-ai-assistant-card:has(.stat-rate) {
+    aspect-ratio: 1/1;
+}
+.karavi-ai-assistant-card:has(.stats-list li),
+.karavi-ai-assistant-card:has(.karavi-ai-assistant-list li) {
+    aspect-ratio: auto;
+}
+.stats-list,
+.karavi-ai-assistant-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.stats-list li,
+.karavi-ai-assistant-list li {
+    padding: var(--kai-space-1_5) 0;
+    border-bottom: 1px solid var(--kai-divider);
+}
+.stats-list li:last-child,
+.karavi-ai-assistant-list li:last-child {
+    border-bottom: 0;
+}
+.karavi-ai-assistant-post-generation-status {
+    margin-top: var(--kai-space-2_5);
+    padding: var(--kai-space-2_5);
+    border-inline-start: 4px solid var(--kai-info-border);
+    background: var(--kai-info-bg);
+    border-radius: var(--kai-radius-sm);
+    font-size: var(--kai-font-size-md);
+}
+.karavi-ai-assistant-post-generation-status.notice-error {
+    border-inline-start-color: var(--kai-error-border);
+    background: var(--kai-error-bg);
+}
+#karavi-ai-assistant-dashboard-page .spinner {
+    float: none !important;
+    display: inline-block !important;
+    margin-left: var(--kai-space-2) !important;
+    vertical-align: middle !important;
+}
+.shepherd-modal-overlay-container {
+    z-index: 1000000 !important;
+}
+.karavi-ai-assistant-tour-highlight {
+    box-shadow: 0 0 0 9999px var(--kai-overlay-scrim);
+    position: relative;
+    z-index: 9999 !important;
+    border-radius: var(--kai-radius-xs);
+}
+.shepherd-element {
+    z-index: var(--kai-z-tour) !important;
+}
+.shepherd-element .shepherd-header {
+    position: relative;
+    z-index: 2;
+}
+@media (max-width: 768px) {
+    .ab-test-stats-grid {
+        flex-direction: column !important;
+        align-items: center;
+    }
+    .ab-test-stat-card {
+        max-width: 100%;
+        min-width: 0;
+    }
+    .karavi-ai-assistant-dashboard-grid {
+        flex-direction: column;
+    }
+    .karavi-ai-assistant-card {
+        aspect-ratio: auto;
+    }
+    .ab-test-stat-card .conversation-stats {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    #karavi-ai-assistant-dashboard-page {
+        padding: var(--kai-space-2_5);
+    }
+}
+@media (max-width: 420px) {
+    .ab-test-stat-card .conversation-stats {
+        grid-template-columns: 1fr;
+    }
+}

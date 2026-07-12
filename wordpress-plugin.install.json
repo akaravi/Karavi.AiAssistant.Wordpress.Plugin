@@ -1,0 +1,29 @@
+{
+  "pluginSlug": "KaraviAiAssistant",
+  "pluginName": "Karavi AI Assistant",
+  "version": "2.2.13",
+  "installMethod": "zip",
+  "installMethodForbidden": "wordpressOrgVersioned",
+  "zipFileName": "KaraviAiAssistant.zip",
+  "zipRelativePath": "karavi/karavi.publish.files/KaraviAiAssistant.zip",
+  "zipEntryPathSeparator": "/",
+  "wpCliInstall": "wp plugin install {absolutePathToKaraviAiAssistantZip} --force --activate",
+  "wpCliInstallForbidden": "wp plugin install karavi-ai-assistant --version=2.2.13",
+  "preInstallWhenFolderExists": {
+    "serverPath": "wp-content/plugins/KaraviAiAssistant/",
+    "legacyServerPath": "wp-content/plugins/karavi-ai-assistant/",
+    "action": "delete-legacy-folder-or-use-force",
+    "reason": "Plesk WP Toolkit fails with 'Destination folder already exists' without --force."
+  },
+  "pleskWpToolkit": {
+    "zipStagingPattern": ".wp-toolkit/{installationId}/KaraviAiAssistant.zip",
+    "exampleZipPath": "/var/www/vhosts/alikaravi.com/.wp-toolkit/167/KaraviAiAssistant.zip",
+    "requiresForceFlag": true
+  },
+  "failureReason": "Version 2.2.13 is the full GitHub open-source build and is not published on wordpress.org (org slug karavi-ai-assistant only has KaraviAiAssistant Free up to 2.0.3).",
+  "wordpressOrgListing": {
+    "slug": "karavi-ai-assistant",
+    "name": "KaraviAiAssistant Free",
+    "latestVersion": "2.0.3-free"
+  }
+}

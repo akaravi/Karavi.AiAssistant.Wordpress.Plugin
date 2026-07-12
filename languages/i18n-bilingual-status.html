@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>KaraviAiAssistant — گزارش i18n دو زبانه fa/en</title>
+	<style>
+		:root { --primary: #1a1a2e; --accent: #2271b1; --ok: #0a7; --pending: #b45309; --bg: #f6f7f7; }
+		body { font-family: Tahoma, "Segoe UI", sans-serif; background: var(--bg); color: #1d2327; margin: 0; padding: 24px; line-height: 1.6; }
+		.wrap { max-width: 960px; margin: 0 auto; background: #fff; border: 1px solid #c3c4c7; border-radius: 8px; padding: 24px 28px; box-shadow: 0 1px 3px rgba(0,0,0,.06); }
+		h1 { font-size: 1.35rem; margin: 0 0 6px; color: var(--primary); }
+		h2 { font-size: 1.05rem; margin: 28px 0 10px; border-bottom: 2px solid var(--accent); padding-bottom: 6px; }
+		h3 { font-size: .95rem; margin: 18px 0 8px; }
+		.meta { color: #646970; font-size: .9rem; margin-bottom: 20px; }
+		table { width: 100%; border-collapse: collapse; margin: 10px 0 16px; font-size: .92rem; }
+		th, td { border: 1px solid #dcdcde; padding: 8px 10px; text-align: right; vertical-align: top; }
+		th { background: #f0f0f1; font-weight: 600; }
+		.badge { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: .8rem; font-weight: 600; }
+		.badge-ok { background: #d1fae5; color: #065f46; }
+		.badge-partial { background: #fef3c7; color: #92400e; }
+		code, .path { font-family: Consolas, monospace; font-size: .85rem; background: #f0f0f1; padding: 1px 5px; border-radius: 3px; direction: ltr; display: inline-block; }
+		ul { margin: 6px 0; padding-right: 22px; }
+		.en { direction: ltr; text-align: left; color: #50575e; font-size: .88rem; }
+		.stats { display: flex; flex-wrap: wrap; gap: 12px; margin: 16px 0; }
+		.stat { flex: 1 1 140px; background: #f6f7f7; border: 1px solid #dcdcde; border-radius: 6px; padding: 12px 14px; }
+		.stat strong { display: block; font-size: 1.4rem; color: var(--accent); }
+		.stat span { font-size: .85rem; color: #646970; }
+		.note { background: #f0f6fc; border-right: 4px solid var(--accent); padding: 10px 14px; margin: 14px 0; border-radius: 0 6px 6px 0; }
+		.note-ok { background: #ecfdf5; border-right-color: var(--ok); }
+	</style>
+</head>
+<body>
+<div class="wrap">
+	<h1>KaraviAiAssistant — گزارش UI دو زبانه (fa/en)</h1>
+	<p class="meta">تاریخ: 2026-07-12 · نسخه: 2.2.20 · روش: <code>karaviaiassistant_t()</code> / <code>karaviaiassistant_te()</code> + map فارسی + <code>.pot</code> / <code>.po</code> / <code>.mo</code></p>
+
+	<div class="stats">
+		<div class="stat"><strong>1371</strong><span>رشته در karavi-ai-assistant.pot / .po / .mo</span></div>
+		<div class="stat"><strong>1283</strong><span>کلید UI یکتا (PHP + admin/frontend/tour JS)</span></div>
+		<div class="stat"><strong>0</strong><span>کلید بدون ترجمه fa (audit)</span></div>
+		<div class="stat"><strong>150 KB</strong><span>karavi-ai-assistant-fa_IR.mo (gettext)</span></div>
+	</div>
+
+	<div class="note note-ok">
+		<strong>وضعیت:</strong> i18n fa/en تکمیل — map runtime (1239+162) + gettext <code>.mo</code> برای <code>load_plugin_textdomain</code>؛ تور، post-editor، Select2، KB media، About page، admin theme toggle.
+	</div>
+
+	<div class="note">
+		<strong>فعال‌سازی:</strong> KaraviAiAssistant → Settings → Chatbot → General Settings → <em>Admin UI Language</em> / <em>Frontend UI Language</em> → <strong>Persian (Farsi)</strong> یا <strong>Automatic</strong> با locale فارسی → Save.
+	</div>
+
+	<h2>معماری</h2>
+	<table>
+		<tr><th>فایل</th><th>نقش</th><th>وضعیت</th></tr>
+		<tr>
+			<td><span class="path">includes/karavi-ai-assistant-i18n.php</span></td>
+			<td>karaviaiassistant_t/te، locale، RTL admin، uiStrings ادمین/فرانت</td>
+			<td><span class="badge badge-ok">کامل</span></td>
+		</tr>
+		<tr>
+			<td><span class="path">languages/translations-fa_IR.php</span></td>
+			<td>English key → Persian (منبع اصلی ادمین/فرانت)</td>
+			<td><span class="badge badge-ok">کامل</span></td>
+		</tr>
+		<tr>
+			<td><span class="path">languages/tour-translations-fa_IR.php</span></td>
+			<td>رشته‌های تور راهنما (Shepherd)</td>
+			<td><span class="badge badge-ok">کامل</span></td>
+		</tr>
+		<tr>
+			<td><span class="path">languages/karavi-ai-assistant.pot</span> / <span class="path">karavi-ai-assistant-fa_IR.po</span> / <span class="path">karavi-ai-assistant-fa_IR.mo</span></td>
+			<td>gettext استاندارد وردپرس (text domain: karavi-ai-assistant)</td>
+			<td><span class="badge badge-ok">تولید + compile .mo</span></td>
+		</tr>
+		<tr>
+			<td><span class="path">KaraviAiAssistant.php</span></td>
+			<td>wrap رشته‌های UI ادمین (~111 karaviaiassistant_t/te)</td>
+			<td><span class="badge badge-ok">کامل</span></td>
+		</tr>
+		<tr>
+			<td><span class="path">dist/admin.min.js</span></td>
+			<td>karaviAiAssistantUi() — alert/confirm/media/errors</td>
+			<td><span class="badge badge-ok">متصل</span></td>
+		</tr>
+		<tr>
+			<td><span class="path">dist/frontend.min.js</span></td>
+			<td>karavi-ai-assistantVars.uiStrings + RTL ویجت</td>
+			<td><span class="badge badge-ok">متصل</span></td>
+		</tr>
+		<tr>
+			<td><span class="path">assets/tour.js</span> / <span class="path">dist/tour.js</span></td>
+			<td>tourT() + tour-translations-fa_IR.php</td>
+			<td><span class="badge badge-ok">کامل</span></td>
+		</tr>
+	</table>
+
+	<h2>پوشش بخش‌ها</h2>
+	<ul>
+		<li>General Settings — زبان Admin &amp; Frontend، API، persona، knowledge base</li>
+		<li>Performance &amp; Cost — routing، cache، rate limit، tool-calling، fallback</li>
+		<li>Advanced Appearance — launcher، chat window، mobile anchors، styling</li>
+		<li>Triggers — type، targeting، proactive/AI message، delivery/scheduling، goals/context</li>
+		<li>Conversion Goals — methods، descriptions، Woo scope، A/B</li>
+		<li>Content Insights — tabs، sort، detail panels، import/behavior</li>
+		<li>Content Engine — post generator، schedules، instructions</li>
+		<li>Dashboard — manage/reset data، analytics، health، export</li>
+		<li>Admin/Frontend JS — uiStrings (confirm، errors، models، CSV، SEO، triggers)</li>
+		<li>Tour — Shepherd steps + voiceover labels</li>
+	</ul>
+
+	<h2>ابزار audit / build</h2>
+	<p class="en"><span class="path">karavi/karavi.scripts.tools/i18n-build.py</span> — merge maps + tour keys → .pot / .po / .mo + <span class="path">i18n-build-report.json</span></p>
+	<p class="en"><span class="path">karavi/karavi.scripts.tools/audit-i18n-missing.py</span> — کلیدهای PHP + uiStrings + tour-ui-keys.json؛ خروجی: <span class="path">i18n-missing-keys.txt</span> (۰ missing).</p>
+
+	<h2>الگوی پیاده‌سازی</h2>
+	<h3>PHP</h3>
+	<pre class="en">&lt;?php karaviaiassistant_te( 'Primary Color' ); ?&gt;</pre>
+	<h3>Admin JS</h3>
+	<pre class="en">karaviAiAssistantUi('failedDismissNotice', 'Failed to dismiss notice.')</pre>
+	<h3>Map</h3>
+	<pre class="en">'Primary Color' =&gt; 'رنگ اصلی',  // languages/translations-fa_IR.php</pre>
+
+	<p class="meta en" style="margin-top:28px;">KaraviAiAssistant bilingual UI · Ali Karavi · NTK</p>
+</div>
+</body>
+</html>

@@ -1,0 +1,26 @@
+.DS_Store
+Thumbs.db
+node_modules/
+vendor/
+*.zip
+*.tar.gz
+*.log
+*.docx
+wp-config*.php
+.env
+.env.*
+
+# karavi — local artifacts and secrets (never commit)
+karavi/karavi.logs/
+karavi/karavi.build.files/
+karavi/karavi.deploy.files/
+karavi/karavi.publish.files/
+karavi/karavi.status/*.html
+karavi/karavi.status/last-status.json
+karavi/karavi.status/last-clean.json
+karavi/karavi.logs/.check-logs-state.json
+karavi/karavi.deploy.config/Deploy_FTP.info
+karavi/karavi.deploy.config/Deploy_TestUsers.info
+karavi/karavi.deploy.config/deploy.secrets.json
+LastRunInfo.html
+Deploy_Summary.html

@@ -1,0 +1,671 @@
+.karavi-ai-assistant-seo-improvement-layout {
+    display: flex;
+    flex-direction: column;
+    gap: var(--kai-space-4_5);
+}
+.karavi-ai-assistant-seo-improvement-controls,
+.karavi-ai-assistant-seo-suggestion-panel {
+    background: var(--kai-surface-elevated);
+    border: 1px solid var(--kai-border-wp);
+    border-radius: 8px;
+    padding: var(--kai-space-3_5);
+}
+.karavi-ai-assistant-seo-improvement-filter-row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: var(--kai-space-2_5);
+    margin-bottom: var(--kai-space-3);
+    align-items: start;
+}
+.karavi-ai-assistant-seo-improvement-filter-row > * {
+    min-width: 0;
+}
+.karavi-ai-assistant-seo-improvement-target-panel {
+    border: 1px solid var(--kai-border-wp);
+    border-radius: 8px;
+    background: var(--kai-surface-muted);
+    overflow: hidden;
+}
+.karavi-ai-assistant-seo-improvement-target-panel-header {
+    padding: var(--kai-space-3) 14px;
+    border-bottom: 1px solid var(--kai-surface-hover);
+    background: var(--kai-surface-muted);
+}
+.karavi-ai-assistant-seo-improvement-target-panel-header h5 {
+    margin: 0 0 var(--kai-space-1);
+    font-size: var(--kai-font-size-md);
+}
+.karavi-ai-assistant-seo-improvement-target-panel-header .description {
+    margin: 0;
+}
+.karavi-ai-assistant-seo-improvement-targets {
+    max-height: 440px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: var(--kai-space-3);
+    background: var(--kai-surface-elevated);
+    scroll-behavior: smooth;
+}
+.karavi-ai-assistant-seo-improvement-static-option,
+.karavi-ai-assistant-seo-improvement-target-option {
+    display: block;
+    margin-bottom: var(--kai-space-2);
+}
+.karavi-ai-assistant-seo-improvement-static-option {
+    padding: var(--kai-space-2) 10px;
+    border-radius: 6px;
+    background: var(--kai-surface-elevated);
+    border: 1px solid var(--kai-surface-hover);
+}
+.karavi-ai-assistant-seo-improvement-target-option {
+    padding: var(--kai-space-2) 10px;
+    border-radius: 6px;
+    background: var(--kai-surface-wp-option);
+    border: 1px solid var(--kai-surface-hover);
+}
+.karavi-ai-assistant-seo-improvement-target-option input,
+.karavi-ai-assistant-seo-improvement-static-option input {
+    margin-right: var(--kai-space-2);
+}
+.karavi-ai-assistant-seo-improvement-target-label {
+    font-weight: 500;
+}
+.karavi-ai-assistant-seo-improvement-target-badges,
+.karavi-ai-assistant-seo-suggestion-badges {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: var(--kai-space-1_5);
+    margin-left: var(--kai-space-2);
+}
+.karavi-ai-assistant-seo-badge {
+    display: inline-flex;
+    align-items: center;
+    padding: var(--kai-space-0_5) var(--kai-space-2);
+    border-radius: 999px;
+    background: var(--kai-badge-neutral-bg);
+    color: var(--kai-text-secondary);
+    font-size: var(--kai-font-size-xs);
+    font-weight: 600;
+}
+.karavi-ai-assistant-seo-badge-success {
+    background: var(--kai-success-bg);
+    color: var(--kai-success-text);
+}
+.karavi-ai-assistant-seo-improvement-actions {
+    display: flex;
+    align-items: center;
+    gap: var(--kai-space-2);
+    margin-top: var(--kai-space-3);
+}
+.karavi-ai-assistant-seo-suggestion-panel-header h5 {
+    margin: 0 0 6px;
+    font-size: var(--kai-font-size-md);
+}
+.karavi-ai-assistant-seo-suggestion-list {
+    display: grid;
+    gap: var(--kai-space-3);
+}
+.karavi-ai-assistant-seo-suggestion-empty {
+    padding: var(--kai-space-4_5);
+    border: 1px dashed var(--kai-border-strong);
+    border-radius: 8px;
+    text-align: center;
+    color: var(--kai-text-muted);
+    background: var(--kai-surface-muted);
+}
+.karavi-ai-assistant-seo-suggestion-card {
+    border: 1px solid var(--kai-border-wp);
+    border-radius: 8px;
+    background: var(--kai-surface-elevated);
+    overflow: hidden;
+}
+.karavi-ai-assistant-seo-suggestion-card-header {
+    display: flex;
+    justify-content: space-between;
+    gap: var(--kai-space-3);
+    align-items: flex-start;
+    padding: var(--kai-space-3) 14px;
+    border-bottom: 1px solid var(--kai-divider-subtle);
+    background: var(--kai-surface-muted);
+}
+.karavi-ai-assistant-seo-suggestion-card-header h6 {
+    margin: 0 0 6px;
+    font-size: var(--kai-font-size-sm);
+}
+.karavi-ai-assistant-seo-suggestion-meta {
+    flex-shrink: 0;
+}
+.karavi-ai-assistant-seo-suggestion-link {
+    font-size: var(--kai-font-size-2xs);
+}
+.karavi-ai-assistant-seo-suggestion-card-body {
+    padding: var(--kai-space-3_5);
+    max-height: 260px;
+    overflow: auto;
+    line-height: var(--kai-line-height-relaxed);
+}
+.karavi-ai-assistant-seo-suggestion-card-actions {
+    display: flex;
+    gap: var(--kai-space-2);
+    flex-wrap: wrap;
+    padding: 0 var(--kai-space-3_5) var(--kai-space-3_5);
+}
+@media (max-width: 960px) {
+    .karavi-ai-assistant-seo-improvement-filter-row {
+        grid-template-columns: 1fr;
+    }
+}
+.karavi-ai-assistant-settings-wrap {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: var(--kai-space-3_75);
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+.karavi-ai-assistant-page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: var(--kai-space-3);
+    flex-wrap: wrap;
+    margin-bottom: var(--kai-space-3_75);
+}
+.karavi-ai-assistant-page-header .karavi-ai-assistant-brand {
+    display: flex;
+    align-items: center;
+    gap: var(--kai-space-3);
+    min-width: 0;
+}
+.karavi-ai-assistant-page-header .karavi-ai-assistant-brand img {
+    height: 40px;
+    width: auto;
+    max-width: 200px;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+.karavi-ai-assistant-page-header .karavi-ai-assistant-titles {
+    min-width: 0;
+}
+.karavi-ai-assistant-page-header .karavi-ai-assistant-titles h1 {
+    margin: 0;
+    font-size: var(--kai-font-size-heading-xl);
+    font-weight: 600;
+    color: var(--kai-text-wp-heading);
+    line-height: var(--kai-line-height-snug);
+    text-align: left !important;
+}
+.karavi-ai-assistant-page-header .karavi-ai-assistant-titles .subtitle {
+    margin: 2px 0 0;
+    color: var(--kai-text-wp-body);
+}
+.karavi-ai-assistant-settings-actions,
+.karavi-ai-assistant-dashboard-actions {
+    display: flex;
+    align-items: center;
+    gap: var(--kai-space-2_5);
+    flex-wrap: wrap;
+}
+.karavi-ai-assistant-settings-wrap h1.wp-heading-inline,
+.karavi-ai-assistant-settings-wrap h2,
+.karavi-ai-assistant-settings-wrap h3,
+.karavi-ai-assistant-settings-wrap h4,
+#karavi-ai-assistant-keyword-generator-wrap h4,
+#karavi-ai-assistant-manual-post-generator-wrap h4,
+.postbox h4 {
+    text-align: center !important;
+    margin: 0 auto var(--kai-space-2_5) !important;
+    font-size: var(--kai-font-size-heading-lg);
+    font-weight: 600;
+    color: var(--kai-text-wp-heading);
+}
+
+/* Collapsible headings (e.g., Advanced Appearance) */
+.karavi-ai-assistant-collapsible-header .karavi-ai-assistant-collapsible-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--kai-space-2);
+    width: 100%;
+    margin: 0;
+    padding: var(--kai-space-2_5) 0;
+    cursor: pointer;
+    user-select: none;
+}
+.karavi-ai-assistant-collapsible-header .karavi-ai-assistant-collapsible-toggle:focus-visible {
+    outline: var(--kai-focus-ring);
+    outline-offset: var(--kai-focus-offset);
+}
+.karavi-ai-assistant-collapsible-header .toggle-arrow {
+    flex: 0 0 auto;
+}
+.settings-main-area {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--kai-space-3_75);
+    margin-bottom: var(--kai-space-3_75);
+}
+.settings-variation-wrap {
+    background: var(--kai-surface-elevated);
+    border: 1px solid var(--kai-border-strong);
+    border-radius: var(--kai-radius-md);
+    padding: var(--kai-space-4) !important;
+    box-shadow: var(--kai-shadow-sm);
+    box-sizing: border-box;
+}
+#variation_b_wrap {
+    display: none;
+}
+#variation_b_wrap.active {
+    display: block;
+}
+.karavi-ai-assistant-settings-wrap input[type="text"],
+.karavi-ai-assistant-settings-wrap input[type="password"],
+.karavi-ai-assistant-settings-wrap input[type="url"],
+.karavi-ai-assistant-settings-wrap input[type="email"],
+.karavi-ai-assistant-settings-wrap input[type="number"],
+.karavi-ai-assistant-settings-wrap textarea,
+.karavi-ai-assistant-settings-wrap select {
+    width: 100% !important;
+    max-width: 100%;
+    padding: var(--kai-space-2) !important;
+    border-radius: var(--kai-radius-xs);
+    border: 1px solid var(--kai-border-input);
+    box-sizing: border-box;
+    font-size: var(--kai-font-size-md);
+    line-height: 1.5;
+    color: var(--kai-text-wp-heading);
+}
+#karaviaiassistant_generate_post_now_button,
+#karaviaiassistant_generate_keywords_button {
+    padding: var(--kai-space-2) var(--kai-space-4) !important;
+    border-radius: var(--kai-radius-sm);
+    background: var(--karavi-ai-assistant-primary);
+    color: var(--karavi-ai-assistant-on-primary);
+    font-weight: 600;
+    transition: background-color var(--kai-duration-normal) var(--kai-ease), box-shadow var(--kai-duration-normal) var(--kai-ease);
+    display: inline-flex;
+    align-items: center;
+    gap: var(--kai-space-1_25);
+    border: 1px solid var(--karavi-ai-assistant-primary);
+    box-shadow: var(--kai-shadow-primary);
+}
+#karaviaiassistant_generate_post_now_button:hover,
+#karaviaiassistant_generate_keywords_button:hover {
+    background: var(--karavi-ai-assistant-primary-hover);
+    border-color: var(--karavi-ai-assistant-primary-hover);
+}
+#karaviaiassistant_generate_post_now_button .dashicons,
+#karaviaiassistant_generate_keywords_button .dashicons {
+    margin: 0 !important;
+}
+.postbox,
+#karavi-ai-assistant-keyword-generator-wrap,
+#karavi-ai-assistant-manual-post-generator-wrap {
+    margin-bottom: var(--kai-space-3_75) !important;
+    padding: var(--kai-space-3_75) !important;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .05);
+    background: var(--kai-surface-elevated);
+}
+.ab-test-toggle-section {
+    padding: var(--kai-space-3_75) !important;
+    border-radius: 8px;
+    background: var(--kai-surface-elevated);
+    margin-bottom: var(--kai-space-3_75);
+}
+.form-table {
+    margin: 0;
+    max-width: 100%;
+}
+.form-table th,
+.form-table td {
+    padding: var(--kai-space-2) 10px !important;
+}
+.toggle-label {
+    margin-left: var(--kai-space-2);
+    font-size: var(--kai-font-size-md);
+}
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    vertical-align: middle;
+}
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--kai-switch-track-off);
+    transition: .4s;
+    border-radius: 34px;
+}
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: var(--kai-surface-elevated);
+    transition: .4s;
+    border-radius: 50%;
+}
+input:checked+.slider {
+    background-color: var(--karavi-ai-assistant-primary);
+}
+input:focus-visible+.slider {
+    box-shadow: 0 0 0 2px var(--karavi-ai-assistant-primary-muted);
+}
+input:checked+.slider:before {
+    transform: translateX(26px);
+}
+.karavi-ai-assistant-repeater-item {
+    display: flex;
+    gap: var(--kai-space-2_5);
+    align-items: center;
+    padding: var(--kai-space-2_5);
+    margin-bottom: var(--kai-space-2_5);
+    border: 1px solid var(--kai-border-repeater);
+    border-radius: var(--kai-radius-xs);
+    background-color: var(--kai-surface-repeater);
+    transition: border-color .3s ease;
+}
+.karavi-ai-assistant-repeater-item-main {
+    flex-grow: 1;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: var(--kai-space-2_5);
+}
+.karavi-ai-assistant-repeater-item-controls {
+    flex-shrink: 0;
+    display: flex;
+    gap: var(--kai-space-1_25);
+    align-items: center;
+}
+.karavi-ai-assistant-add-repeater-item {
+    margin-top: var(--kai-space-1_25);
+}
+@media (max-width: 768px) {
+    .settings-main-area {
+        grid-template-columns: 1fr;
+        gap: var(--kai-space-2_5);
+    }
+    .settings-variation-wrap {
+        min-width: 0;
+    }
+    .karavi-ai-assistant-settings-wrap {
+        padding: var(--kai-space-2_5);
+    }
+    .karavi-ai-assistant-repeater-item {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .karavi-ai-assistant-repeater-item-controls {
+        width: 100%;
+        justify-content: flex-end;
+        margin-top: var(--kai-space-2_5);
+    }
+}
+.karavi-ai-assistant-tour-highlight {
+    box-shadow: 0 0 0 9999px rgba(0, 0, 0, .5);
+    position: relative;
+    z-index: 9999 !important;
+    border-radius: var(--kai-radius-xs);
+}
+
+
+/* KaraviAiAssistant Modern Tour UX Overrides */
+.karavi-ai-assistant-modern-tour {
+    border: none !important;
+    border-radius: var(--kai-radius-tour) !important;
+    box-shadow: 0 10px 40px -10px rgba(0, 0, 0, 0.25), 0 4px 10px -4px rgba(0, 0, 0, 0.1) !important;
+    padding: 0 !important;
+    animation: karaviAiAssistantTourFadeIn 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+@keyframes karaviAiAssistantTourFadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+.karavi-ai-assistant-modern-tour .wp-pointer-content {
+    background: var(--kai-surface-elevated) !important;
+    border-radius: var(--kai-radius-tour) !important;
+    padding: var(--kai-space-6) !important;
+    border: 1px solid rgba(0,0,0,0.06) !important;
+}
+.karavi-ai-assistant-modern-tour h3 {
+    margin: 0 0 var(--kai-space-3) 0 !important;
+    font-size: var(--kai-font-size-heading-md) !important;
+    font-weight: 600 !important;
+    color: var(--kai-text-wp-heading) !important;
+    background: transparent !important;
+    line-height: var(--kai-line-height-tight) !important;
+    border-bottom: none !important;
+    padding: 0 !important;
+}
+.karavi-ai-assistant-modern-tour h3::before {
+    content: none;
+}
+.karavi-ai-assistant-modern-tour p {
+    font-size: var(--kai-font-size-md) !important;
+    color: var(--kai-text-secondary) !important;
+    line-height: var(--kai-line-height-relaxed) !important;
+    margin: 0 !important;
+}
+.karavi-ai-assistant-modern-tour .wp-pointer-buttons {
+    padding: 0 !important;
+    margin-top: var(--kai-space-5) !important;
+    background: transparent !important;
+    border: none !important;
+}
+.karavi-ai-assistant-modern-tour .karavi-ai-assistant-tour-buttons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: var(--kai-space-4);
+    width: 100%;
+}
+.karavi-ai-assistant-modern-tour .karavi-ai-assistant-tour-buttons .close {
+    text-decoration: none;
+    color: var(--kai-text-muted) !important;
+    font-weight: 500;
+    transition: color 0.15s ease;
+    font-size: var(--kai-font-size-md) !important;
+}
+.karavi-ai-assistant-modern-tour .karavi-ai-assistant-tour-buttons .close:hover {
+    color: var(--kai-text-wp-heading) !important;
+}
+.karavi-ai-assistant-modern-tour .karavi-ai-assistant-tour-buttons button.button-primary {
+    background: var(--karavi-ai-assistant-primary) !important;
+    border: 1px solid var(--karavi-ai-assistant-primary) !important;
+    border-radius: var(--kai-radius-pill) !important;
+    padding: var(--kai-space-1_5) 24px !important;
+    font-weight: 600 !important;
+    color: var(--karavi-ai-assistant-on-primary) !important;
+    box-shadow: var(--kai-shadow-primary) !important;
+    transition: background-color var(--kai-duration-fast) var(--kai-ease), border-color var(--kai-duration-fast) var(--kai-ease) !important;
+    font-size: var(--kai-font-size-md) !important;
+    text-shadow: none !important;
+}
+.karavi-ai-assistant-modern-tour .karavi-ai-assistant-tour-buttons button.button-primary:hover {
+    background: var(--karavi-ai-assistant-primary-hover) !important;
+    border-color: var(--karavi-ai-assistant-primary-hover) !important;
+}
+.karavi-ai-assistant-modern-tour .karavi-ai-assistant-tour-buttons button.button-primary:active {
+    box-shadow: var(--kai-shadow-sm) !important;
+}
+/* Recolor Pointer Arrows */
+.karavi-ai-assistant-modern-tour.wp-pointer-top .wp-pointer-arrow, .karavi-ai-assistant-modern-tour.wp-pointer-top .wp-pointer-arrow-inner { border-bottom-color: var(--kai-surface-elevated) !important; }
+.karavi-ai-assistant-modern-tour.wp-pointer-bottom .wp-pointer-arrow, .karavi-ai-assistant-modern-tour.wp-pointer-bottom .wp-pointer-arrow-inner { border-top-color: var(--kai-surface-elevated) !important; }
+.karavi-ai-assistant-modern-tour.wp-pointer-left .wp-pointer-arrow, .karavi-ai-assistant-modern-tour.wp-pointer-left .wp-pointer-arrow-inner { border-right-color: var(--kai-surface-elevated) !important; }
+.karavi-ai-assistant-modern-tour.wp-pointer-right .wp-pointer-arrow, .karavi-ai-assistant-modern-tour.wp-pointer-right .wp-pointer-arrow-inner { border-left-color: var(--kai-surface-elevated) !important; }
+
+/* Enforce brand color for tour primary action (Next/Finish). */
+.karavi-ai-assistant-modern-tour .wp-pointer-content .karavi-ai-assistant-tour-buttons button.button.button-primary,
+.karavi-ai-assistant-modern-tour .karavi-ai-assistant-tour-buttons button.button.button-primary {
+    background-color: var(--karavi-ai-assistant-primary) !important;
+    border-color: var(--karavi-ai-assistant-primary) !important;
+    color: var(--karavi-ai-assistant-on-primary) !important;
+}
+
+
+/* Shepherd Tour UX Enhancements */
+.karavi-ai-assistant-shepherd-tour-modern {
+    background: var(--kai-surface-elevated) !important;
+    border-radius: 8px !important;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05) !important;
+    border: 1px solid var(--kai-border) !important;
+    padding: 0 !important;
+    max-width: 400px;
+}
+.karavi-ai-assistant-shepherd-tour-modern .shepherd-content {
+    padding: 0 !important;
+}
+.karavi-ai-assistant-shepherd-tour-modern .shepherd-header {
+    background: var(--kai-surface-muted) !important;
+    padding: 1rem 1.25rem !important;
+    border-bottom: 1px solid var(--kai-border) !important;
+    border-radius: 8px 8px 0 0 !important;
+}
+.karavi-ai-assistant-shepherd-tour-modern .shepherd-title {
+    font-size: var(--kai-font-size-lg) !important;
+    font-weight: 600 !important;
+    color: var(--kai-text-primary) !important;
+}
+.karavi-ai-assistant-shepherd-tour-modern .shepherd-cancel-icon {
+    color: var(--kai-text-muted) !important;
+}
+.karavi-ai-assistant-shepherd-tour-modern .shepherd-cancel-icon:hover {
+    color: var(--kai-text-primary) !important;
+}
+.karavi-ai-assistant-shepherd-tour-modern .shepherd-text {
+    padding: 1.25rem !important;
+    font-size: var(--kai-font-size-md) !important;
+    line-height: 1.5 !important;
+    color: var(--kai-text-body) !important;
+}
+.karavi-ai-assistant-shepherd-tour-modern .shepherd-footer {
+    padding: 1rem 1.25rem !important;
+    border-top: 1px solid var(--kai-border) !important;
+    background: var(--kai-surface-muted) !important;
+    border-radius: 0 0 8px 8px !important;
+}
+.karavi-ai-assistant-shepherd-tour-modern .shepherd-button {
+    font-weight: 500 !important;
+    border-radius: var(--kai-radius-sm) !important;
+    padding: 0.5rem 1rem !important;
+    transition: background-color var(--kai-duration-normal) var(--kai-ease), color var(--kai-duration-normal) var(--kai-ease), box-shadow var(--kai-duration-normal) var(--kai-ease) !important;
+    cursor: pointer !important;
+    border: none !important;
+    font-size: var(--kai-font-size-sm) !important;
+}
+.karavi-ai-assistant-shepherd-tour-modern .shepherd-button-secondary {
+    background: var(--kai-border) !important;
+    color: var(--kai-text-body) !important;
+}
+.karavi-ai-assistant-shepherd-tour-modern .shepherd-button-secondary:hover {
+    background: var(--kai-border-strong) !important;
+    color: var(--kai-text-primary) !important;
+}
+.karavi-ai-assistant-shepherd-tour-modern .shepherd-button-primary {
+    background: var(--karavi-ai-assistant-primary) !important;
+    color: var(--karavi-ai-assistant-on-primary) !important;
+    box-shadow: var(--kai-shadow-primary) !important;
+}
+.karavi-ai-assistant-shepherd-tour-modern .shepherd-button-primary:hover {
+    background: var(--karavi-ai-assistant-primary-hover) !important;
+}
+.karavi-ai-assistant-shepherd-tour-modern .shepherd-arrow:before {
+    background: var(--kai-surface-base) !important;
+    border-color: var(--kai-border) !important;
+}
+
+/* Admin navigation IA — settings + content insights tabs */
+#karavi-ai-assistant-settings-page .nav-tab-wrapper,
+#karavi-ai-assistant-content-insights-page .karavi-ai-assistant-insight-tabs.nav-tab-wrapper {
+    margin-bottom: 0;
+    padding: 0 var(--kai-space-3);
+    border-bottom: 1px solid var(--kai-border-input);
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: thin;
+    align-items: flex-end;
+    gap: var(--kai-space-2);
+}
+
+#karavi-ai-assistant-content-insights-page .karavi-ai-assistant-insight-tabs.nav-tab-wrapper {
+    margin-bottom: var(--kai-space-5);
+}
+
+#karavi-ai-assistant-settings-page .nav-tab-wrapper .nav-tab,
+#karavi-ai-assistant-content-insights-page .karavi-ai-assistant-insight-tabs .nav-tab {
+    border: none;
+    background: none;
+    margin: 0;
+    padding: 11px var(--kai-space-3_5);
+    border-bottom: 3px solid transparent;
+    border-radius: var(--kai-radius-md) var(--kai-radius-md) 0 0;
+    display: inline-flex;
+    align-items: center;
+    white-space: nowrap;
+    flex-shrink: 0;
+    color: var(--kai-text-secondary);
+    font-size: var(--kai-font-size-md);
+    font-weight: 500;
+    text-decoration: none;
+    transition: color var(--kai-duration-fast) var(--kai-ease), border-color var(--kai-duration-fast) var(--kai-ease);
+}
+
+#karavi-ai-assistant-settings-page .nav-tab-wrapper .nav-tab .dashicons,
+#karavi-ai-assistant-content-insights-page .karavi-ai-assistant-insight-tabs .nav-tab .dashicons {
+    line-height: 1.5;
+    margin-inline-end: var(--kai-space-1_25);
+}
+
+#karavi-ai-assistant-settings-page .nav-tab-wrapper .nav-tab:hover,
+#karavi-ai-assistant-content-insights-page .karavi-ai-assistant-insight-tabs .nav-tab:hover {
+    color: var(--karavi-ai-assistant-primary-hover);
+}
+
+#karavi-ai-assistant-settings-page .nav-tab-wrapper .nav-tab:focus-visible,
+#karavi-ai-assistant-content-insights-page .karavi-ai-assistant-insight-tabs .nav-tab:focus-visible {
+    outline: var(--kai-focus-ring);
+    outline-offset: var(--kai-focus-offset);
+}
+
+#karavi-ai-assistant-settings-page .nav-tab-wrapper .nav-tab-active,
+#karavi-ai-assistant-settings-page .nav-tab-wrapper .nav-tab-active:hover,
+#karavi-ai-assistant-content-insights-page .karavi-ai-assistant-insight-tabs .nav-tab-active,
+#karavi-ai-assistant-content-insights-page .karavi-ai-assistant-insight-tabs .nav-tab-active:hover {
+    background: none;
+    color: var(--karavi-ai-assistant-primary);
+    border-bottom-color: var(--karavi-ai-assistant-primary);
+    font-weight: 600;
+}
+
+#karavi-ai-assistant-settings-page .nav-tab-wrapper .nav-tab-disabled,
+#karavi-ai-assistant-content-insights-page .karavi-ai-assistant-insight-tabs .nav-tab-disabled {
+    color: var(--kai-text-muted);
+    background: var(--kai-surface-wp-option);
+    border-bottom-color: var(--kai-border-input);
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+@media (max-width: 980px) {
+    #karavi-ai-assistant-settings-page .nav-tab-wrapper .nav-tab,
+    #karavi-ai-assistant-content-insights-page .karavi-ai-assistant-insight-tabs .nav-tab {
+        padding: var(--kai-space-2_5) 11px;
+    }
+}

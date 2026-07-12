@@ -1,0 +1,74 @@
+/**
+ * Karavi AI Assistant — accessibility and motion baseline (2026).
+ */
+@media (prefers-reduced-motion: reduce) {
+    .karavi-ai-assistant-fab,
+    .karavi-ai-assistant-chat-panel,
+    .karavi-ai-assistant-card,
+    .ab-test-stat-card,
+    .karavi-ai-assistant-modern-tour .karavi-ai-assistant-tour-buttons button.button-primary,
+    .karavi-ai-assistant-shepherd-tour-modern .shepherd-button,
+    #karaviaiassistant_generate_post_now_button,
+    #karaviaiassistant_generate_keywords_button {
+        transition: none !important;
+    }
+
+    .karavi-ai-assistant-fab:hover,
+    .ab-test-stat-card:hover,
+    .karavi-ai-assistant-card:hover,
+    #karaviaiassistant_generate_post_now_button:hover,
+    #karaviaiassistant_generate_keywords_button:hover,
+    .karavi-ai-assistant-modern-tour .karavi-ai-assistant-tour-buttons button.button-primary:hover,
+    .karavi-ai-assistant-shepherd-tour-modern .shepherd-button-primary:hover {
+        transform: none !important;
+    }
+}
+
+.karavi-ai-assistant-fab:focus-visible,
+.karavi-ai-assistant-close-btn:focus-visible,
+.karavi-ai-assistant-expand-btn:focus-visible,
+.karavi-ai-assistant-quick-action:focus-visible,
+.karavi-ai-assistant-chat-form button:focus-visible,
+.karavi-ai-assistant-chat-form input:focus-visible,
+.karavi-ai-assistant-help-tip:focus-visible,
+.karavi-ai-assistant-collapsible-header .karavi-ai-assistant-collapsible-toggle:focus-visible,
+.karavi-ai-assistant-shepherd-tour-modern .shepherd-button:focus-visible,
+.karavi-ai-assistant-modern-tour .karavi-ai-assistant-tour-buttons button:focus-visible {
+    outline: var(--kai-focus-ring);
+    outline-offset: var(--kai-focus-offset);
+}
+
+.karavi-ai-assistant-fab,
+.karavi-ai-assistant-close-btn,
+.karavi-ai-assistant-expand-btn {
+    min-width: var(--kai-min-touch);
+    min-height: var(--kai-min-touch);
+}
+
+.karavi-ai-assistant-chat-panel.karavi-ai-assistant-chat-rtl .karavi-ai-assistant-user {
+    margin-inline-start: auto;
+    margin-inline-end: 0;
+    text-align: start;
+}
+
+.karavi-ai-assistant-chat-panel.karavi-ai-assistant-chat-rtl .karavi-ai-assistant-ai {
+    margin-inline-end: auto;
+    margin-inline-start: 0;
+}
+
+.karavi-ai-assistant-chat-panel.karavi-ai-assistant-chat-rtl .karavi-ai-assistant-ai ul {
+    padding-inline-start: 20px;
+    padding-inline-end: 0;
+}
+
+.karavi-ai-assistant-admin-rtl .karavi-ai-assistant-seo-improvement-target-option input,
+.karavi-ai-assistant-admin-rtl .karavi-ai-assistant-seo-improvement-static-option input {
+    margin-inline-end: var(--kai-space-2);
+    margin-inline-start: 0;
+}
+
+.karavi-ai-assistant-admin-rtl .karavi-ai-assistant-seo-improvement-target-badges,
+.karavi-ai-assistant-admin-rtl .karavi-ai-assistant-seo-suggestion-badges {
+    margin-inline-start: var(--kai-space-2);
+    margin-inline-end: 0;
+}

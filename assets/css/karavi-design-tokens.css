@@ -1,0 +1,192 @@
+/**
+ * Karavi AI Assistant — design tokens (2026 baseline).
+ * User theme colors remain overridable via --karavi-ai-assistant-* from PHP/settings.
+ */
+:root {
+    --karavi-ai-assistant-primary: #6d28d9;
+    --karavi-ai-assistant-primary-hover: #5b21b6;
+    --karavi-ai-assistant-primary-muted: color-mix(in srgb, var(--karavi-ai-assistant-primary) 14%, transparent);
+    --karavi-ai-assistant-on-primary: #ffffff;
+    --karavi-ai-assistant-fab-size: 60px;
+    --karavi-ai-assistant-fab-label-gap: 4px;
+
+    --kai-font-sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    --kai-font-size-xs: 11px;
+    --kai-font-size-sm: 13px;
+    --kai-font-size-md: 14px;
+    --kai-font-size-lg: 16px;
+    --kai-font-size-xl: 20px;
+    --kai-font-size-2xs: 12px;
+    --kai-font-size-heading-xl: 1.8em;
+    --kai-font-size-heading-lg: 1.3em;
+    --kai-font-size-heading-md: 1.25em;
+    --kai-font-size-heading-sm: 1.2em;
+    --kai-line-height: 1.5;
+    --kai-line-height-tight: 1.35;
+    --kai-line-height-snug: 1.2;
+    --kai-line-height-relaxed: 1.6;
+
+    --kai-space-0_5: 2px;
+    --kai-space-1_25: 5px;
+    --kai-space-1_5: 6px;
+    --kai-space-2_5: 10px;
+    --kai-space-3_5: 14px;
+    --kai-space-3_75: 15px;
+    --kai-space-4_5: 18px;
+    --kai-space-0_75: 3px;
+    --kai-fab-screen-offset: 20px;
+    --kai-fab-panel-gap: 35px;
+    --kai-space-7_5: 30px;
+
+    --kai-font-size-icon-lg: 22px;
+    --kai-radius-xs: 4px;
+    --kai-radius-msg: 10px;
+    --kai-radius-tour: 16px;
+    --kai-space-1: 4px;
+    --kai-space-2: 8px;
+    --kai-space-3: 12px;
+    --kai-space-4: 16px;
+    --kai-space-5: 20px;
+    --kai-space-6: 24px;
+
+    --kai-radius-sm: 6px;
+    --kai-radius-md: 8px;
+    --kai-radius-lg: 12px;
+    --kai-radius-pill: 999px;
+
+    --kai-surface-base: #ffffff;
+    --kai-surface-muted: #f8fafc;
+    --kai-surface-subtle: #f1f5f9;
+    --kai-surface-elevated: #ffffff;
+    --kai-border: #e2e8f0;
+    --kai-border-strong: #cbd5e1;
+    --kai-border-wp: #dcdcde;
+
+    --kai-text-primary: #0f172a;
+    --kai-text-secondary: #334155;
+    --kai-text-muted: #64748b;
+    --kai-text-body: #475569;
+    --kai-text-inverse: #ffffff;
+    --kai-text-wp-heading: #1d2327;
+    --kai-text-wp-body: #50575e;
+
+    --kai-divider: #eeeeee;
+    --kai-divider-subtle: #f0f0f1;
+    --kai-surface-wp-option: #f6f7f7;
+    --kai-surface-repeater: #fdfdfd;
+    --kai-badge-neutral-bg: #edf2f7;
+    --kai-border-repeater: #e0e0e0;
+    --kai-border-input: #d1d5db;
+    --kai-switch-track-off: #cbd5e1;
+    --kai-wp-link: #2271b1;
+    --kai-overlay-scrim: rgba(15, 23, 42, 0.5);
+    --kai-overlay-modal: rgba(15, 23, 42, 0.4);
+    --kai-border-faint: rgba(15, 23, 42, 0.06);
+    --kai-surface-hover: #e5e7eb;
+    --kai-surface-search: #f3f4f6;
+    --kai-header-control-bg: rgba(255, 255, 255, 0.25);
+    --kai-header-control-bg-hover: rgba(255, 255, 255, 0.35);
+    --kai-header-control-bg-strong: rgba(255, 255, 255, 0.4);
+    --kai-header-control-focus: rgba(255, 255, 255, 0.85);
+    --kai-shadow-tour: 0 10px 40px -10px rgba(15, 23, 42, 0.25), 0 4px 10px -4px rgba(15, 23, 42, 0.1);
+    --kai-shadow-shepherd: 0 10px 15px -3px rgba(15, 23, 42, 0.1), 0 4px 6px -2px rgba(15, 23, 42, 0.05);
+    --kai-shadow-card: 0 2px 6px rgba(15, 23, 42, 0.05);
+
+    --kai-success-bg: #dcfce7;
+    --kai-success-text: #166534;
+    --kai-info-bg: #f0f6fc;
+    --kai-info-border: #0969da;
+    --kai-error-bg: #fcf1f1;
+    --kai-error-border: #d1242f;
+
+    --kai-status-pass-text: #15803d;
+    --kai-status-pass-bg: #f0fdf4;
+    --kai-status-warning-text: #b45309;
+    --kai-status-warning-bg: #fffbeb;
+    --kai-status-fail-text: #b91c1c;
+    --kai-status-fail-bg: #fef2f2;
+    --kai-status-info-text: #1d4ed8;
+    --kai-status-info-bg: #eff6ff;
+    --kai-status-info-border: #bfdbfe;
+    --kai-guide-user-bg: color-mix(in srgb, var(--karavi-ai-assistant-primary) 8%, var(--kai-surface-muted));
+    --kai-guide-user-border: color-mix(in srgb, var(--karavi-ai-assistant-primary) 22%, transparent);
+    --kai-guide-assistant-bg: var(--karavi-ai-assistant-primary-muted);
+    --kai-guide-assistant-border: color-mix(in srgb, var(--karavi-ai-assistant-primary) 28%, transparent);
+    --kai-guide-panel-accent: #198754;
+
+    --kai-shadow-sm: 0 1px 2px rgba(15, 23, 42, 0.06);
+    --kai-shadow-md: 0 4px 12px rgba(15, 23, 42, 0.08);
+    --kai-shadow-lg: 0 12px 30px rgba(15, 23, 42, 0.14);
+    --kai-shadow-primary: 0 4px 12px color-mix(in srgb, var(--karavi-ai-assistant-primary) 28%, transparent);
+
+    --kai-ease: cubic-bezier(0.4, 0, 0.2, 1);
+    --kai-duration-fast: 150ms;
+    --kai-duration-normal: 200ms;
+
+    --kai-focus-ring: 2px solid var(--karavi-ai-assistant-primary);
+    --kai-focus-offset: 2px;
+    --kai-min-touch: 44px;
+
+    --kai-z-fab: 999998;
+    --kai-z-panel: 999999;
+    --kai-z-overlay: 999997;
+    --kai-z-tour: 1000001;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --kai-surface-base: #1e293b;
+        --kai-surface-muted: #0f172a;
+        --kai-surface-subtle: #334155;
+        --kai-surface-elevated: #1e293b;
+        --kai-border: #334155;
+        --kai-border-strong: #475569;
+        --kai-border-wp: #3d4a5c;
+        --kai-text-primary: #f1f5f9;
+        --kai-text-secondary: #cbd5e1;
+        --kai-text-muted: #94a3b8;
+        --kai-shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.35);
+        --kai-shadow-md: 0 4px 12px rgba(0, 0, 0, 0.4);
+        --kai-text-wp-heading: #f1f5f9;
+        --kai-text-wp-body: #cbd5e1;
+        --kai-divider: #334155;
+        --kai-divider-subtle: #334155;
+        --kai-surface-wp-option: #334155;
+        --kai-surface-repeater: #1e293b;
+        --kai-badge-neutral-bg: #334155;
+        --kai-border-repeater: #475569;
+        --kai-border-input: #475569;
+        --kai-switch-track-off: #475569;
+        --kai-wp-link: #72aee6;
+        --kai-overlay-scrim: rgba(0, 0, 0, 0.65);
+        --kai-overlay-modal: rgba(0, 0, 0, 0.55);
+        --kai-border-faint: rgba(255, 255, 255, 0.08);
+        --kai-surface-hover: #475569;
+        --kai-surface-search: #334155;
+        --kai-header-control-bg: rgba(255, 255, 255, 0.12);
+        --kai-header-control-bg-hover: rgba(255, 255, 255, 0.2);
+        --kai-header-control-bg-strong: rgba(255, 255, 255, 0.28);
+        --kai-header-control-focus: rgba(255, 255, 255, 0.75);
+        --kai-shadow-tour: 0 10px 40px -10px rgba(0, 0, 0, 0.45), 0 4px 10px -4px rgba(0, 0, 0, 0.2);
+        --kai-shadow-shepherd: 0 10px 15px -3px rgba(0, 0, 0, 0.35), 0 4px 6px -2px rgba(0, 0, 0, 0.2);
+        --kai-shadow-card: 0 2px 6px rgba(0, 0, 0, 0.25);
+        --kai-shadow-lg: 0 12px 30px rgba(0, 0, 0, 0.45);
+        --kai-text-body: #94a3b8;
+        --kai-status-pass-text: #86efac;
+        --kai-status-pass-bg: #14532d;
+        --kai-status-warning-text: #fcd34d;
+        --kai-status-warning-bg: #78350f;
+        --kai-status-fail-text: #fca5a5;
+        --kai-status-fail-bg: #7f1d1d;
+        --kai-status-info-text: #93c5fd;
+        --kai-status-info-bg: #1e3a8a;
+        --kai-status-info-border: #3b82f6;
+        --kai-guide-panel-accent: #22c55e;
+    }
+}
+
+.karavi-ai-assistant-settings-wrap,
+#karavi-ai-assistant-dashboard-page,
+.karavi-ai-assistant-chat-panel {
+    color-scheme: light dark;
+}

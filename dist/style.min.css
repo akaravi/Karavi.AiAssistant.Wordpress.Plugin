@@ -1,0 +1,430 @@
+:root {
+    --karavi-ai-assistant-fab-size: 60px;
+    --karavi-ai-assistant-fab-label-gap: 4px;
+}
+.screen-reader-text {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+.karavi-ai-assistant-fab-wrap {
+    position: fixed;
+    inset-inline-end: var(--kai-fab-screen-offset);
+    bottom: var(--kai-fab-screen-offset);
+    z-index: var(--kai-z-fab);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+    overflow: visible;
+}
+.karavi-ai-assistant-fab-stage {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    overflow: visible;
+    flex-shrink: 0;
+}
+.karavi-ai-assistant-fab {
+    background: var(--karavi-ai-assistant-primary);
+    color: var(--karavi-ai-assistant-on-primary, var(--kai-text-inverse));
+    border: none;
+    width: var(--karavi-ai-assistant-fab-size, 60px);
+    height: var(--karavi-ai-assistant-fab-size, 60px);
+    min-width: var(--karavi-ai-assistant-fab-size, 60px);
+    min-height: var(--karavi-ai-assistant-fab-size, 60px);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    box-shadow: var(--kai-shadow-lg);
+    cursor: pointer;
+    transition: box-shadow var(--kai-duration-normal) var(--kai-ease), background-color var(--kai-duration-normal) var(--kai-ease);
+    box-sizing: border-box;
+}
+.karavi-ai-assistant-fab:hover {
+    box-shadow: var(--kai-shadow-primary);
+}
+.karavi-ai-assistant-fab-logo {
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+.karavi-ai-assistant-fab-icon {
+    width: 60%;
+    height: 60%;
+    flex-shrink: 0;
+}
+.karavi-ai-assistant-fab-label {
+    position: absolute;
+    top: 50%;
+    inset-inline-end: 100%;
+    transform: translate(calc(var(--karavi-ai-assistant-fab-label-gap, 4px) * -1), -50%);
+    font-weight: 600;
+    color: var(--karavi-ai-assistant-fab-label-color, var(--kai-text-wp-heading));
+    font-size: var(--karavi-ai-assistant-fab-label-font-size, 14px);
+    max-width: var(--karavi-ai-assistant-fab-label-width, 120px);
+    width: max-content;
+    text-align: center;
+    word-wrap: break-word;
+    cursor: pointer;
+}
+.karavi-ai-assistant-chat-panel {
+    position: fixed;
+    inset-inline-end: var(--kai-fab-screen-offset);
+    bottom: calc(var(--karavi-ai-assistant-fab-size, 60px) + var(--kai-fab-panel-gap));
+    width: 90%;
+    max-width: var(--karavi-ai-assistant-chat-width, 360px);
+    height: 70%;
+    max-height: var(--karavi-ai-assistant-chat-height, 600px);
+    background: var(--kai-surface-base);
+    border: 1px solid var(--kai-border);
+    border-radius: var(--kai-radius-lg);
+    box-shadow: var(--kai-shadow-lg);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    z-index: var(--kai-z-panel);
+    transform: translateY(var(--kai-space-5));
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity var(--kai-duration-normal) var(--kai-ease), visibility var(--kai-duration-normal) var(--kai-ease), transform var(--kai-duration-normal) var(--kai-ease);
+    box-sizing: border-box;
+}
+.karavi-ai-assistant-chat-panel.karavi-ai-assistant-open {
+    transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
+}
+.karavi-ai-assistant-chat-header {
+    background: var(--karavi-ai-assistant-primary);
+    color: var(--karavi-ai-assistant-header-text, var(--kai-text-inverse));
+    padding: var(--kai-space-3) var(--kai-space-3_75);
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: var(--kai-space-2_5);
+}
+.karavi-ai-assistant-chat-title {
+    flex: 1;
+    min-width: 0;
+    font-size: 1em;
+    line-height: var(--kai-line-height-snug);
+}
+.karavi-ai-assistant-chat-header-actions {
+    display: flex;
+    gap: var(--kai-space-1_5);
+    align-items: center;
+}
+.karavi-ai-assistant-expand-btn {
+    display: none;
+    background: var(--kai-header-control-bg);
+    color: var(--karavi-ai-assistant-header-text, var(--kai-text-inverse));
+    border: 0;
+    border-radius: var(--kai-radius-pill);
+    padding: var(--kai-space-1) var(--kai-space-2_5);
+    font-size: var(--kai-font-size-2xs);
+    font-weight: 600;
+    cursor: pointer;
+    transition: background .2s ease;
+}
+.karavi-ai-assistant-expand-btn:hover {
+    background: var(--kai-header-control-bg-hover);
+}
+.karavi-ai-assistant-expand-btn:focus-visible {
+    outline: 2px solid var(--kai-header-control-focus);
+    outline-offset: 2px;
+}
+.karavi-ai-assistant-chat-panel.karavi-ai-assistant-mobile-full .karavi-ai-assistant-expand-btn {
+    background: var(--kai-header-control-bg-strong);
+    color: var(--karavi-ai-assistant-primary);
+}
+.karavi-ai-assistant-close-btn {
+    background: transparent;
+    border: 0;
+    color: inherit;
+    font-size: var(--kai-font-size-icon-lg);
+    cursor: pointer;
+    line-height: 1;
+    padding: 0 var(--kai-space-1_5);
+}
+.karavi-ai-assistant-chat-body {
+    padding: var(--kai-space-2_5);
+    overflow-y: auto;
+    flex: 1;
+    background: var(--kai-surface-muted);
+}
+.karavi-ai-assistant-msg {
+    margin: var(--kai-space-2) 0;
+    padding: var(--kai-space-2) var(--kai-space-3);
+    border-radius: var(--kai-radius-msg);
+    max-width: 85%;
+    line-height: var(--kai-line-height-tight);
+    word-wrap: break-word;
+}
+.karavi-ai-assistant-user {
+    background: var(--karavi-ai-assistant-user-bg, var(--karavi-ai-assistant-primary-muted));
+    color: var(--karavi-ai-assistant-user-text, var(--kai-text-primary));
+    margin-inline-start: auto;
+    text-align: end;
+}
+.karavi-ai-assistant-ai {
+    background: var(--kai-surface-base);
+    border: 1px solid var(--kai-border);
+    margin-inline-end: auto;
+}
+.karavi-ai-assistant-ai ul {
+    padding-inline-start: var(--kai-space-5);
+    margin: var(--kai-space-2) 0;
+}
+.karavi-ai-assistant-inline-quick-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--kai-space-1_5);
+    margin: calc(var(--kai-space-0_5) * -1) 0 var(--kai-space-2);
+    padding-inline-start: var(--kai-space-0_5);
+}
+.karavi-ai-assistant-inline-quick-actions .karavi-ai-assistant-quick-action {
+    margin: 0;
+}
+.karavi-ai-assistant-chat-actions-bar {
+    padding: var(--kai-space-1_25);
+    border-top: 1px solid var(--kai-border);
+    background: var(--kai-surface-base);
+    overflow-x: auto;
+    white-space: nowrap;
+}
+.karavi-ai-assistant-quick-action {
+    display: inline-block;
+    padding: var(--kai-space-1_5) var(--kai-space-3);
+    margin: var(--kai-space-0_75);
+    font-size: var(--kai-font-size-sm);
+    border: 1px solid var(--karavi-ai-assistant-primary);
+    color: var(--karavi-ai-assistant-primary);
+    background: var(--kai-surface-base);
+    border-radius: var(--kai-radius-pill);
+    cursor: pointer;
+}
+.karavi-ai-assistant-chat-form {
+    display: flex;
+    border-top: 1px solid var(--kai-border);
+}
+.karavi-ai-assistant-chat-form input {
+    flex: 1;
+    padding: var(--kai-space-3);
+    border: none;
+    outline: none;
+    background: var(--kai-surface-base);
+    color: var(--kai-text-primary);
+}
+.karavi-ai-assistant-chat-form button {
+    background: var(--karavi-ai-assistant-primary);
+    color: var(--karavi-ai-assistant-on-primary, var(--kai-text-inverse));
+    border: none;
+    padding: 0 var(--kai-space-3_75);
+    font-weight: 600;
+    cursor: pointer;
+}
+.karavi-ai-assistant-chat-button {
+    display: inline-block;
+    padding: var(--kai-space-2_5) 16px;
+    margin: var(--kai-space-1);
+    background: var(--karavi-ai-assistant-primary);
+    color: var(--karavi-ai-assistant-on-primary, var(--kai-text-inverse));
+    text-decoration: none;
+    border-radius: var(--kai-radius-sm);
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+.karavi-ai-assistant-chat-button:hover {
+    opacity: .9;
+}
+.karavi-ai-assistant-search-button {
+    display: inline-block;
+    padding: var(--kai-space-1_5) var(--kai-space-3) 6px 30px;
+    margin: var(--kai-space-1);
+    background-color: var(--kai-surface-search);
+    color: var(--kai-text-secondary);
+    text-decoration: none;
+    border-radius: var(--kai-radius-sm);
+    font-weight: 500;
+    font-size: var(--kai-font-size-md);
+    border: 1px solid var(--kai-border);
+    cursor: pointer;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='%2364748b'%3E%3Cpath fill-rule='evenodd' d='M9 3.5a5.5 5.5 0 100 11 5.5 5.5 0 000-11zM2 9a7 7 0 1112.452 4.391l3.328 3.329a.75.75 0 11-1.06 1.06l-3.329-3.328A7 7 0 012 9z' clip-rule='evenodd' /%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-size: 16px 16px;
+    background-position: var(--kai-space-2) center;
+}
+.karavi-ai-assistant-search-button:hover {
+    background-color: var(--kai-surface-hover);
+}
+/* Overlay + centered modal support */
+.karavi-ai-assistant-modal-overlay {
+    position: fixed;
+    inset: 0;
+    background: var(--kai-overlay-modal);
+    opacity: 0;
+    visibility: hidden;
+    z-index: var(--kai-z-overlay);
+    transition: opacity var(--kai-duration-normal) var(--kai-ease), visibility var(--kai-duration-normal) var(--kai-ease);
+}
+.karavi-ai-assistant-modal-overlay.karavi-ai-assistant-visible {
+    opacity: 1;
+    visibility: visible;
+}
+.karavi-ai-assistant-chat-panel.karavi-ai-assistant-exit-intent-modal {
+    left: 50%;
+    top: 50%;
+    right: auto;
+    bottom: auto;
+    transform: translate(-50%, -50%);
+    width: min(90vw, var(--karavi-ai-assistant-chat-width, 360px));
+    max-width: 90vw;
+    height: auto;
+    max-height: min(90vh, var(--karavi-ai-assistant-chat-height, 600px));
+    border-radius: var(--kai-radius-lg);
+}
+/* Hide FAB when open and let panel fill its gap */
+.karavi-ai-assistant-panel-open .karavi-ai-assistant-fab-wrap {
+    display: none;
+}
+.karavi-ai-assistant-panel-open .karavi-ai-assistant-chat-panel:not(.karavi-ai-assistant-exit-intent-modal) {
+    bottom: 0;
+    right: 0;
+    left: auto;
+}
+/* Mobile bottom-sheet behavior and safe-area handling */
+@media (max-width: 768px) {
+    .karavi-ai-assistant-expand-btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .karavi-ai-assistant-chat-panel:not(.karavi-ai-assistant-exit-intent-modal) {
+        inset: auto 0 0 0;
+        width: var(--karavi-ai-assistant-mobile-width, 100vw);
+        max-width: var(--karavi-ai-assistant-mobile-width, 100vw);
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: auto;
+        margin: 0;
+        height: var(--karavi-ai-assistant-mobile-sheet-height, 50vh);
+        max-height: var(--karavi-ai-assistant-mobile-full-height, 100vh);
+        border-radius: 12px 12px 0 0;
+        border: none;
+        box-sizing: border-box;
+        padding-bottom: env(safe-area-inset-bottom, 0);
+    }
+    .karavi-ai-assistant-chat-panel.karavi-ai-assistant-mobile-full:not(.karavi-ai-assistant-exit-intent-modal) {
+        inset: 0;
+        width: var(--karavi-ai-assistant-mobile-full-width, var(--karavi-ai-assistant-mobile-width, 100vw));
+        max-width: var(--karavi-ai-assistant-mobile-full-width, var(--karavi-ai-assistant-mobile-width, 100vw));
+        height: var(--karavi-ai-assistant-mobile-full-height, 100vh);
+        max-height: var(--karavi-ai-assistant-mobile-full-height, 100vh);
+        border-radius: 0;
+        padding-bottom: env(safe-area-inset-bottom, 0);
+    }
+    .karavi-ai-assistant-fab-wrap {
+        right: clamp(12px, 4vw, 20px);
+        bottom: clamp(12px, 4vw, 20px);
+    }
+    .karavi-ai-assistant-chat-panel:not(.karavi-ai-assistant-exit-intent-modal) {
+        bottom: 0;
+        right: 0;
+        left: 0;
+    }
+    body.karavi-ai-assistant-panel-open {
+        overflow: hidden;
+    }
+    .karavi-ai-assistant-chat-panel:not(.karavi-ai-assistant-exit-intent-modal) {
+        transform: none !important;
+    }
+    .karavi-ai-assistant-chat-panel.karavi-ai-assistant-open:not(.karavi-ai-assistant-exit-intent-modal) {
+        transform: none !important;
+    }
+    .karavi-ai-assistant-panel-open .karavi-ai-assistant-chat-panel:not(.karavi-ai-assistant-exit-intent-modal) {
+        bottom: 0 !important;
+    }
+}
+.karavi-ai-assistant-fab,
+.karavi-ai-assistant-close-btn,
+.karavi-ai-assistant-quick-action,
+.karavi-ai-assistant-send-btn,
+.karavi-ai-assistant-chat-button,
+.karavi-ai-assistant-search-button {
+    touch-action: manipulation;
+}
+.karavi-ai-assistant-fake-exit-wrap {
+    position: fixed;
+    z-index: 999990;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--kai-space-0_5);
+    cursor: pointer;
+    padding: var(--kai-space-1_25);
+}
+.karavi-ai-assistant-fake-exit-text {
+    font-size: .35em;
+    color: var(--kai-text-muted);
+    font-weight: 600;
+    transition: color var(--kai-duration-normal) var(--kai-ease);
+}
+.karavi-ai-assistant-fake-exit-icon {
+    width: 1em;
+    height: 1em;
+    color: var(--kai-text-muted);
+    transition: color var(--kai-duration-normal) var(--kai-ease);
+}
+.karavi-ai-assistant-fake-exit-wrap:hover .karavi-ai-assistant-fake-exit-text,
+.karavi-ai-assistant-fake-exit-wrap:hover .karavi-ai-assistant-fake-exit-icon {
+    color: var(--kai-text-primary);
+}
+.karavi-ai-assistant-fake-exit-wrap.pos-top_left {
+    top: 10px;
+    inset-inline-start: 10px;
+}
+.karavi-ai-assistant-fake-exit-wrap.pos-top_center {
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.karavi-ai-assistant-fake-exit-wrap.pos-top_right {
+    top: 10px;
+    inset-inline-end: 10px;
+}
+.karavi-ai-assistant-fake-exit-wrap.pos-bottom_left {
+    bottom: 10px;
+    inset-inline-start: 10px;
+}
+.karavi-ai-assistant-fake-exit-wrap.pos-bottom_right {
+    bottom: 10px;
+    inset-inline-end: 10px;
+}
+@media (max-width: 480px) {
+    .karavi-ai-assistant-chat-panel:not(.karavi-ai-assistant-exit-intent-modal) {
+        width: 100%;
+        height: calc(var(--karavi-ai-assistant-vh, 1vh) * 100);
+        max-width: 100%;
+        max-height: none;
+        inset-inline-end: 0;
+        bottom: 0;
+        border-radius: 0;
+        border: none;
+    }
+    .karavi-ai-assistant-fab-wrap {
+        inset-inline-end: 15px;
+        bottom: 15px;
+    }
+}

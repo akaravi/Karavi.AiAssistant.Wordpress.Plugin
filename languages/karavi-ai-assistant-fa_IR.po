@@ -1,0 +1,4192 @@
+# Copyright (C) 2026 KaraviAiAssistant
+# This file is distributed under the GPL-2.0-or-later license.
+msgid ""
+msgstr ""
+"Project-Id-Version: KaraviAiAssistant 2.2.28\n"
+"Report-Msgid-Bugs-To: https://github.com/akaravi/KaraviAiAssistant/\n"
+"POT-Creation-Date: 2026-07-12 13:37+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Domain: karavi-ai-assistant\n"
+"PO-Revision-Date: 2026-07-12 13:37+0000\n"
+"Last-Translator: Ali Karavi\n"
+"Language-Team: Persian\n"
+"Language: fa_IR\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid " Reloading dashboard..."
+msgstr " در حال بارگذاری مجدد داشبورد..."
+
+msgid " Selected"
+msgstr " انتخاب شده"
+
+msgid " — type model ID manually"
+msgstr " — شناسه مدل را دستی تایپ کنید"
+
+msgid "\"Once per session\" fires once until browser close. \"Once per page\" allows one fire per page URL. \"Unlimited\" removes frequency caps."
+msgstr "«یک‌بار در نشست» تا بستن مرورگر یک‌بار اجرا می‌شود. «یک‌بار در صفحه» یک اجرا per URL. «نامحدود» سقف فرکانس را برمی‌دارد."
+
+msgid "%1$s rows were skipped. See the Logs tab for row-level details."
+msgstr "%1$s ردیف رد شد. جزئیات سطح ردیف را در تب Logs ببینید."
+
+msgid "%1$s visits / %2$s success"
+msgstr "%1$s بازدید / %2$s موفق"
+
+msgid "(Destructive)"
+msgstr "(مخرب)"
+
+msgid "(General)"
+msgstr "(عمومی)"
+
+msgid "(Independent)"
+msgstr "(مستقل)"
+
+msgid "(routing mode)"
+msgstr "(حالت مسیریابی)"
+
+msgid "-- Ignore --"
+msgstr "-- نادیده بگیر --"
+
+msgid ".pricing-button, #claim-starter, form.wpcf7-form"
+msgstr ".pricing-button, #claim-starter, form.wpcf7-form"
+
+msgid "/checkout\n/thank-you\npreview=true"
+msgstr "/checkout\n/thank-you\npreview=true"
+
+msgid "/pricing\n/product/\ncampaign=spring"
+msgstr "/pricing\n/product/\ncampaign=spring"
+
+msgid "/thank-you"
+msgstr "/thank-you"
+
+msgid "1. Universal CSV Import"
+msgstr "۱. import CSV عمومی"
+
+msgid "100+ major national projects and hundreds of mission-critical websites worldwide"
+msgstr "بیش از ۱۰۰ پروژه بزرگ ملی و صدها وب‌سایت حیاتی در سطح جهانی"
+
+msgid "2. Native \"One-Click\" Integrations"
+msgstr "۲. یکپارچگی native «یک‌کلیکی»"
+
+msgid "25+ years of software engineering and solution architecture"
+msgstr "بیش از ۲۵ سال مهندسی نرم‌افزار و معماری راه‌حل"
+
+msgid "<strong>Karavi AI Assistant Error:</strong> Missing API Key for Variation A (%1$s). The chatbot will not work. <a href=\"%2$s\">Please fix this in the settings</a>."
+msgstr "<strong>خطای دستیار هوش مصنوعی کاروی:</strong> کلید API برای Variation A (%1$s) موجود نیست. چت‌بات کار نمی‌کند. <a href=\"%2$s\">لطفاً در تنظیمات رفع کنید</a>."
+
+msgid "<strong>Karavi AI Assistant Error:</strong> No AI Model selected for Variation A. The chatbot will not work. <a href=\"%1$s\">Please select a model in the settings</a>."
+msgstr "<strong>خطای دستیار هوش مصنوعی کاروی:</strong> مدل AI برای Variation A انتخاب نشده. چت‌بات کار نمی‌کند. <a href=\"%1$s\">لطفاً در تنظیمات مدل انتخاب کنید</a>."
+
+msgid "<strong>Karavi AI Assistant Warning:</strong> Missing AI Model for Variation B. It will fall back to Variation A's settings. <a href=\"%1$s\">You can fix this in the settings</a>."
+msgstr "<strong>هشدار دستیار هوش مصنوعی کاروی:</strong> مدل AI برای Variation B انتخاب نشده. به تنظیمات Variation A برمی‌گردد. <a href=\"%1$s\">می‌توانید در تنظیمات رفع کنید</a>."
+
+msgid "<strong>Karavi AI Assistant Warning:</strong> Missing API Key for Variation B (%1$s). It will fall back to Variation A's settings. <a href=\"%2$s\">You can fix this in the settings</a>."
+msgstr "<strong>هشدار دستیار هوش مصنوعی کاروی:</strong> کلید API برای Variation B (%1$s) موجود نیست. به تنظیمات Variation A برمی‌گردد. <a href=\"%2$s\">می‌توانید در تنظیمات رفع کنید</a>."
+
+msgid "<strong>Optional:</strong> leave this on Free AI for the fastest normal chat. Use templated chat only when you need every answer to follow a controlled structure."
+msgstr "<strong>اختیاری:</strong> برای سریع‌ترین چت عادی روی AI آزاد بگذارید. فقط وقتی به ساختار کنترل‌شده نیاز دارید از قالب استفاده کنید."
+
+msgid "[empty message]"
+msgstr "[پیام خالی]"
+
+msgid "A winner is declared at 95% confidence."
+msgstr "برنده در ۹۵٪ اطمینان اعلام می‌شود."
+
+msgid "A/B"
+msgstr "A/B"
+
+msgid "A/B Test Dashboard"
+msgstr "داشبورد تست A/B"
+
+msgid "A/B Test Results (Goals: %s)"
+msgstr "نتایج تست A/B (اهداف: %s)"
+
+msgid "A/B Test Scope"
+msgstr "دامنه تست A/B"
+
+msgid "A/B Testing"
+msgstr "تست A/B"
+
+msgid "About"
+msgstr "درباره"
+
+msgid "About Ali Karavi"
+msgstr "درباره علی کاروی"
+
+msgid "About Karavi AI Assistant"
+msgstr "درباره دستیار هوش مصنوعی کاروی"
+
+msgid "Above button"
+msgstr "بالای دکمه"
+
+msgid "Action:"
+msgstr "اقدام:"
+
+msgid "Acts as a \"heartbeat\" safety net. If a visitor stays on a page without taking actions, this background sync ensures their profile is saved periodically. This prevents permanent data loss if their browser crashes or their device dies before they close the tab."
+msgstr "به‌عنوان heartbeat: پروفایل بازدیدکننده بدون action هم دوره‌ای ذخیره می‌شود تا با crash مرورگر داده از دست نرود."
+
+msgid "Add Button"
+msgstr "افزودن دکمه"
+
+msgid "Add Conversion Goal"
+msgstr "افزودن هدف تبدیل"
+
+msgid "Add curated files such as product sheets, service docs, policies, onboarding notes, or FAQs as Knowledge Base context. File context is matched and limited by the cost controls below."
+msgstr "فایل‌های منتخب مانند بروشور محصول، سیاست‌ها و FAQ را به پایگاه دانش اضافه کنید."
+
+msgid "Add files Karavi AI Assistant can use as private chat knowledge. Supported formats: PDF, TXT, Markdown, CSV, JSON, HTML, and XML."
+msgstr "فایل‌هایی که Karavi AI Assistant به‌عنوان دانش خصوصی چت استفاده می‌کند. فرمت‌ها: PDF، TXT، Markdown، CSV، JSON، HTML و XML."
+
+msgid "Add New Rules"
+msgstr "افزودن قوانین جدید"
+
+msgid "Add one full URL or relative page URL per line to always exclude those pages from tracking."
+msgstr "هر خط یک URL برای حذف دائمی از ردیابی."
+
+msgid "Add one full URL or relative page URL per line. Used when Tracking Scope is set to target page URLs."
+msgstr "هر خط یک URL کامل یا نسبی. وقتی محدوده ردیابی روی URLهای target است."
+
+msgid "Add persistent buttons that always appear in the chat bar. You can link to a URL or have them send a pre-defined message to the AI."
+msgstr "دکمه‌های دائمی در نوار چت اضافه کنید؛ می‌توانید به URL لینک دهید یا پیام از پیش‌تعریف‌شده به AI بفرستند."
+
+msgid "Add persistent buttons that appear in the chat bar. Use URL for links and Send Message to trigger the AI."
+msgstr "دکمه‌های ثابت در نوار چت. برای لینک URL و برای ارسال به AI از Send Message استفاده کنید."
+
+msgid "Add Quick Buttons"
+msgstr "افزودن دکمه‌های سریع"
+
+msgid "Add to Cart"
+msgstr "افزودن به سبد"
+
+msgid "Add to cart"
+msgstr "افزودن به سبد"
+
+msgid "Add to Cart product"
+msgstr "افزودن به سبد محصول"
+
+msgid "Add to Cart threshold (Product)"
+msgstr "آستانه افزودن به سبد (محصول)"
+
+msgid "Add Trigger"
+msgstr "افزودن تریگر"
+
+msgid "Add URL, CSS selector click, form submit, popular WordPress action, or WooCommerce product visit goals. The first goal stays primary for A/B decisions, while additional goals enable richer funnel analytics."
+msgstr "اهداف URL، کلیک CSS selector، ارسال فرم، اکشن رایج وردپرس یا بازدید محصول WooCommerce را اضافه کنید. اولین هدف برای تصمیم A/B اصلی است؛ اهداف بیشتر analytics قیف غنی‌تر می‌دهد."
+
+msgid "Added to cart!"
+msgstr "به سبد اضافه شد!"
+
+msgid "Adds a quick action button in chat when this trigger opens. Choose N/A to keep this trigger without a primary CTA button."
+msgstr "دکمه اقدام سریع در چت وقتی این تریگر باز می‌شود. N/A = بدون CTA اصلی."
+
+msgid "Adds six-pattern behavior classification (fast/medium/slow leaver, comparison shopper, fast closer, discoverer closer). Enable only the metrics you want used for prediction."
+msgstr "طبقه‌بندی شش‌الگویی رفتار؛ فقط metricهای موردنیاز پیش‌بینی را فعال کنید."
+
+msgid "Admin & Frontend UI Language"
+msgstr "زبان رابط کاربری (ادمین و فرانت‌اند)"
+
+msgid "Admin Panel Theme"
+msgstr "تم پنل ادمین"
+
+msgid "Admin UI Language"
+msgstr "زبان رابط کاربری ادمین"
+
+msgid "Advanced Appearance"
+msgstr "ظاهر پیشرفته"
+
+msgid "Advanced Exit-Intent Settings"
+msgstr "تنظیمات پیشرفته Exit-Intent"
+
+msgid "After this many dismissals, suppress the trigger for the current user."
+msgstr "پس از این تعداد dismiss، تریگر برای کاربر فعلی سرکوب شود."
+
+msgid "AI"
+msgstr "AI"
+
+msgid "AI Assistant"
+msgstr "دستیار هوش مصنوعی"
+
+msgid "AI Content Engine"
+msgstr "موتور محتوای AI"
+
+msgid "AI Dynamic Calibration & Prediction"
+msgstr "کالیبراسیون و پیش‌بینی پویا AI"
+
+msgid "AI Generates Buttons"
+msgstr "تولید دکمه توسط هوش مصنوعی"
+
+msgid "AI Instructions (Persona)"
+msgstr "دستورالعمل هوش مصنوعی (شخصیت)"
+
+msgid "AI Instructions for Posts"
+msgstr "دستورالعمل AI برای نوشته‌ها"
+
+msgid "AI Model"
+msgstr "مدل هوش مصنوعی"
+
+msgid "AI only"
+msgstr "فقط AI"
+
+msgid "AI Proactive Messages"
+msgstr "پیام‌های پیش‌دستانه AI"
+
+msgid "AI Provider"
+msgstr "ارائه‌دهنده هوش مصنوعی"
+
+msgid "AI Provider:"
+msgstr "ارائه‌دهنده AI:"
+
+msgid "AI Slot Instructions"
+msgstr "دستورالعمل slotهای AI"
+
+msgid "AI suggestion is unavailable right now. Please reload the page and try again."
+msgstr "پیشنهاد AI اکنون در دسترس نیست. صفحه را دوباره بارگذاری کنید و دوباره تلاش کنید."
+
+msgid "AI vs manual:"
+msgstr "AI در برابر دستی:"
+
+msgid "AI-Generated Button Styling"
+msgstr "استایل دکمه تولیدشده AI"
+
+msgid "AI-Generated Buttons"
+msgstr "دکمه‌های تولیدشده توسط AI"
+
+msgid "AI-generated keywords will be appended to your queue."
+msgstr "کلیدواژه‌های AI به صف اضافه می‌شوند."
+
+msgid "AI-Generated Message"
+msgstr "پیام تولیدشده AI"
+
+msgid "Ali Karavi"
+msgstr "علی کاروی"
+
+msgid "All Conversion Goals Summary"
+msgstr "خلاصه همه اهداف تبدیل"
+
+msgid "All Devices"
+msgstr "همه دستگاه‌ها"
+
+msgid "All items from selected post types"
+msgstr "همه موارد از post typeهای انتخاب‌شده"
+
+msgid "All Posts"
+msgstr "همه نوشته‌ها"
+
+msgid "All Posts & Products"
+msgstr "همه نوشته‌ها و محصولات"
+
+msgid "All Products"
+msgstr "همه محصولات"
+
+msgid "All Products (Discovery Mode)"
+msgstr "همه محصولات (حالت کشف)"
+
+msgid "All public content"
+msgstr "همه محتوای عمومی"
+
+msgid "All selected filters must match for this trigger to be eligible. Use Homepage to target only the public front page, including the bare domain URL."
+msgstr "همه فیلترهای انتخاب‌شده باید match کنند. Homepage فقط صفحه اول عمومی شامل domain خالی."
+
+msgid "All Sources"
+msgstr "همه منابع"
+
+msgid "All Statuses"
+msgstr "همه وضعیت‌ها"
+
+msgid "All Urgency"
+msgstr "همه فوریت‌ها"
+
+msgid "All variations"
+msgstr "همه نسخه‌ها"
+
+msgid "All Variations"
+msgstr "همه Variationها"
+
+msgid "All visitors"
+msgstr "همه بازدیدکنندگان"
+
+msgid "Allow the AI to call the product search tool for real-time product details."
+msgstr "به AI اجازه دهید ابزار جستجوی محصول را برای جزئیات لحظه‌ای فراخوانی کند."
+
+msgid "Allow the AI to generate contextual buttons, such as search buttons for products or links from the Knowledge Base context."
+msgstr "اجازه تولید دکمه‌های زمینه‌ای مانند جستجوی محصول یا لینک از پایگاه دانش."
+
+msgid "Allow this trigger to fire later in the same session even if another trigger already fired. Fires at most once per session."
+msgstr "اجازه اجرای بعدی در همان نشست — حداکثر یک‌بار."
+
+msgid "Allowed match error (%)"
+msgstr "خطای match مجاز (%)"
+
+msgid "Already have an analytics tool? Import historical data about your products or posts so Karavi AI Assistant can start generating intelligent triggers right away."
+msgstr "ابزار analytics دارید؟ داده تاریخی محصول/نوشته را import کنید تا Karavi AI Assistant trigger هوشمند بسازد."
+
+msgid "An error occurred. Please try again."
+msgstr "خطایی رخ داد. لطفاً دوباره تلاش کنید."
+
+msgid "An unknown error occurred."
+msgstr "خطای ناشناخته رخ داد."
+
+msgid "Analysis failed:"
+msgstr "تحلیل ناموفق بود:"
+
+msgid "Analytics details"
+msgstr "جزئیات analytics"
+
+msgid "Analytics lookback window used by the gate thresholds."
+msgstr "پنجره lookback analytics برای آستانه‌های gate."
+
+msgid "Analyze a Topic for SEO"
+msgstr "تحلیل موضوع برای سئو"
+
+msgid "Analyze logs with AI"
+msgstr "تحلیل لاگ با AI"
+
+msgid "Analyze one item or broader scopes by selecting All Posts and/or All Products from the target panel."
+msgstr "با انتخاب همه نوشته‌ها و/یا همه محصولات از پنل هدف، یک مورد یا scope گسترده‌تر را تحلیل کنید."
+
+msgid "Analyze Topic"
+msgstr "تحلیل موضوع"
+
+msgid "Analyze with AI"
+msgstr "تحلیل با AI"
+
+msgid "Anchor the chat to the bottom (default) or let it drop from the top on mobile devices."
+msgstr "چت را به پایین (پیش‌فرض) یا بالای صفحه در موبایل بچسبانید."
+
+msgid "Anchor to left edge"
+msgstr "چسبیده به چپ"
+
+msgid "Anchor to right edge"
+msgstr "چسبیده به راست"
+
+msgid "Answer simple greetings like hi or hello without calling the AI provider. This saves API calls while keeping normal questions routed to AI."
+msgstr "پاسخ به سلام ساده بدون فراخوانی AI و صرفه‌جویی در API."
+
+msgid "Any"
+msgstr "هر"
+
+msgid "Any (All)"
+msgstr "هر (همه)"
+
+msgid "Any content"
+msgstr "هر محتوا"
+
+msgid "Any conversion signal"
+msgstr "هر سیگنال تبدیل"
+
+msgid "Any conversion signal counts broad content link clicks, automatic WooCommerce order attribution, and configured Conversion Goals. Only configured Conversion Goals ignores broad automatic conversion signals and counts only goals from Goals & Notifications > Conversion Goals."
+msgstr "هر سیگنال تبدیل شامل کلیک لینک محتوا، attribution سفارش WooCommerce و اهداف پیکربندی‌شده است. حالت «فقط اهداف» سیگنال‌های خودکار گسترده را نادیده می‌گیرد و فقط اهداف بخش Goals & Notifications را می‌شمارد."
+
+msgid "Any Detected Conversion / Payment Success"
+msgstr "هر تبدیل/پرداخت موفق"
+
+msgid "Any improvement status"
+msgstr "هر وضعیت بهبود"
+
+msgid "Any Page Visit"
+msgstr "هر بازدید صفحه"
+
+msgid "Any Payment Success"
+msgstr "هر پرداخت موفق"
+
+msgid "Any Product"
+msgstr "هر محصول"
+
+msgid "Any source"
+msgstr "هر منبع"
+
+msgid "API error"
+msgstr "خطای API"
+
+msgid "API Key"
+msgstr "کلید API"
+
+msgid "API Key:"
+msgstr "کلید API:"
+
+msgid "API Timeout (seconds)"
+msgstr "مهلت API (ثانیه)"
+
+msgid "Append related products, posts, and services to the end of generated content when available."
+msgstr "افزودن محصولات، نوشته‌ها و خدمات مرتبط به انتهای محتوای تولیدشده در صورت وجود."
+
+msgid "Applied to normal chat replies after this trigger starts the conversation. Example: collect demo requests, offer claims, callbacks, quotes, feature requests, or other data while keeping this trigger's brand voice."
+msgstr "به پاسخ‌های عادی چت پس از شروع مکالمه با این تریگر اعمال می‌شود. مثال: درخواست دمو، claim پیشنهاد، callback، quote، feature request یا داده دیگر با حفظ tone برند."
+
+msgid "Applies on screens >= 768px. 100% fills the screen edge-to-edge; smaller values leave side gutters."
+msgstr "روی صفحه‌نمایش ≥ 768px اعمال می‌شود. ۱۰۰٪ تمام عرض؛ مقادیر کمتر حاشیه کناری می‌گذارد."
+
+msgid "Applies only to slots such as {ai_help_offer}, {ai_question}, or {ai_next_step}."
+msgstr "فقط برای slotهایی مانند {ai_help_offer}، {ai_question} یا {ai_next_step}."
+
+msgid "Applies to normal chat conversations, even when no trigger started the conversation. Use it for demos, offers, quotes, callbacks, waitlists, feature requests, or other lead/data collection flows."
+msgstr "برای گفتگوهای عادی چت، دمو، پیشنهاد، تماس و جمع‌آوری سرنخ اعمال می‌شود."
+
+msgid "Apply"
+msgstr "اعمال"
+
+msgid "Apply context filters before trigger eligibility is approved."
+msgstr "فیلترهای context قبل از تأیید صلاحیت trigger."
+
+msgid "Apply offer"
+msgstr "اعمال پیشنهاد"
+
+msgid "Are you sure you want to clear all logs?"
+msgstr "همه لاگ‌ها پاک شوند؟"
+
+msgid "Are you sure you want to delete the selected logs?"
+msgstr "لاگ‌های انتخاب‌شده حذف شوند؟"
+
+msgid "Are you sure you want to leave?"
+msgstr "مطمئنید می‌خواهید خارج شوید؟"
+
+msgid "Are you sure you want to remove this goal?"
+msgstr "آیا از حذف این هدف مطمئن هستید؟"
+
+msgid "Are you sure you want to remove this item? This cannot be undone until you save changes."
+msgstr "این مورد حذف شود؟ تا ذخیره قابل بازگشت نیست."
+
+msgid "Are you sure you want to remove this trigger?"
+msgstr "آیا از حذف این تریگر مطمئن هستید؟"
+
+msgid "Are you sure you want to reset the generation history? This will allow previously used keywords and products to be used again."
+msgstr "تاریخچه تولید بازنشانی شود؟ کلیدواژه/محصول قبلی دوباره قابل استفاده می‌شود."
+
+msgid "Ask about any setting, option, or button that is unclear, then continue follow-ups in the same admin-only chat thread."
+msgstr "درباره هر تنظیم، گزینه یا دکمه نامشخص بپرسید و پیگیری را در همان thread چت ادمین ادامه دهید."
+
+msgid "Ask Guide"
+msgstr "راهنمای پرسش"
+
+msgid "Ask setup questions using the Pro guide, including any option or button that feels confusing, then continue with follow-up questions (for example: \"Explain step 2 in detail\"). Use Health Check/Frontend Probe to detect conflicts and errors."
+msgstr "سؤال پیکربندی از راهنما؛ Health Check و Frontend Probe برای تشخیص خطا."
+
+msgid "Associate this trigger with a specific conversion goal for analytics context."
+msgstr "این تریگر را به هدف تبدیل مشخص برای زمینه analytics وصل کنید."
+
+msgid "At any time, you can download a CSV of your A/B test results for deeper analysis."
+msgstr "هر زمان می‌توانید CSV نتایج تست A/B را برای تحلیل عمیق‌تر دانلود کنید."
+
+msgid "Auto-trim persona text to reduce tokens."
+msgstr "کوتاه‌سازی خودکار متن persona برای کاهش token."
+
+msgid "Automatic (follow system)"
+msgstr "خودکار (مطابق سیستم‌عامل)"
+
+msgid "Automatic (follow WordPress locale)"
+msgstr "خودکار (بر اساس زبان وردپرس)"
+
+msgid "Average time"
+msgstr "میانگین زمان"
+
+msgid "Average time:"
+msgstr "میانگین زمان:"
+
+msgid "Avg Dwell"
+msgstr "میانگین ماندگاری"
+
+msgid "Avg Pages"
+msgstr "میانگین صفحه"
+
+msgid "Avg Scroll"
+msgstr "میانگین اسکرول"
+
+msgid "Avg Visits"
+msgstr "میانگین بازدید"
+
+msgid "Avg. conversion rate:"
+msgstr "میانگین نرخ تبدیل:"
+
+msgid "Avg. Msgs"
+msgstr "میانگین پیام"
+
+msgid "Avg. Scroll Depth (%)"
+msgstr "میانگین عمق اسکرول (%)"
+
+msgid "Avg. scroll depth:"
+msgstr "میانگین عمق اسکرول:"
+
+msgid "Avg. Time"
+msgstr "میانگین زمان"
+
+msgid "Avg. Time on Page"
+msgstr "میانگین زمان در صفحه"
+
+msgid "Avg. time per item:"
+msgstr "میانگین زمان هر مورد:"
+
+msgid "Avg. Time threshold (s)"
+msgstr "آستانه میانگین زمان (ث)"
+
+msgid "Avg. views per item:"
+msgstr "میانگین بازدید هر مورد:"
+
+msgid "Back"
+msgstr "بازگشت"
+
+msgid "Back to Chatbot"
+msgstr "بازگشت به چت‌بات"
+
+msgid "Back to Content Engine"
+msgstr "بازگشت به موتور محتوا"
+
+msgid "Back to Dashboard"
+msgstr "بازگشت به داشبورد"
+
+msgid "Backup model selected from the fallback provider. The provider API key must be saved in Variation A or Variation B."
+msgstr "مدل پشتیبان؛ کلید API باید در نسخه A یا B ذخیره باشد."
+
+msgid "Backup provider used if the primary provider fails."
+msgstr "ارائه‌دهنده پشتیبان در صورت خطای اصلی."
+
+msgid "Basic Settings & API"
+msgstr "تنظیمات پایه و API"
+
+msgid "Before writing, analyze any topic to get a report with long-tail keywords, common user questions, and a suggested content outline."
+msgstr "قبل از نوشتن، هر موضوع را تحلیل کنید تا گزارش با کلمات long-tail، سوالات رایج کاربر و outline پیشنهادی بگیرید."
+
+msgid "Before you leave {product_name}, try this: {ai_help_offer}"
+msgstr "قبل از رفتن {product_name}، این را امتحان کن: {ai_help_offer}"
+
+msgid "Before/After Trigger"
+msgstr "قبل/بعد تریگر"
+
+msgid "Behavior pattern"
+msgstr "الگوی رفتاری"
+
+msgid "Behavior Pattern Engine"
+msgstr "موتور الگوی رفتاری"
+
+msgid "Behavior Pattern Insights"
+msgstr "بینش الگوی رفتاری"
+
+msgid "Behavior Patterns"
+msgstr "الگوهای رفتاری"
+
+msgid "Below button"
+msgstr "زیر دکمه"
+
+msgid "Below the Support Center, this section lists raw event entries for manual verification and debugging."
+msgstr "زیر مرکز پشتیبانی، رویدادهای خام برای تأیید دستی و دیباگ فهرست می‌شوند."
+
+msgid "Best conversion rate"
+msgstr "بهترین نرخ تبدیل"
+
+msgid "Bot Name"
+msgstr "نام بات"
+
+msgid "Both places"
+msgstr "هر دو محل"
+
+msgid "Both: AI then static"
+msgstr "هر دو: AI سپس ثابت"
+
+msgid "Both: Static then AI"
+msgstr "هر دو: ثابت سپس AI"
+
+msgid "Bottom"
+msgstr "پایین"
+
+msgid "Bottom chat bar only"
+msgstr "فقط نوار پایین چت"
+
+msgid "Bottom Left"
+msgstr "پایین چپ"
+
+msgid "Bottom of screen"
+msgstr "پایین صفحه"
+
+msgid "Bottom Offset (Mobile)"
+msgstr "فاصله پایین (موبایل)"
+
+msgid "Bottom Right"
+msgstr "پایین راست"
+
+msgid "Brand the Headings"
+msgstr "برندسازی عناوین"
+
+msgid "Bulk Scope"
+msgstr "دامنه گروهی"
+
+msgid "Button Background Color"
+msgstr "رنگ پس‌زمینه دکمه"
+
+msgid "Button Font Size"
+msgstr "اندازه فونت دکمه"
+
+msgid "Button ID"
+msgstr "شناسه دکمه"
+
+msgid "Button Label"
+msgstr "برچسب دکمه"
+
+msgid "Button Placement"
+msgstr "جای‌گذاری دکمه"
+
+msgid "Button Shape"
+msgstr "شکل دکمه"
+
+msgid "Button Style"
+msgstr "سبک دکمه"
+
+msgid "Button Styling"
+msgstr "استایل دکمه"
+
+msgid "By default, only the first trigger to meet its conditions will fire per session. You can allow a specific trigger (e.g., an exit-intent coupon) to still fire later by enabling High priority (override) for that trigger."
+msgstr "پیش‌فرض: فقط اولین تریگر واجد شرایط در هر نشست اجرا می‌شود. با اولویت بالا می‌توانید استثنا بگذارید."
+
+msgid "Cache AI responses for repeated questions with the same context."
+msgstr "ذخیره پاسخ‌های AI برای سؤالات تکراری با همان زمینه."
+
+msgid "Cache TTL (minutes)"
+msgstr "TTL کش (دقیقه)"
+
+msgid "Cache TTL (seconds)"
+msgstr "TTL کش (ثانیه)"
+
+msgid "Calibration Lookback (days)"
+msgstr "Lookback کالیبراسیون (روز)"
+
+msgid "Cancel"
+msgstr "لغو"
+
+msgid "Capture Instructions"
+msgstr "دستورالعمل جمع‌آوری"
+
+msgid "Capture Purpose"
+msgstr "هدف جمع‌آوری"
+
+msgid "Captured"
+msgstr "ثبت‌شده"
+
+msgid "Cart Abandonment"
+msgstr "رها کردن سبد"
+
+msgid "Cart Abandonment Delay (seconds)"
+msgstr "تأخیر رها کردن سبد (ثانیه)"
+
+msgid "Cart activity"
+msgstr "فعالیت سبد"
+
+msgid "Cart activity weight"
+msgstr "وزن فعالیت سبد"
+
+msgid "Cart Drop-Off"
+msgstr "رهاکردن سبد"
+
+msgid "Cart drop-off (cart to checkout)"
+msgstr "رها کردن سبد (سبد تا checkout)"
+
+msgid "Cart drop-off: %1$s, Checkout drop-off: %2$s"
+msgstr "رهاکردن سبد: %1$s، رهاکردن checkout: %2$s"
+
+msgid "Center of page (modal)"
+msgstr "وسط صفحه (modal)"
+
+msgid "Center on screen"
+msgstr "وسط صفحه"
+
+msgid "Chars"
+msgstr "کاراکتر"
+
+msgid "Chars per file"
+msgstr "کاراکتر در هر فایل"
+
+msgid "Chat Debounce (ms)"
+msgstr "تأخیر ارسال چت (میلی‌ثانیه)"
+
+msgid "Chat Follow-up Instructions"
+msgstr "دستورالعمل پیگیری چت"
+
+msgid "Chat form"
+msgstr "فرم چت"
+
+msgid "Chat History Budget"
+msgstr "بودجه تاریخچه چت"
+
+msgid "Chat Window (Desktop)"
+msgstr "پنجره چت (دسکتاپ)"
+
+msgid "Chat Window (Mobile)"
+msgstr "پنجره چت (موبایل)"
+
+msgid "Chat Window Background Color"
+msgstr "رنگ پس‌زمینه پنجره چت"
+
+msgid "Chat Window Border Radius"
+msgstr "border-radius پنجره چت"
+
+msgid "Chat Window Font Family"
+msgstr "خانواده فونت پنجره چت"
+
+msgid "Chat Window Font Size"
+msgstr "اندازه فونت پنجره چت"
+
+msgid "Chat Window Line Height"
+msgstr "ارتفاع خط پنجره چت"
+
+msgid "Chat Window Padding"
+msgstr "padding پنجره چت"
+
+msgid "Chat Window Text Color"
+msgstr "رنگ متن پنجره چت"
+
+msgid "Chat with the Guide (Admin Only)"
+msgstr "گفتگو با راهنما (فقط ادمین)"
+
+msgid "Chatbot Settings"
+msgstr "تنظیمات چت‌بات"
+
+msgid "Check GitHub updates"
+msgstr "بررسی به‌روزرسانی GitHub"
+
+msgid "Checkout Drop-Off"
+msgstr "رهاکردن Checkout"
+
+msgid "Checkout drop-off (checkout to purchase)"
+msgstr "رها کردن checkout (checkout تا خرید)"
+
+msgid "Checkout Dropout Risk"
+msgstr "ریسک رها کردن checkout"
+
+msgid "Checkout Flow"
+msgstr "جریان checkout"
+
+msgid "Checkout Flow (Auto-detect by header)"
+msgstr "جریان Checkout (تشخیص خودکار از header)"
+
+msgid "Checkout Flow threshold (%) (Product)"
+msgstr "آستانه جریان checkout (%) (محصول)"
+
+msgid "Checkout Flow weight"
+msgstr "وزن Checkout Flow"
+
+msgid "Checkout Success"
+msgstr "موفقیت Checkout"
+
+msgid "Checkout success"
+msgstr "موفقیت checkout"
+
+msgid "Checkout visits"
+msgstr "بازدید checkout"
+
+msgid "Checkout Visits"
+msgstr "بازدید Checkout"
+
+msgid "Checks homepage markers and optimization/defer hints to catch conflicts that block chat initialization."
+msgstr "نشانگرهای homepage و hintهای defer/بهینه‌سازی را برای تداخل‌های مانع راه‌اندازی چت بررسی می‌کند."
+
+msgid "Choose 'Normal' for a standard side panel or 'Center' to open a focused modal with a backdrop—perfect for high-priority offers."
+msgstr "«Normal» برای پنل کناری استاندارد یا «Center» برای modal متمرکز با backdrop—مناسب پیشنهادهای اولویت بالا."
+
+msgid "Choose a fetched model or enter any provider-compatible model ID manually."
+msgstr "مدل دریافت‌شده را انتخاب کنید یا شناسه سازگار را دستی وارد کنید."
+
+msgid "Choose Analysis Targets"
+msgstr "انتخاب اهداف تحلیل"
+
+msgid "Choose between \"Keywords\" or \"Products\" as your source. The engine can write articles based on topics or generate product showcases from your WooCommerce catalog."
+msgstr "بین «Keywords» یا «Products» به‌عنوان منبع انتخاب کنید. موتور مقاله از موضوعات یا showcase محصول از کاتالوگ WooCommerce می‌سازد."
+
+msgid "Choose between full or compact context to balance accuracy and token usage."
+msgstr "بین context کامل یا فشرده برای تعادل دقت و مصرف token انتخاب کنید."
+
+msgid "Choose General to keep using Variation A's provider or Independent to supply a separate API key and model below."
+msgstr "General = نسخه A · Independent = کلید و مدل جدا در زیر."
+
+msgid "Choose light, dark, or match the OS appearance for Karavi admin and dashboard screens."
+msgstr "روشن، تاریک، یا مطابق ظاهر سیستم‌عامل برای صفحات ادمین و داشبورد کاروی انتخاب کنید."
+
+msgid "Choose Persian for RTL admin and Persian chat labels. Automatic follows the site/user locale."
+msgstr "فارسی را برای ادمین RTL و برچسب‌های چت فارسی انتخاب کنید. حالت خودکار از زبان سایت/کاربر پیروی می‌کند."
+
+msgid "Choose Persian for RTL Karavi admin screens (settings, dashboard). Automatic follows the WordPress user locale."
+msgstr "فارسی برای صفحات ادمین کاروی (تنظیمات، داشبورد) و RTL. خودکار: locale کاربر وردپرس."
+
+msgid "Choose Persian for the chat widget and visitor-facing labels. Automatic follows the site locale."
+msgstr "فارسی برای ویجت چت و برچسب‌های بازدیدکننده. خودکار: locale سایت."
+
+msgid "Choose Posts, Pages, or Products"
+msgstr "انتخاب نوشته، برگه یا محصول"
+
+msgid "Choose what to base the generated content on."
+msgstr "مبنای تولید محتوا را انتخاب کنید."
+
+msgid "Choose where the mobile panel should originate horizontally."
+msgstr "مبدأ افقی پنل موبایل را انتخاب کنید."
+
+msgid "Choose whether quick buttons are easier to focus on inside the conversation, kept in the bottom chat bar, or shown in both places."
+msgstr "انتخاب کنید دکمه‌های سریع داخل مکالمه، فقط نوار پایین، یا هر دو جا نمایش داده شوند."
+
+msgid "Choose whether the Content Engine reuses the AI provider from Variation A or runs on its own dedicated credentials."
+msgstr "موتور محتوا از ارائه‌دهنده نسخه A استفاده کند یا credential مستقل داشته باشد."
+
+msgid "Choose whether this trigger opens the chat as a normal floating panel or a centered modal with a backdrop."
+msgstr "چت به‌صورت پنل شناور یا modal وسط صفحه با backdrop باز شود."
+
+msgid "Choose whether this trigger should run for variation A, variation B, or both when A/B testing is enabled."
+msgstr "این تریگر برای Variation A، B یا هر دو (با A/B فعال) اجرا شود."
+
+msgid "Choose whether to analyze all public content, selected post types, or only URLs that match your target page rules."
+msgstr "تحلیل همه محتوای عمومی، post typeهای انتخاب‌شده، یا فقط URLهای مطابق قوانین target."
+
+msgid "Choose whether to publish posts immediately or save them as drafts for review."
+msgstr "انتشار فوری پست یا ذخیره پیش‌نویس برای بازبینی."
+
+msgid "Choose which action initiates this chat (e.g., Time on Page, Scroll Depth, Exit Intent). This is the primary condition that opens the chat window."
+msgstr "اقدام آغازگر چت را انتخاب کنید (مثلاً زمان در صفحه، عمق اسکرول، Exit Intent)—شرط اصلی باز شدن پنجره چت."
+
+msgid "Choose which content types (pages, posts, products) the AI should use as its knowledge base to answer user questions accurately."
+msgstr "نوع محتوا (صفحات، نوشته‌ها، محصولات) را برای پایگاه دانش AI انتخاب کنید تا پاسخ‌ها دقیق باشند."
+
+msgid "Choose which message(s) to show when this trigger fires. \"Both\" shows two messages in the chosen order."
+msgstr "پیام(های) نمایشی هنگام اجرای تریگر. «Both» = دو پیام به ترتیب انتخاب‌شده."
+
+msgid "Choose which public WordPress content types the AI can search for answer context. If none are checked, WordPress content is not sent as Knowledge Base context. Rendered public page text still respects these selected content types."
+msgstr "انواع محتوای عمومی که AI برای پاسخ جستجو می‌کند. اگر هیچ‌کدام انتخاب نشود، محتوای وردپرس ارسال نمی‌شود."
+
+msgid "Choose which sections to show and set the max items so you control how many cross-sells appear per post."
+msgstr "بخش‌های نمایش و حداکثر آیتم را تنظیم کنید تا تعداد cross-sell در هر نوشته را کنترل کنید."
+
+msgid "Choose which visitor segment this trigger targets."
+msgstr "بخش بازدیدکننده هدف این تریگر."
+
+msgid "Clear All Logs"
+msgstr "پاک کردن همه لاگ‌ها"
+
+msgid "Clear Chat"
+msgstr "پاک کردن چت"
+
+msgid "Clear Logs"
+msgstr "پاک‌سازی لاگ‌ها"
+
+msgid "Click Intent"
+msgstr "قصد کلیک"
+
+msgid "Click Match Mode"
+msgstr "حالت تطبیق کلیک"
+
+msgid "Click Target"
+msgstr "هدف کلیک"
+
+msgid "Click to cycle admin panel theme (auto, light, dark)"
+msgstr "برای جابه‌جایی تم پنل (خودکار، روشن، تاریک) کلیک کنید"
+
+msgid "Close chat"
+msgstr "بستن چت"
+
+msgid "Closers"
+msgstr "تبدیل‌شوندگان"
+
+msgid "Column:"
+msgstr "ستون:"
+
+msgid "Comma-separated taxonomy names used by your Services CPT (e.g., service_category, service_tag)."
+msgstr "نام taxonomy با کاما (مثلاً service_category, service_tag)."
+
+msgid "Commerce-focused rows with cart and checkout funnel metrics."
+msgstr "ردیف‌های commerce با متریک سبد و checkout."
+
+msgid "Compact (title + price only)"
+msgstr "فشرده (فقط عنوان + قیمت)"
+
+msgid "Compact context sends fewer tokens for product/catalog answers. Full context gives the AI richer detail at higher token cost."
+msgstr "زمینه فشرده توکن کمتری مصرف می‌کند. زمینه کامل جزئیات بیشتر با هزینه بالاتر."
+
+msgid "Compare options | Compare the options on this page."
+msgstr "مقایسه گزینه‌ها | Compare the options on this page."
+
+msgid "Condition (Instant)"
+msgstr "شرط (فوری)"
+
+msgid "Confidence:"
+msgstr "اطمینان:"
+
+msgid "Configure providers, models, triggers, design, and content engine"
+msgstr "پیکربندی ارائه‌دهنده‌ها، مدل‌ها، تریگرها، طراحی و موتور محتوا"
+
+msgid "Configure Tracking"
+msgstr "پیکربندی ردیابی"
+
+msgid "Configure Your Chatbot"
+msgstr "پیکربندی چت‌بات"
+
+msgid "Configured"
+msgstr "پیکربندی شده"
+
+msgid "Connect an AI Provider"
+msgstr "اتصال ارائه‌دهنده AI"
+
+msgid "Contact Form 7 submit"
+msgstr "ارسال Contact Form 7"
+
+msgid "Content"
+msgstr "محتوا"
+
+msgid "Content Excerpt Words"
+msgstr "تعداد کلمات excerpt محتوا"
+
+msgid "Content Generation"
+msgstr "تولید محتوا"
+
+msgid "Content Insights"
+msgstr "بینش محتوا"
+
+msgid "Content Insights & Behavior"
+msgstr "بینش محتوا و رفتار"
+
+msgid "Content Insights is disabled."
+msgstr "Content Insights غیرفعال است."
+
+msgid "Content Insights is disabled. Karavi AI Assistant will not collect content analytics or behavior snapshots while this switch is off."
+msgstr "Content Insights غیرفعال است؛ تحلیل محتوا جمع‌آوری نمی‌شود."
+
+msgid "Content Insights sections"
+msgstr "بخش‌های بینش محتوا"
+
+msgid "Content Insights Snapshot"
+msgstr "نمای کلی Content Insights"
+
+msgid "Content Source"
+msgstr "منبع محتوا"
+
+msgid "Content source:"
+msgstr "منبع محتوا:"
+
+msgid "Context Cache TTL (seconds)"
+msgstr "TTL کش زمینه (ثانیه)"
+
+msgid "Context Detail Level"
+msgstr "سطح جزئیات context"
+
+msgid "Continue Browsing"
+msgstr "ادامه مرور"
+
+msgid "Control how long recommendations stay cached so you get fresh suggestions without hammering the database."
+msgstr "مدت cache پیشنهادها را کنترل کنید تا پیشنهاد تازه بدون فشار به DB داشته باشید."
+
+msgid "Control how many links to show for each section."
+msgstr "تعداد لینک نمایشی در هر بخش."
+
+msgid "Control how many words are pulled from posts and pages for the AI context."
+msgstr "تعداد کلمات استخراج‌شده از نوشته‌ها و صفحات برای context AI را کنترل کنید."
+
+msgid "Controls cooldown beyond frequency options. Choose Disabled to turn cooldown off, or use N days for stronger anti-fatigue."
+msgstr "کنترل cooldown فراتر از فرکانس. Disabled = خاموش؛ N روز = ضد خستگی قوی‌تر."
+
+msgid "Controls how the AI dynamically calculates Behavior Patterns based on real historical data."
+msgstr "نحوه محاسبه پویای الگوهای رفتار AI از داده تاریخی واقعی."
+
+msgid "Conv. Rate"
+msgstr "نرخ تبد."
+
+msgid "Conversation"
+msgstr "مکالمه"
+
+msgid "Conversation data and post-based insights already run on WordPress database tables. Enable this to move remaining option-backed analytics data to dedicated DB tables when available."
+msgstr "داده مکالمه و بینش post-based روی جداول DB وردپرس است. با فعال‌سازی، analytics باقی‌مانده option-backed به جداول DB منتقل می‌شود."
+
+msgid "Conversation Details"
+msgstr "جزئیات مکالمه"
+
+msgid "Conversation Title"
+msgstr "عنوان مکالمه"
+
+msgid "Conversations"
+msgstr "گفتگوها"
+
+msgid "Conversations (days)"
+msgstr "گفتگوها (روز)"
+
+msgid "Conversion Counting"
+msgstr "شمارش تبدیل"
+
+msgid "Conversion counting:"
+msgstr "شمارش تبدیل:"
+
+msgid "Conversion Goals"
+msgstr "اهداف تبدیل"
+
+msgid "Conversion rate"
+msgstr "نرخ تبدیل"
+
+msgid "Conversion Rate"
+msgstr "نرخ تبدیل"
+
+msgid "Conversion rate threshold (%)"
+msgstr "آستانه نرخ تبدیل (%)"
+
+msgid "Conversion rate:"
+msgstr "نرخ تبدیل:"
+
+msgid "Conversions"
+msgstr "تبدیل"
+
+msgid "Conversions product/Posts"
+msgstr "تبدیل محصول/پست"
+
+msgid "Conversions threshold"
+msgstr "آستانه تبدیل"
+
+msgid "Converted (30d)"
+msgstr "تبدیل (۳۰ روز)"
+
+msgid "Cooldown Days (for Once per N days)"
+msgstr "روزهای cooldown (Once per N days)"
+
+msgid "Cooldown Mode"
+msgstr "حالت cooldown"
+
+msgid "Could not delete this suggestion."
+msgstr "پیشنهاد حذف نشد."
+
+msgid "Could not fetch models."
+msgstr "دریافت مدل‌ها ممکن نشد."
+
+msgid "Could not generate AI suggestion right now."
+msgstr "اکنون امکان تولید پیشنهاد AI نیست."
+
+msgid "Could not save theme preference."
+msgstr "ذخیره ترجیح تم ممکن نشد."
+
+msgid "Could not update improved status."
+msgstr "وضعیت بهبود به‌روز نشد."
+
+msgid "Counts real global conversion signals such as WooCommerce order success, third-party checkout overlay success, Behavior custom conversion rules, and external checkouts that call window.KaraviAiAssistant.markConversion() or a payment-success alias. Other configured goals are counted separately."
+msgstr "سیگنال‌های تبدیل سراسری واقعی مثل موفقیت سفارش WooCommerce، checkout overlay، قوانین سفارشی Behavior و checkoutهای خارجی با window.KaraviAiAssistant.markConversion() را می‌شمارد. اهداف پیکربندی‌شده دیگر جداگانه شمارش می‌شوند."
+
+msgid "Coupon"
+msgstr "کوپن"
+
+msgid "Coupon to apply"
+msgstr "کوپن برای اعمال"
+
+msgid "Coupons are fetched automatically from WooCommerce and loaded into this dropdown."
+msgstr "کوپن‌ها به‌صورت خودکار از WooCommerce دریافت و در این فهرست بارگذاری می‌شوند."
+
+msgid "Create as many trigger recipes as you need—time-on-page nudges, scroll prompts, coupon exit modals, and more."
+msgstr "هر تعداد trigger لازم بسازید—nudge زمان در صفحه، prompt اسکرول، modal کوپن خروج و بیشتر."
+
+msgid "Created"
+msgstr "ایجاد"
+
+msgid "Creates an active exit-intent trigger scoped to this page and focused on checkout completion."
+msgstr "تریگر exit-intent فعال برای این صفحه با تمرکز تکمیل checkout."
+
+msgid "CSS selector"
+msgstr "CSS selector"
+
+msgid "CSS Selector Click"
+msgstr "کلیک CSS selector"
+
+msgid "Current recommendations"
+msgstr "پیشنهادهای فعلی"
+
+msgid "Current Schema:"
+msgstr "Schema فعلی:"
+
+msgid "Custom"
+msgstr "سفارشی"
+
+msgid "Custom action"
+msgstr "اقدام سفارشی"
+
+msgid "Custom conversion rules (one per line)"
+msgstr "قوانین تبدیل سفارشی (هر خط یک مورد)"
+
+msgid "Custom Floating Logo"
+msgstr "لوگوی شناور سفارشی"
+
+msgid "Custom Logo"
+msgstr "لوگوی سفارشی"
+
+msgid "Custom offer link"
+msgstr "لینک پیشنهاد سفارشی"
+
+msgid "Custom Service Taxonomies"
+msgstr "taxonomy سفارشی خدمات"
+
+msgid "Customize section headings (e.g., \"Related Services we offer\")."
+msgstr "سفارشی‌سازی عنوان بخش‌ها."
+
+msgid "Customize the look of your Quick Chat and AI-Generated buttons. Choose from Filled, Outline, or Subtle styles and adjust shapes and sizes."
+msgstr "ظاهر دکمه‌های Quick Chat و AI را سفارشی کنید؛ Filled، Outline یا Subtle و شکل/اندازه."
+
+msgid "Daily end time when this trigger stops being eligible."
+msgstr "زمان پایان روزانه — پایان واجد شرایط بودن تریگر."
+
+msgid "Daily start time when this trigger becomes eligible."
+msgstr "زمان شروع روزانه — شروع واجد شرایط بودن تریگر."
+
+msgid "Dark"
+msgstr "تاریک"
+
+msgid "Dashboard"
+msgstr "داشبورد"
+
+msgid "Data mode:"
+msgstr "حالت داده:"
+
+msgid "Data Processing Mode"
+msgstr "حالت پردازش داده"
+
+msgid "Data reset successfully. Reloading dashboard..."
+msgstr "داده‌ها با موفقیت بازنشانی شد. در حال بارگذاری مجدد داشبورد..."
+
+msgid "Data Retention"
+msgstr "نگهداری داده"
+
+msgid "Data Type:"
+msgstr "نوع داده:"
+
+msgid "Date"
+msgstr "تاریخ"
+
+msgid "Days of Week"
+msgstr "روزهای هفته"
+
+msgid "DB-first"
+msgstr "DB-first"
+
+msgid "Debounce (milliseconds)"
+msgstr "Debounce (میلی‌ثانیه)"
+
+msgid "Decision"
+msgstr "تصمیم"
+
+msgid "Decision reason"
+msgstr "دلیل تصمیم"
+
+msgid "Decision reason:"
+msgstr "دلیل تصمیم:"
+
+msgid "Decision Support Report"
+msgstr "گزارش پشتیبانی تصمیم"
+
+msgid "Define the AI Persona"
+msgstr "تعریف Persona AI"
+
+msgid "Define when the chatbot opens: set delays, scroll depth, exit-intent detection, high-priority overrides, empty-cart checks, and post-conversion suppression."
+msgstr "زمان باز شدن چت‌بات: تأخیر، عمق اسکرول، exit-intent، اولویت بالا، سبد خالی، سرکوب پس از تبدیل."
+
+msgid "Defines the assistant tone, rules, button behavior, and answer style for this variation."
+msgstr "لحن دستیار، قوانین، رفتار دکمه‌ها و سبک پاسخ این نسخه را تعریف می‌کند."
+
+msgid "Delay (seconds)"
+msgstr "تأخیر (ثانیه)"
+
+msgid "Delay before showing this trigger for the selected visitor segment."
+msgstr "تأخیر قبل از نمایش تریگر برای بخش بازدیدکننده انتخاب‌شده."
+
+msgid "Delete"
+msgstr "حذف"
+
+msgid "Delete ALL Karavi AI Assistant data when this plugin is deleted from WordPress"
+msgstr "حذف همه داده‌های دستیار هوش مصنوعی کاروی هنگام حذف افزونه از وردپرس"
+
+msgid "Delete ALL Karavi AI Assistant plugin data now"
+msgstr "حذف فوری همه داده‌های افزونه دستیار هوش مصنوعی کاروی"
+
+msgid "Delete All Stored Conversations"
+msgstr "حذف همه گفتگوهای ذخیره‌شده"
+
+msgid "Delete Selected"
+msgstr "حذف انتخاب‌شده‌ها"
+
+msgid "Delivery & Scheduling"
+msgstr "تحویل و زمان‌بندی"
+
+msgid "Delta:"
+msgstr "دلتا:"
+
+msgid "Demo Request"
+msgstr "درخواست دمو"
+
+msgid "Demo Request, Offer Claim, Feature Request"
+msgstr "درخواست دمو، Claim پیشنهاد، درخواست ویژگی"
+
+msgid "demo, high_intent, spring_offer"
+msgstr "demo, high_intent, spring_offer"
+
+msgid "demo, offer, high_intent"
+msgstr "demo, offer, high_intent"
+
+msgid "Describe your business or topics..."
+msgstr "کسب‌وکار یا موضوعات خود را توضیح دهید..."
+
+msgid "Desktop"
+msgstr "دسکتاپ"
+
+msgid "Details"
+msgstr "جزئیات"
+
+msgid "Device"
+msgstr "دستگاه"
+
+msgid "Direct"
+msgstr "مستقیم"
+
+msgid "Disabled"
+msgstr "غیرفعال"
+
+msgid "Disabled (Manual Only)"
+msgstr "غیرفعال (فقط دستی)"
+
+msgid "Dismiss forever"
+msgstr "بستن برای همیشه"
+
+msgid "Dismiss Suppression Limit"
+msgstr "حد سرکوب dismiss"
+
+msgid "Dismissed (30d)"
+msgstr "رد شده (۳۰ روز)"
+
+msgid "Displays a widget that triggers this modal. Second click exits page."
+msgstr "ویجتی که این modal را اجرا می‌کند. کلیک دوم = خروج از صفحه."
+
+msgid "Distance from the left or right edge (depending on alignment)."
+msgstr "فاصله از لبه چپ یا راست (بسته به تراز)."
+
+msgid "Do not show"
+msgstr "نمایش نده"
+
+msgid "Don't forget to save your settings! Next, we'll look at the AI Content Engine."
+msgstr "تنظیمات را ذخیره کنید! بعد سراغ موتور محتوای AI می‌رویم."
+
+msgid "Done"
+msgstr "تمام"
+
+msgid "Download link click"
+msgstr "کلیک لینک دانلود"
+
+msgid "Download Results"
+msgstr "دانلود نتایج"
+
+msgid "Download Results (CSV)"
+msgstr "دانلود نتایج (CSV)"
+
+msgid "Dwell time"
+msgstr "زمان ماندگاری"
+
+msgid "Dwell time weight"
+msgstr "وزن زمان ماندگاری"
+
+msgid "e.g. 123, 456, 789"
+msgstr "مثلاً 123، 456، 789"
+
+msgid "e.g., #pricing, .pricing, or pricing"
+msgstr "مثلاً #pricing، .pricing یا pricing"
+
+msgid "e.g., 'Inter', sans-serif"
+msgstr "ÙØ«ÙØ§Ù 'Inter', sans-serif"
+
+msgid "e.g., .carousel\n.video-player\n.cookie-banner"
+msgstr "ÙØ«ÙØ§Ù .carousel\n.video-player\n.cookie-banner"
+
+msgid "e.g., /cart\n/checkout"
+msgstr "ÙØ«ÙØ§Ù /cart\n/checkout"
+
+msgid "e.g., /checkout\n/thank-you"
+msgstr "ÙØ«ÙØ§Ù /checkout\n/thank-you"
+
+msgid "e.g., /checkout or .buy-now or buy_button"
+msgstr "مثلاً /checkout یا .buy-now یا buy_button"
+
+msgid "e.g., /pricing\n/campaign/spring"
+msgstr "ÙØ«ÙØ§Ù /pricing\n/campaign/spring"
+
+msgid "e.g., /pricing (blank for all pages)"
+msgstr "مثلاً /pricing (خالی = همه صفحات)"
+
+msgid "e.g., /thank-you\n/order-received\n/success"
+msgstr "ÙØ«ÙØ§Ù /thank-you\n/order-received\n/success"
+
+msgid "e.g., 20"
+msgstr "مثلاً 20"
+
+msgid "e.g., Claim this offer"
+msgstr "مثلاً Claim this offer"
+
+msgid "e.g., cpc"
+msgstr "مثلاً cpc"
+
+msgid "e.g., facebook.com"
+msgstr "مثلاً facebook.com"
+
+msgid "e.g., google"
+msgstr "مثلاً google"
+
+msgid "e.g., Need help?"
+msgstr "مثلاً: کمک می‌خواهید؟"
+
+msgid "e.g., spring_sale"
+msgstr "مثلاً spring_sale"
+
+msgid "Edit"
+msgstr "ویرایش"
+
+msgid "Edit Triggers"
+msgstr "ویرایش تریگرها"
+
+msgid "Elementor form submit"
+msgstr "ارسال فرم Elementor"
+
+msgid "Eligibility"
+msgstr "صلاحیت"
+
+msgid "Eligible"
+msgstr "واجد شرایط"
+
+msgid "Email"
+msgstr "ایمیل"
+
+msgid "Email full conversation transcript to admin"
+msgstr "ارسال transcript کامل گفتگو به ادمین"
+
+msgid "Email link click"
+msgstr "کلیک لینک ایمیل"
+
+msgid "Email Notifications"
+msgstr "اعلان‌های ایمیل"
+
+msgid "Enable <strong>Content Insights &amp; Behavior</strong> in Settings to collect fresh data and reopen the products, posts, behavior, and import reports."
+msgstr "Content Insights & Behavior را در تنظیمات فعال کنید تا گزارش‌ها باز شوند."
+
+msgid "Enable A/B Testing"
+msgstr "فعال‌سازی تست A/B"
+
+msgid "Enable Automated Generation"
+msgstr "فعال‌سازی تولید خودکار"
+
+msgid "Enable behavior-pattern snapshots (browser profile + milestone sync)"
+msgstr "فعال‌سازی snapshot الگوی رفتاری (پروفایل مرورگر + sync milestone)"
+
+msgid "Enable cart-recovery chatbot for this page"
+msgstr "فعال‌سازی چت‌بات بازیابی سبد برای این صفحه"
+
+msgid "Enable cart-recovery trigger"
+msgstr "فعال‌سازی تریگر بازیابی سبد"
+
+msgid "Enable Chat Widget"
+msgstr "فعال‌سازی ویجت چت"
+
+msgid "Enable Content Insights"
+msgstr "فعال‌سازی Content Insights"
+
+msgid "Enable Content Insights & Behavior in Settings to collect fresh data and reopen the products, posts, behavior, and import reports."
+msgstr "Content Insights & Behavior را در تنظیمات فعال کنید تا داده تازه جمع‌آوری و گزارش محصول، پست، رفتار و import باز شود."
+
+msgid "Enable custom taxonomies for Services"
+msgstr "فعال‌سازی taxonomy سفارشی برای Services"
+
+msgid "Enable date, day, and time constraints for this trigger."
+msgstr "فعال‌سازی محدودیت تاریخ، روز و زمان برای این تریگر."
+
+msgid "Enable Exit Widget"
+msgstr "فعال‌سازی ویجت Exit"
+
+msgid "Enable inactivity trigger on mobile"
+msgstr "فعال‌سازی تریگر بی‌فعالی در موبایل"
+
+msgid "Enable new lead notifications"
+msgstr "اعلان سرنخ جدید"
+
+msgid "Enable Recommendations"
+msgstr "فعال‌سازی پیشنهادها"
+
+msgid "Enable recommended trigger"
+msgstr "فعال‌سازی تریگر پیشنهادی"
+
+msgid "Enable Redis/Memcached caching to reduce repeated context lookups."
+msgstr "cache Redis/Memcached را برای کاهش lookup تکراری context فعال کنید."
+
+msgid "Enable Schedule"
+msgstr "فعال‌سازی زمان‌بندی"
+
+msgid "Enable server-side rate limiting."
+msgstr "فعال‌سازی rate limit سمت سرور."
+
+msgid "Enable the 'Fake Exit Button' to show a custom widget that triggers the modal. You can also use standard mouse-out detection or browser leave warnings."
+msgstr "«Fake Exit Button» را برای widget سفارشی modal فعال کنید؛ mouse-out یا هشدار خروج مرورگر هم ممکن است."
+
+msgid "Enable the recommendations block to automatically append related products, posts, or services after each generated article."
+msgstr "بلوک پیشنهادها را فعال کنید تا پس از هر مقاله، محصول/نوشته/خدمت مرتبط اضافه شود."
+
+msgid "Enabled"
+msgstr "فعال"
+
+msgid "End Date"
+msgstr "تاریخ پایان"
+
+msgid "Engagement and conversion signals for non-product content without checkout funnel metrics."
+msgstr "سیگنال تعامل و تبدیل برای محتوای غیرمحصول."
+
+msgid "Engagement Triggers"
+msgstr "Triggerهای تعامل"
+
+msgid "English"
+msgstr "انگلیسی"
+
+msgid "Enter a topic or keyword to analyze..."
+msgstr "موضوع یا کلیدواژه برای تحلیل..."
+
+msgid "Enter a URL segment (e.g. /thank-you). Matches if the visited URL contains this string. Leave blank to match any visited URL."
+msgstr "بخش URL (مثلاً /thank-you). اگر URL بازدیدشده شامل این رشته باشد match می‌شود. خالی = هر URL."
+
+msgid "Enter API key for this provider to fetch models."
+msgstr "کلید API این ارائه‌دهنده را وارد کنید."
+
+msgid "Enter API key to fetch models."
+msgstr "کلید API برای دریافت مدل‌ها وارد کنید."
+
+msgid "Enter comma-separated Product IDs to generate content for. The engine will pick one from this list."
+msgstr "شناسه محصولات با کاما. موتور یکی را انتخاب می‌کند."
+
+msgid "Enter trigger name (e.g., Pricing Page Offer)"
+msgstr "نام تریگر (مثلاً پیشنهاد صفحه قیمت)"
+
+msgid "Enterprise software, AI platforms, and large-scale web systems for organizations across Iran—product engineering, integration, and long-term operational support."
+msgstr "نرم‌افزار سازمانی، پلتفرم‌های هوش مصنوعی و سامانه‌های وب مقیاس بزرگ برای سازمان‌های ایران—مهندسی محصول، یکپارچه‌سازی و پشتیبانی عملیاتی بلندمدت."
+
+msgid "ERROR"
+msgstr "خطا"
+
+msgid "Error fetching models"
+msgstr "خطا در دریافت مدل‌ها"
+
+msgid "Error fetching products."
+msgstr "خطا در دریافت محصولات."
+
+msgid "Error generating keywords:"
+msgstr "خطا در تولید کلیدواژه:"
+
+msgid "Error:"
+msgstr "خطا:"
+
+msgid "Evaluate trigger eligibility against recent content and trigger analytics thresholds."
+msgstr "صلاحیت trigger را با analytics اخیر و آستانه‌های gate ارزیابی کنید."
+
+msgid "Event Logs"
+msgstr "لاگ رویدادها"
+
+msgid "Event Logs Controls"
+msgstr "کنترل‌های لاگ رویداد"
+
+msgid "Every 1 Day"
+msgstr "هر ۱ روز"
+
+msgid "Every 30 Days"
+msgstr "هر ۳۰ روز"
+
+msgid "Every 7 Days"
+msgstr "هر ۷ روز"
+
+msgid "Example: For pricing/demo intent, ask for email and company size. For offer claims, ask for email and the offer they want."
+msgstr "مثال: برای قیمت/دمو ایمیل و اندازه شرکت بپرسید. برای پیشنهاد، ایمیل و پیشنهاد موردنظر."
+
+msgid "Example: How do I connect WooCommerce? Then ask follow-up details."
+msgstr "مثال: WooCommerce را چطور وصل کنم؟"
+
+msgid "Example: if a reference pattern score is 95 and a live user score is 85, an error tolerance of 15% will still accept that pattern as a match."
+msgstr "مثال: score مرجع 95 و live 85 با tolerance 15% هنوز match پذیرفته می‌شود."
+
+msgid "Exclude entire post types even if they are included by the main scope."
+msgstr "کل post typeها را حذف کن حتی اگر در scope اصلی باشند."
+
+msgid "Exclude improved"
+msgstr "بدون بهبودیافته"
+
+msgid "Exclude improved content"
+msgstr "بدون محتوای بهبودیافته"
+
+msgid "Exclude Page URL (Contains). Add multiple partial matches, one per line, to exclude any URL containing those values."
+msgstr "URL صفحه حذف (شامل). هر خط یک match جزئی برای حذف URLهای حاوی آن."
+
+msgid "Exclude Page URLs"
+msgstr "حذف URL صفحات"
+
+msgid "Exclude Page URLs (Contains)"
+msgstr "حذف URL صفحات (شامل)"
+
+msgid "Exclude Post Types"
+msgstr "حذف post typeها"
+
+msgid "Exit-Intent (PC only)"
+msgstr "Exit-Intent (فقط PC)"
+
+msgid "Exit-Intent Toolkit"
+msgstr "جعبه‌ابزار Exit-Intent"
+
+msgid "Expand"
+msgstr "بزرگ‌نمایی"
+
+msgid "FAIL"
+msgstr "رد"
+
+msgid "Failed to dismiss notice."
+msgstr "رد اعلان ناموفق بود."
+
+msgid "Failed to fetch products."
+msgstr "دریافت محصولات ناموفق بود."
+
+msgid "Failed to parse CSV."
+msgstr "تجزیه CSV ناموفق بود."
+
+msgid "Fallback Cooldown"
+msgstr "زمان استراحت fallback"
+
+msgid "Fallback Message"
+msgstr "پیام fallback"
+
+msgid "Fallback Model"
+msgstr "مدل fallback"
+
+msgid "Fallback Provider"
+msgstr "ارائه‌دهنده fallback"
+
+msgid "Fallback Provider (on error)"
+msgstr "ارائه‌دهنده جایگزین (در خطا)"
+
+msgid "Fallback to rule-based classification when reference data is insufficient or out of tolerance"
+msgstr "بازگشت به طبقه‌بندی rule-based وقتی داده مرجع ناکافی یا خارج از tolerance است"
+
+msgid "Fetch All Products"
+msgstr "دریافت همه محصولات"
+
+msgid "Fetch Site Snapshot"
+msgstr "دریافت snapshot سایت"
+
+msgid "Fetching models..."
+msgstr "در حال دریافت مدل‌ها..."
+
+msgid "Fewest add to cart"
+msgstr "کمترین افزودن به سبد"
+
+msgid "Fewest conversions"
+msgstr "کمترین تبدیل"
+
+msgid "Fewest views"
+msgstr "کمترین بازدید"
+
+msgid "File missing. Please try uploading again."
+msgstr "فایل یافت نشد. لطفاً دوباره بارگذاری کنید."
+
+msgid "Files"
+msgstr "فایل‌ها"
+
+msgid "Filled"
+msgstr "پر"
+
+msgid "Filter and Segment Content"
+msgstr "فیلتر و segment محتوا"
+
+msgid "Filter by Type"
+msgstr "فیلتر بر اساس نوع"
+
+msgid "Filter reports by AI-generated vs manual content and include only improved or not-improved items from your SEO workflow."
+msgstr "گزارش‌ها را بر AI/manual فیلتر کنید و فقط بهبودیافته/نشده از workflow SEO را شامل کنید."
+
+msgid "Final Step: Logs"
+msgstr "مرحله نهایی: لاگ‌ها"
+
+msgid "Finalize Import"
+msgstr "نهایی‌سازی import"
+
+msgid "Finish"
+msgstr "پایان"
+
+msgid "Finish 🎉"
+msgstr "پایان 🎉"
+
+msgid "Fired (30d)"
+msgstr "اجرا (۳۰ روز)"
+
+msgid "Fired (7d)"
+msgstr "اجرا (۷ روز)"
+
+msgid "Fired (Lifetime)"
+msgstr "اجرا (کل)"
+
+msgid "Fires immediately when the trigger's configured conditions match. Use it for pages, posts, products, source, cart, behavior, section, or other conditions that should not wait for a timer."
+msgstr "فوری وقتی شرط‌ها مطابقت دارند — بدون تایمر."
+
+msgid "Firing Frequency"
+msgstr "فرکانس اجرا"
+
+msgid "First date this trigger is allowed to run."
+msgstr "اولین تاریخ مجاز اجرای این تریگر."
+
+msgid "First Visited Type Mix"
+msgstr "ترکیب نوع اولین بازدید"
+
+msgid "First-time visitors only"
+msgstr "فقط بازدیدکنندگان اول"
+
+msgid "Floating Label (Call to Action)"
+msgstr "برچسب شناور (CTA)"
+
+msgid "Fluent Forms submit"
+msgstr "ارسال Fluent Forms"
+
+msgid "Font Size (Desktop)"
+msgstr "اندازه فونت (دسکتاپ)"
+
+msgid "Font Size (Mobile)"
+msgstr "اندازه فونت (موبایل)"
+
+msgid "For click goals, target a button or link selector. For submit goals, target a form selector."
+msgstr "برای اهداف کلیک، selector دکمه/لینک؛ برای submit، selector فرم."
+
+msgid "For Template Locked normal chat, include <code>{ai_answer}</code> where the assistant's real answer should appear. You can also use page placeholders like <code>{product_name}</code> or <code>{page_title}</code>."
+msgstr "برای چت عادی با قالب قفل‌شده، <code>{ai_answer}</code> را جایی که پاسخ واقعی دستیار باید باشد قرار دهید. می‌توانید placeholderهای صفحه مثل <code>{product_name}</code> یا <code>{page_title}</code> هم استفاده کنید."
+
+msgid "Form Submit Selector"
+msgstr "selector ارسال فرم"
+
+msgid "form_submit:form.contact-form\nclick:.cta-buy\nevent:chat_started"
+msgstr "form_submit:form.contact-form\nclick:.cta-buy\nevent:chat_started"
+
+msgid "Format each line as type:target. Supported types: form_submit, click, event. Closer status is assigned when WooCommerce purchase, window.KaraviAiAssistant.markConversion(), or any custom rule matches."
+msgstr "هر خط: type:target — انواع: form_submit، click، event. وضعیت closer با خرید WooCommerce، window.KaraviAiAssistant.markConversion() یا قانون سفارشی تعیین می‌شود."
+
+msgid "Format Mode"
+msgstr "حالت قالب"
+
+msgid "Formidable Forms submit"
+msgstr "ارسال Formidable Forms"
+
+msgid "Founder, lead architect, and principal engineer behind Karavi AI Assistant and related national-scale digital platforms."
+msgstr "مؤسس، معمار ارشد و مهندس principal پشت دستیار هوش مصنوعی کاروی و پلتفرم‌های دیجیتال مقیاس ملی مرتبط."
+
+msgid "Free AI"
+msgstr "AI آزاد"
+
+msgid "Free AI - fastest/default"
+msgstr "AI آزاد — سریع‌ترین/پیش‌فرض"
+
+msgid "Free open-source AI chatbot and behavior automation plugin for WordPress and WooCommerce."
+msgstr "افزونه چت‌بات AI و اتوماسیون رفتار متن‌باز رایگان برای وردپرس و ووکامرس."
+
+msgid "Fri"
+msgstr "جمعه"
+
+msgid "Frontend probe failed."
+msgstr "کاوش frontend ناموفق بود."
+
+msgid "Frontend UI Language"
+msgstr "زبان رابط کاربری فرانت‌اند"
+
+msgid "Full (title, excerpt, attributes)"
+msgstr "کامل (عنوان، خلاصه، ویژگی‌ها)"
+
+msgid "Full width (edge-to-edge)"
+msgstr "تمام عرض (edge-to-edge)"
+
+msgid "Further target your audience based on specific URL patterns or user segments to ensure highly contextual conversations."
+msgstr "مخاطب را با الگوی URL یا segment کاربر هدف بگیرید تا مکالمه بسیار contextual باشد."
+
+msgid "General (share Variation A credentials)"
+msgstr "عمومی (اشتراک credential نسخه A)"
+
+msgid "General Chat Lead"
+msgstr "لید چت عمومی"
+
+msgid "General Settings"
+msgstr "تنظیمات عمومی"
+
+msgid "Generate actionable SEO recommendations with AI, then apply updates in the editor and track progress over time."
+msgstr "پیشنهاد SEO عملی با AI بگیرید، در ویرایشگر اعمال کنید و پیشرفت را دنبال کنید."
+
+msgid "Generate Keyword Ideas with AI"
+msgstr "تولید ایده کلیدواژه با AI"
+
+msgid "Generate Keywords with AI"
+msgstr "تولید کلمات کلیدی با AI"
+
+msgid "Generate One Post Now"
+msgstr "تولید یک نوشته الان"
+
+msgid "Generate Schema Markup"
+msgstr "تولید Schema Markup"
+
+msgid "Generating AI suggestion..."
+msgstr "در حال تولید پیشنهاد AI..."
+
+msgid "Generation Schedule"
+msgstr "زمان‌بندی تولید"
+
+msgid "Generation Source"
+msgstr "منبع تولید"
+
+msgid "Get a refresh plan with related keywords, schema opportunities, internal-link ideas, and other SEO fixes for older Posts, Pages, and Products."
+msgstr "طرح به‌روزرسانی با کلیدواژه، schema، لینک داخلی و اصلاحات سئو برای نوشته/برگه/محصول قدیمی."
+
+msgid "Get notified of new leads (when a user starts a chat) and optionally receive full transcripts when conversations go inactive."
+msgstr "از lead جدید (شروع چت) مطلع شوید و اختیاری transcript کامل وقتی مکالمه غیرفعال شد."
+
+msgid "GitHub Profile"
+msgstr "پروفایل GitHub"
+
+msgid "Give your chatbot a name. This appears at the top of the chat window."
+msgstr "نام چت‌بات را بگذارید؛ بالای پنجره چت نمایش داده می‌شود."
+
+msgid "Go to Content Insights"
+msgstr "رفتن به بینش محتوا"
+
+msgid "Go to Logs"
+msgstr "رفتن به لاگ‌ها"
+
+msgid "Go to Settings"
+msgstr "رفتن به تنظیمات"
+
+msgid "Goal Name (e.g., 'Contact Page Visit')"
+msgstr "نام هدف (مثلاً بازدید صفحه تماس)"
+
+msgid "Goals & Context Rules"
+msgstr "اهداف و قوانین context"
+
+msgid "Goals & Notifications"
+msgstr "اهداف و اعلان‌ها"
+
+msgid "Gravity Forms submit"
+msgstr "ارسال Gravity Forms"
+
+msgid "Guide"
+msgstr "راهنما"
+
+msgid "Guide question"
+msgstr "سؤال راهنما"
+
+msgid "Guide response failed."
+msgstr "پاسخ راهنما ناموفق بود."
+
+msgid "Header Text Color"
+msgstr "رنگ متن هدر"
+
+msgid "Health check failed."
+msgstr "بررسی سلامت ناموفق بود."
+
+msgid "Height used after the user taps Expand. Set to 100% for a full-screen chat."
+msgstr "ارتفاع پس از Expand. 100% برای چت تمام‌صفحه."
+
+msgid "Hide after visiting URL contains"
+msgstr "پنهان پس از بازدید URL شامل"
+
+msgid "Hide details"
+msgstr "پنهان کردن جزئیات"
+
+msgid "Hide missing value"
+msgstr "مخفی کردن مقدار ناموجود"
+
+msgid "Hide this trigger for this user after it was dismissed this many times. Use 0 to disable."
+msgstr "پس از این تعداد dismiss، تریگر برای کاربر مخفی شود. ۰ = غیرفعال."
+
+msgid "High"
+msgstr "بالا"
+
+msgid "High priority (override)"
+msgstr "اولویت بالا (override)"
+
+msgid "Higher score wins when multiple triggers are eligible."
+msgstr "امتیاز بالاتر وقتی چند تریگر واجد شرایط‌اند."
+
+msgid "Higher values win when multiple triggers are eligible at the same time."
+msgstr "مقادیر بالاتر وقتی چند تریگر هم‌زمان واجد شرایط‌اند برنده می‌شوند."
+
+msgid "Highest checkout flow"
+msgstr "بیشترین جریان checkout"
+
+msgid "Highest opportunity score"
+msgstr "بیشترین امتیاز فرصت"
+
+msgid "Highest scroll depth"
+msgstr "بیشترین عمق اسکرول"
+
+msgid "Historical data (%1$s rows) imported. Dashboard insights will now reflect this data."
+msgstr "داده تاریخی (%1$s ردیف) وارد شد. بینش داشبورد اکنون این داده را منعکس می‌کند."
+
+msgid "History reset successfully."
+msgstr "تاریخچه با موفقیت بازنشانی شد."
+
+msgid "History Status:"
+msgstr "وضعیت تاریخچه:"
+
+msgid "Homepage"
+msgstr "صفحه اصلی"
+
+msgid "How frequently to regenerate the internal whitelist for this trigger."
+msgstr "بسامد تولید مجدد whitelist داخلی این trigger."
+
+msgid "How long this trigger stays suppressed after firing."
+msgstr "مدت سرکوب تریگر پس از اجرا."
+
+msgid "How long to cache recommendations for a given keyword (default 900 seconds)."
+msgstr "مدت کش پیشنهادها برای هر کلیدواژه (پیش‌فرض ۹۰۰ ثانیه)."
+
+msgid "How long to cache site context snippets for the same question."
+msgstr "مدت نگهداری قطعات زمینه سایت برای همان سؤال."
+
+msgid "How long to wait before showing recovery message when cart has items."
+msgstr "مدت انتظار قبل از پیام بازیابی وقتی سبد پر است."
+
+msgid "https://api.openai.com/v1"
+msgstr "https://api.openai.com/v1"
+
+msgid "https://example.com"
+msgstr "https://example.com"
+
+msgid "https://example.com/cart\n/checkout"
+msgstr "https://example.com/cart\n/checkout"
+
+msgid "https://example.com/pricing"
+msgstr "https://example.com/pricing"
+
+msgid "https://example.com/pricing\n/shop/product-a"
+msgstr "https://example.com/pricing\n/shop/product-a"
+
+msgid "https://example.com/special-offer"
+msgstr "https://example.com/special-offer"
+
+msgid "Hybrid: require placeholders"
+msgstr "Hybrid: placeholder اجباری"
+
+msgid "Hybrid: require placeholders - more control, slightly heavier prompt"
+msgstr "Hybrid: placeholder اجباری — کنترل بیشتر، پرامپت کمی سنگین‌تر"
+
+msgid "Icon Size (px):"
+msgstr "اندازه آیکون (px):"
+
+msgid "Idle Seconds Before Trigger"
+msgstr "ثانیه بیکاری قبل از تریگر"
+
+msgid "If a section has no matches, it won't be shown."
+msgstr "اگر بخشی مطابقتی نداشته باشد، نمایش داده نمی‌شود."
+
+msgid "If enabled, the system will remember generated products and keywords to avoid creating duplicate content."
+msgstr "از تولید مجدد محصول/کلیدواژه استفاده‌شده جلوگیری می‌کند."
+
+msgid "If enabled, we will request a short AI-generated proactive message using the persona below and page/product context. The fallback static message above is used if generation fails."
+msgstr "در صورت فعال بودن، پیام پیش‌دستانه کوتاه AI با persona و زمینه صفحه/محصول درخواست می‌شود. در صورت خطا از پیام ثابت بالا استفاده می‌شود."
+
+msgid "If generation fails or times out, this message is shown."
+msgstr "اگر تولید ناموفق یا timeout شود، این پیام نمایش داده می‌شود."
+
+msgid "If Karavi AI Assistant helps your WordPress or WooCommerce site, the kindest way to support the project is to star the GitHub repository. Stars help more developers discover the plugin and show that continued fixes, documentation, and updates are worth maintaining."
+msgstr "اگر Karavi AI Assistant برای سایت WordPress یا WooCommerce شما مفید است، بهترین حمایت از پروژه ستاره دادن به مخزن GitHub است. ستاره‌ها به توسعه‌دهندگان بیشتر کمک می‌کند افزونه را پیدا کنند و نشان می‌دهد نگهداری رفع باگ، مستندات و به‌روزرسانی ارزش دارد."
+
+msgid "If set, this trigger will not fire until the user has spent at least this long on the page (applies to all trigger types)."
+msgstr "در صورت تنظیم، تا رسیدن کاربر به این مدت زمان در صفحه تریگر اجرا نمی‌شود (برای همه انواع تریگر)."
+
+msgid "If the log gets too noisy, you can clear it after confirming your fixes."
+msgstr "اگر لاگ شلوغ شد، پس از تأیید رفع مشکل پاک کنید."
+
+msgid "If the primary provider fails, skip it for this many minutes. Set 0 to disable the cooldown."
+msgstr "پس از خطای ارائه‌دهنده اصلی، این مدت از آن صرف‌نظر شود. ۰ برای غیرفعال کردن."
+
+msgid "If you have existing WP analytics plugins, Karavi AI Assistant can securely fetch historical traffic from your database directly without a CSV file."
+msgstr "با افزونه analytics وردپرس، Karavi AI Assistant ترافیک تاریخی را بدون CSV از DB می‌خواند."
+
+msgid "Ignore Activity on Selectors"
+msgstr "نادیده گرفتن فعالیت روی selectorها"
+
+msgid "Import a standard CSV file from Google Analytics, Matomo, HubSpot, or other tools."
+msgstr "import CSV از Google Analytics، Matomo، HubSpot و …"
+
+msgid "Import Historical Data"
+msgstr "import داده تاریخی"
+
+msgid "Importing Data..."
+msgstr "در حال واردات داده..."
+
+msgid "Improve Existing Content"
+msgstr "بهبود محتوای موجود"
+
+msgid "Improve Older Posts, Pages, and Products"
+msgstr "بهبود نوشته‌ها، صفحات و محصولات قدیمی"
+
+msgid "Improved"
+msgstr "بهبودیافته"
+
+msgid "Improvement Status"
+msgstr "وضعیت بهبود"
+
+msgid "Inactivity"
+msgstr "بی‌فعالی"
+
+msgid "Include and Exclude Rules"
+msgstr "قوانین شامل/مستثنی"
+
+msgid "Include behavior patterns from Content Insights as a Knowledge Base source."
+msgstr "شامل الگوهای رفتاری از Content Insights در پایگاه دانش."
+
+msgid "Include Checkout Flow signals (cart/checkout abandonment)"
+msgstr "شامل سیگنال‌های Checkout Flow (رها کردن سبد/checkout)"
+
+msgid "Include closers"
+msgstr "شامل closerها"
+
+msgid "Include greetings"
+msgstr "شامل سلام‌ها"
+
+msgid "Include non-converters"
+msgstr "شامل non-converterها"
+
+msgid "Include Post Types"
+msgstr "شامل post typeها"
+
+msgid "Include rendered public page text"
+msgstr "شامل متن رندر شده صفحات عمومی"
+
+msgid "Include visible current page text"
+msgstr "شامل متن قابل‌مشاهده صفحه فعلی"
+
+msgid "Independent (dedicated provider)"
+msgstr "مستقل (ارائه‌دهنده اختصاصی)"
+
+msgid "Independent Provider"
+msgstr "ارائه‌دهنده مستقل"
+
+msgid "Inspect timestamp, type, message, and details for each entry to confirm fixes over time."
+msgstr "timestamp، نوع، پیام و جزئیات هر ردیف را برای تأیید رفع مشکل بررسی کنید."
+
+msgid "Install it, configure your own AI provider API keys in the Chatbot Settings tab, and use the full plugin without a paid account requirement."
+msgstr "نصب کنید، کلید API ارائه‌دهنده را در تب تنظیمات چت‌بات وارد کنید و بدون حساب پولی استفاده کنید."
+
+msgid "Install the plugin, add your own AI provider API keys in Chatbot Settings, and run the full feature set without a paid Karavi account. Your keys, your data, your infrastructure."
+msgstr "افزونه را نصب کنید، کلید API ارائه‌دهنده هوش مصنوعی خود را در تنظیمات چت‌بات وارد کنید و بدون حساب پولی کاروی از همه قابلیت‌ها استفاده کنید. کلیدها، داده و زیرساخت متعلق به شماست."
+
+msgid "Instantly generate one post using the next available keyword from your queue."
+msgstr "تولید فوری یک نوشته با کلیدواژه بعدی در صف."
+
+msgid "Interest"
+msgstr "علاقه"
+
+msgid "International consulting, product development, and AI solutions for businesses in Canada and global markets."
+msgstr "مشاوره بین‌المللی، توسعه محصول و راه‌حل‌های هوش مصنوعی برای کسب‌وکارها در کانادا و بازارهای جهانی."
+
+msgid "Issue"
+msgstr "مشکل"
+
+msgid "Items at or above the score threshold are treated as opportunities and prioritized in dashboard summaries."
+msgstr "آیتم‌های با امتیاز برابر یا بالاتر از آستانه به‌عنوان فرصت در خلاصه داشبورد اولویت می‌گیرند."
+
+msgid "Items needing action:"
+msgstr "موارد نیازمند اقدام:"
+
+msgid "Items on this page:"
+msgstr "موارد این صفحه:"
+
+msgid "Just like the chatbot persona, these instructions guide the AI writer. Define the tone, structure, word count, and any SEO rules you want it to follow."
+msgstr "مثل persona چت‌بات، نویسنده AI را هدایت می‌کند؛ tone، ساختار، تعداد کلمات و قوانین SEO."
+
+msgid "Karavi AI Assistant"
+msgstr "دستیار هوش مصنوعی کاروی"
+
+msgid "Karavi AI Assistant checked GitHub for the latest release."
+msgstr "دستیار هوش مصنوعی کاروی آخرین نسخه را از GitHub بررسی کرد."
+
+msgid "Karavi AI Assistant Dashboard"
+msgstr "داشبورد دستیار هوش مصنوعی کاروی"
+
+msgid "Karavi AI Assistant is a free, open-source WordPress and WooCommerce plugin for BYOK AI chat, behavior-based triggers, knowledge-base context, content insights, conversion goals, A/B testing, SEO tools, and store automation—built for production sites that need enterprise-grade reliability."
+msgstr "دستیار هوش مصنوعی کاروی افزونه رایگان و متن‌باز وردپرس و ووکامرس برای چت BYOK، تریگر رفتاری، پایگاه دانش، بینش محتوا، اهداف تبدیل، تست A/B، ابزار سئو و اتوماسیون فروشگاه—ساخته‌شده برای سایت‌های production با قابلیت اطمینان سطح سازمانی."
+
+msgid "Karavi AI Assistant is free and open source."
+msgstr "دستیار هوش مصنوعی کاروی رایگان و متن‌باز است."
+
+msgid "Karavi AI Assistant Settings"
+msgstr "تنظیمات دستیار هوش مصنوعی کاروی"
+
+msgid "Karavi AI Assistant Tools"
+msgstr "ابزارهای دستیار هوش مصنوعی کاروی"
+
+msgid "Karavi Canada"
+msgstr "کاروی کانادا"
+
+msgid "Keyword Generation"
+msgstr "تولید کلیدواژه"
+
+msgid "Keywords in Queue:"
+msgstr "کلیدواژه در صف:"
+
+msgid "Keywords tracked."
+msgstr "کلیدواژه ردیابی شده."
+
+msgid "Keywords:"
+msgstr "کلیدواژه‌ها:"
+
+msgid "Knowledge & Behavior"
+msgstr "دانش و رفتار"
+
+msgid "Knowledge Base"
+msgstr "پایگاه دانش"
+
+msgid "Label Background Color"
+msgstr "رنگ پس‌زمینه برچسب"
+
+msgid "Label Color"
+msgstr "رنگ برچسب"
+
+msgid "Label Gap"
+msgstr "فاصله برچسب"
+
+msgid "Label Max Width"
+msgstr "حداکثر عرض برچسب"
+
+msgid "Label or Name is required."
+msgstr "برچسب یا نام الزامی است."
+
+msgid "Label Text"
+msgstr "متن برچسب"
+
+msgid "Label:"
+msgstr "برچسب:"
+
+msgid "Last 30 days"
+msgstr "۳۰ روز اخیر"
+
+msgid "Last 7 days"
+msgstr "۷ روز اخیر"
+
+msgid "Last Activity"
+msgstr "آخرین فعالیت"
+
+msgid "Last date this trigger is allowed to run."
+msgstr "آخرین تاریخ مجاز اجرای این تریگر."
+
+msgid "Last Generation:"
+msgstr "آخرین تولید:"
+
+msgid "Last Page Type Mix Before Exit/Action"
+msgstr "ترکیب نوع آخرین صفحه"
+
+msgid "Launcher (Floating Button)"
+msgstr "Launcher (دکمه شناور)"
+
+msgid "Launcher (Mobile)"
+msgstr "Launcher (موبایل)"
+
+msgid "Leads a 20+ member full-stack engineering organization"
+msgstr "رهبری سازمان مهندسی full-stack با بیش از ۲۰ نفر"
+
+msgid "Leave a field blank to set it to 'auto'."
+msgstr "فیلد خالی = مقدار «auto»."
+
+msgid "Leave dates/times blank to allow anytime. If no day is selected, all days are allowed."
+msgstr "تاریخ/زمان خالی = همیشه. بدون انتخاب روز = همه روزها."
+
+msgid "Left"
+msgstr "چپ"
+
+msgid "Left of button"
+msgstr "چپ دکمه"
+
+msgid "Legacy log (cannot be deleted individually)"
+msgstr "لاگ قدیمی (حذف تکی ممکن نیست)"
+
+msgid "Let supported providers call a WooCommerce product search tool on demand. Products must also be checked in the Knowledge Base source list."
+msgstr "اجازه جستجوی محصول ووکامرس توسط ارائه‌دهندگان پشتیبانی‌شده. محصول باید در پایگاه دانش فعال باشد."
+
+msgid "Let the AI call a product search tool on demand (supported providers only)."
+msgstr "AI ابزار جستجوی محصول را درخواستی فراخوانی کند (فقط providerهای پشتیبانی‌شده)."
+
+msgid "Let the assistant surface contextual CTAs automatically—great for product searches, quick answers, or routing without manual setup."
+msgstr "CTAهای contextual را خودکار نشان دهید—جستجوی محصول، پاسخ سریع، مسیریابی بدون setup دستی."
+
+msgid "Let's look at the logs, where you can see all plugin activity."
+msgstr "لاگ‌ها را ببینید؛ همه فعالیت افزونه اینجاست."
+
+msgid "Light"
+msgstr "روشن"
+
+msgid "Likely Leave"
+msgstr "احتمال خروج"
+
+msgid "Likely Take Action"
+msgstr "احتمال اقدام"
+
+msgid "Limit how many words are pulled from product content when building context for answers."
+msgstr "محدودیت کلمات استخراج از محتوای محصول برای context پاسخ."
+
+msgid "Limit this trigger to admin QA sessions unless manually forced with preview parameter."
+msgstr "محدود به نشست QA ادمین مگر با پارامتر preview اجبار شود."
+
+msgid "Link this trigger to a goal so analytics and QA context can reference intended outcomes."
+msgstr "تریگر را به goal وصل کنید تا analytics و QA نتیجه مورد نظر را ببینند."
+
+msgid "Linked Submissions:"
+msgstr "ثبت‌های مرتبط:"
+
+msgid "Loading coupons..."
+msgstr "در حال بارگذاری کوپن‌ها..."
+
+msgid "Loading Message"
+msgstr "پیام در حال بارگذاری"
+
+msgid "Local Greeting Replies"
+msgstr "پاسخ محلی به سلام"
+
+msgid "Location"
+msgstr "موقعیت"
+
+msgid "Log Table"
+msgstr "جدول لاگ"
+
+msgid "Logo Scale (Desktop)"
+msgstr "مقیاس لوگو (دسکتاپ)"
+
+msgid "Logo Scale (Mobile)"
+msgstr "مقیاس لوگو (موبایل)"
+
+msgid "Logs"
+msgstr "لاگ‌ها"
+
+msgid "Logs cleared successfully."
+msgstr "لاگ‌ها با موفقیت پاک شد."
+
+msgid "Longest average time"
+msgstr "بلندترین میانگین زمان"
+
+msgid "Low"
+msgstr "پایین"
+
+msgid "Lower values reduce prompt tokens when matched posts or pages are included as Knowledge Base context."
+msgstr "مقادیر کمتر توکن پرامپت را کاهش می‌دهد وقتی نوشته/برگه در پایگاه دانش است."
+
+msgid "Lower values reduce prompt tokens when WooCommerce products are included in chat context."
+msgstr "مقادیر کمتر توکن را کاهش می‌دهد وقتی محصولات ووکامرس در زمینه چت هستند."
+
+msgid "Lowest checkout flow"
+msgstr "کمترین جریان checkout"
+
+msgid "Lowest conversion rate"
+msgstr "کمترین نرخ تبدیل"
+
+msgid "Lowest opportunity score"
+msgstr "کمترین امتیاز فرصت"
+
+msgid "Lowest scroll depth"
+msgstr "کمترین عمق اسکرول"
+
+msgid "Main Type Mix"
+msgstr "ترکیب نوع اصلی"
+
+msgid "Manage & Reset Data"
+msgstr "مدیریت و بازنشانی داده"
+
+msgid "manual"
+msgstr "دستی"
+
+msgid "Manual"
+msgstr "دستی"
+
+msgid "Manual Generation"
+msgstr "تولید دستی"
+
+msgid "Map CSV Columns to Karavi AI Assistant Fields"
+msgstr "نگاشت ستون‌های CSV به فیلدهای دستیار هوش مصنوعی کاروی"
+
+msgid "Map this trigger to specific conversation goals, enforce prerequisites, and suppress triggers based on visited URLs or conditions."
+msgstr "trigger را به اهداف مکالمه map کنید، پیش‌نیاز enforce و سرکوب بر اساس URL/شرط."
+
+msgid "Mapped Conversion Goal"
+msgstr "هدف تبدیل نگاشت‌شده"
+
+msgid "Maps each live visitor to the closest stored behavior profile for that source. The matched pattern powers trigger targeting and Behavior Snapshot guidance in chat AI."
+msgstr "هر بازدیدکننده live به نزدیک‌ترین پروفایل رفتار منبع map می‌شود؛ برای trigger و chat AI."
+
+msgid "Mark as Improved"
+msgstr "علامت‌گذاری به‌عنوان بهبودیافته"
+
+msgid "Match by Taxonomy"
+msgstr "تطبیق با taxonomy"
+
+msgid "Match live users to stored Behavior Pattern Insights profiles first"
+msgstr "ابتدا کاربران live را با پروفایل‌های Behavior Pattern Insights match کن"
+
+msgid "Match visitors when document referrer contains this value."
+msgstr "تطبیق وقتی referrer سند شامل این مقدار است."
+
+msgid "Match visitors when UTM campaign contains this value."
+msgstr "تطبیق وقتی UTM campaign شامل این مقدار است."
+
+msgid "Match visitors when UTM medium contains this value."
+msgstr "تطبیق وقتی UTM medium شامل این مقدار است."
+
+msgid "Match visitors when UTM source contains this value."
+msgstr "تطبیق وقتی UTM source شامل این مقدار است."
+
+msgid "max characters"
+msgstr "حداکثر کاراکتر"
+
+msgid "Max Height"
+msgstr "حداکثر ارتفاع"
+
+msgid "Max Items per Section"
+msgstr "حداکثر مورد در هر بخش"
+
+msgid "Max tokens"
+msgstr "حداکثر token"
+
+msgid "Max Width"
+msgstr "حداکثر عرض"
+
+msgid "max words"
+msgstr "حداکثر کلمه"
+
+msgid "Maximum visible rendered page text sent from public pages/homepages. Lower values reduce token cost; higher values help large landing pages answer more questions."
+msgstr "حداکثر متن قابل‌مشاهده صفحات عمومی. مقدار کمتر هزینه توکن را کم می‌کند؛ مقدار بیشتر برای لندینگ‌های بزرگ مفید است."
+
+msgid "Medium"
+msgstr "متوسط"
+
+msgid "Message"
+msgstr "پیام"
+
+msgid "Message Mode"
+msgstr "حالت پیام"
+
+msgid "Message Template"
+msgstr "قالب پیام"
+
+msgid "Message to send"
+msgstr "پیام برای ارسال"
+
+msgid "Messages"
+msgstr "پیام‌ها"
+
+msgid "Minimum delay before the same click intent can fire again."
+msgstr "حداقل تأخیر قبل از اجرای مجدد همان intent کلیک."
+
+msgid "Minimum number of distinct pages viewed in the current session."
+msgstr "حداقل تعداد صفحات متمایز دیده‌شده در نشست فعلی."
+
+msgid "Minimum Pages in Session"
+msgstr "حداقل صفحه در نشست"
+
+msgid "Minimum Profiles for Calibration"
+msgstr "حداقل پروفایل برای کالیبراسیون"
+
+msgid "Minimum profiles per source"
+msgstr "حداقل پروفایل per source"
+
+msgid "Minimum samples per pattern"
+msgstr "حداقل نمونه per الگو"
+
+msgid "Minimum sessions for pattern"
+msgstr "حداقل session برای الگو"
+
+msgid "Minimum time between user sends to prevent rapid repeat requests."
+msgstr "حداقل فاصله بین ارسال‌های کاربر برای جلوگیری از درخواست‌های پشت‌سرهم."
+
+msgid "Minimum time on page (seconds)"
+msgstr "حداقل زمان در صفحه (ثانیه)"
+
+msgid "minutes"
+msgstr "دقیقه"
+
+msgid "Missing"
+msgstr "ناموجود"
+
+msgid "Missing Placeholder"
+msgstr "Placeholder ناموجود"
+
+msgid "Mobile"
+msgstr "موبایل"
+
+msgid "Mobile Horizontal Anchor"
+msgstr "لنگر افقی موبایل"
+
+msgid "Mobile Panel Expanded Height"
+msgstr "ارتفاع گسترده پنل موبایل"
+
+msgid "Mobile Panel Expanded Width"
+msgstr "عرض گسترده پنل موبایل"
+
+msgid "Mobile Panel Initial Height"
+msgstr "ارتفاع اولیه پنل موبایل"
+
+msgid "Mobile Panel Settings"
+msgstr "تنظیمات پنل موبایل"
+
+msgid "Mobile Panel Width"
+msgstr "عرض پنل موبایل"
+
+msgid "Mobile Vertical Anchor"
+msgstr "لنگر عمودی موبایل"
+
+msgid "Model Routing (Cheap for Short Queries)"
+msgstr "مسیریابی مدل (ارزان برای پرسش‌های کوتاه)"
+
+msgid "Models are fetched automatically when you enter an API key. Pick from the list or type a custom model ID (useful for proxies and OpenAI-compatible gateways)."
+msgstr "با وارد کردن کلید API، مدل‌ها خودکار دریافت می‌شوند. از لیست انتخاب کنید یا شناسه مدل سفارشی وارد کنید (برای پروکسی و درگاه‌های سازگار با OpenAI)."
+
+msgid "Mon"
+msgstr "دوشنبه"
+
+msgid "Most add to cart"
+msgstr "بیشترین افزودن به سبد"
+
+msgid "Most common recommendation:"
+msgstr "رایج‌ترین پیشنهاد:"
+
+msgid "Most conversions"
+msgstr "بیشترین تبدیل"
+
+msgid "Most views"
+msgstr "بیشترین بازدید"
+
+msgid "n/a"
+msgstr "ناموجود"
+
+msgid "N/A (no primary CTA)"
+msgstr "N/A (بدون CTA اصلی)"
+
+msgid "Need ideas? Describe your business or blog topics, and let the AI generate a list of high-intent keywords for you. They will be added to your queue."
+msgstr "ایده می‌خواهید؟ کسب‌وکار/موضوعات blog را توضیح دهید؛ AI کلمات high-intent به صف اضافه می‌کند."
+
+msgid "Network error"
+msgstr "خطای شبکه"
+
+msgid "Network error. Please try again."
+msgstr "خطای شبکه. لطفاً دوباره تلاش کنید."
+
+msgid "Never (Manual)"
+msgstr "هرگز (دستی)"
+
+msgid "NEVER show on pages containing this text (one per line)."
+msgstr "هرگز در صفحات حاوی این متن (هر خط یک مورد)."
+
+msgid "New! Click this button to let AI analyze your recent logs and system info. It will diagnose errors and suggest fixes automatically."
+msgstr "جدید! AI لاگ و اطلاعات سیستم را تحلیل و خطا را تشخیص و fix پیشنهاد می‌دهد."
+
+msgid "New! Control exactly how the chat window behaves on mobile. Set width/height percentages, anchor it to the bottom or top, and choose horizontal alignment."
+msgstr "جدید! رفتار پنجره چت در موبایل: درصد عرض/ارتفاع، anchor بالا/پایین، تراز افقی."
+
+msgid "New! You can now let the AI generate the opening message for any trigger based on the page context and a specific persona."
+msgstr "جدید! AI پیام باز شدن هر trigger را از context صفحه و persona تولید می‌کند."
+
+msgid "Newest First"
+msgstr "جدیدترین اول"
+
+msgid "Next"
+msgstr "بعدی"
+
+msgid "Next, let’s set up the chatbot persona, triggers, and appearance."
+msgstr "حالا persona، triggerها و ظاهر چت‌بات را تنظیم می‌کنیم."
+
+msgid "Next: Content Engine"
+msgstr "بعدی: موتور محتوا"
+
+msgid "Ninja Forms submit"
+msgstr "ارسال Ninja Forms"
+
+msgid "No action clicks recorded yet."
+msgstr "هنوز کلیک اقدامی ثبت نشده."
+
+msgid "No active triggers."
+msgstr "تریگر فعالی وجود ندارد."
+
+msgid "No AI suggestion was returned."
+msgstr "پیشنهادی از AI برگردانده نشد."
+
+msgid "No behavior profiles synced yet. Keep tracking enabled and collect more visitor sessions."
+msgstr "هنوز پروفایل رفتاری sync نشده."
+
+msgid "No compatible models found."
+msgstr "مدل سازگاری یافت نشد."
+
+msgid "No conversation history found."
+msgstr "تاریخچه مکالمه‌ای یافت نشد."
+
+msgid "No conversions recorded yet."
+msgstr "هنوز تبدیلی ثبت نشده."
+
+msgid "No coupons found"
+msgstr "کوپنی یافت نشد"
+
+msgid "No decision yet"
+msgstr "هنوز تصمیمی نیست"
+
+msgid "No generation attempts yet."
+msgstr "هنوز تلاشی برای تولید نشده."
+
+msgid "No Goal Selected"
+msgstr "هدفی انتخاب نشده"
+
+msgid "No insights data is available yet for your tracked content. Keep Content Insights enabled and collect visitor activity, then refresh this report."
+msgstr "هنوز داده‌ای نیست. Content Insights را فعال نگه دارید و فعالیت بازدیدکننده جمع شود."
+
+msgid "No logs found."
+msgstr "لاگی یافت نشد."
+
+msgid "No models found"
+msgstr "مدلی یافت نشد"
+
+msgid "No new products found. All products appear to already have generated posts or are in the generation history."
+msgstr "محصول جدیدی نیست؛ همه قبلاً استفاده شده‌اند."
+
+msgid "No posts/pages found."
+msgstr "نوشته/برگه‌ای یافت نشد."
+
+msgid "No products found"
+msgstr "محصولی یافت نشد"
+
+msgid "No products found."
+msgstr "محصولی یافت نشد."
+
+msgid "No recommendation yet"
+msgstr "هنوز پیشنهادی نیست"
+
+msgid "No tracked content matches your current include and exclude rules."
+msgstr "محتوای ردیابی‌شده‌ای با قوانین فعلی شما مطابقت ندارد."
+
+msgid "No tracked items are configured yet. Add post types or target page URL rules in Settings to start this report."
+msgstr "مورد ردیابی پیکربندی نشده. در تنظیمات post type یا URL هدف اضافه کنید."
+
+msgid "No trigger analytics recorded yet."
+msgstr "هنوز تحلیل تریگری ثبت نشده."
+
+msgid "No trigger impact data yet"
+msgstr "هنوز داده تأثیر تریگر نیست"
+
+msgid "No triggers configured yet."
+msgstr "هنوز triggerی پیکربندی نشده."
+
+msgid "Non-Converters"
+msgstr "بدون تبدیل"
+
+msgid "None"
+msgstr "هیچ"
+
+msgid "None generated yet."
+msgstr "هنوز تولید نشده."
+
+msgid "Normal"
+msgstr "عادی"
+
+msgid "Normal (side panel)"
+msgstr "عادی (پنل کناری)"
+
+msgid "Normal Chat Response Format"
+msgstr "قالب پاسخ عادی چت"
+
+msgid "Notified Waitlist"
+msgstr "Waitlist اطلاع‌داده‌شده"
+
+msgid "NTK Iran"
+msgstr "NTK ایران"
+
+msgid "Number of days required before this trigger can fire again in N-day mode."
+msgstr "تعداد روز لازم قبل از اجرای مجدد در حالت Once per N days."
+
+msgid "Offer Type"
+msgstr "نوع پیشنهاد"
+
+msgid "Oldest First"
+msgstr "قدیمی‌ترین اول"
+
+msgid "Once Daily"
+msgstr "روزی یک‌بار"
+
+msgid "Once per day"
+msgstr "یک‌بار در روز"
+
+msgid "Once per N days"
+msgstr "یک‌بار در N روز"
+
+msgid "Once per page"
+msgstr "یک‌بار در صفحه"
+
+msgid "Once per session"
+msgstr "یک‌بار در نشست"
+
+msgid "Once Weekly"
+msgstr "هفته‌ای یک‌بار"
+
+msgid "One keyword per line. The engine works top-down and remembers used items."
+msgstr "هر خط یک کلیدواژه. موتور از بالا به پایین و با یادآوری موارد استفاده‌شده."
+
+msgid "One per line. If the user visits any URL containing one of these values, this trigger will be hidden everywhere for the rest of the session (until the browser is closed)."
+msgstr "هر خط یک مقدار. اگر کاربر URL شامل هر مقدار را بازدید کند، trigger تا پایان session (بستن مرورگر) پنهان می‌شود."
+
+msgid "One per line: Button label | message sent to AI | optional AI rule. These buttons appear only when this trigger opens chat."
+msgstr "هر خط: برچسب دکمه | پیام به AI | قانون AI اختیاری. فقط وقتی این تریگر چت را باز کند."
+
+msgid "One Product ID per line. The engine works top-down and remembers used items."
+msgstr "یک شناسه در هر خط. از بالا به پایین و با حفظ موارد استفاده‌شده."
+
+msgid "One selector per line. Activity inside these elements does not reset the idle timer."
+msgstr "هر selector در یک خط. فعالیت داخل این المان‌ها تایمر بیکاری را reset نمی‌کند."
+
+msgid "Only AI-generated"
+msgstr "فقط AI"
+
+msgid "Only AI-generated content"
+msgstr "فقط محتوای AI"
+
+msgid "Only allow this trigger when recent trigger analytics match the thresholds below."
+msgstr "این trigger فقط وقتی analytics اخیر با آستانه‌های زیر match کند مجاز است."
+
+msgid "Only configured Conversion Goals"
+msgstr "فقط اهداف تبدیل پیکربندی‌شده"
+
+msgid "Only if cart has items"
+msgstr "فقط اگر سبد پر است"
+
+msgid "Only if cart is empty"
+msgstr "فقط اگر سبد خالی است"
+
+msgid "Only improved"
+msgstr "فقط بهبودیافته"
+
+msgid "Only improved content"
+msgstr "فقط محتوای بهبودیافته"
+
+msgid "Only manual"
+msgstr "فقط دستی"
+
+msgid "Only manually created content"
+msgstr "فقط محتوای دستی"
+
+msgid "Only needed if the template includes extra slots like <code>{ai_next_step}</code>."
+msgstr "فقط اگر قالب slotهای اضافی مثل <code>{ai_next_step}</code> دارد لازم است."
+
+msgid "Only target page URLs"
+msgstr "فقط URL صفحات هدف"
+
+msgid "Only used when Cooldown Mode is set to Once per N days."
+msgstr "فقط وقتی Cooldown Mode = Once per N days."
+
+msgid "Open content"
+msgstr "باز کردن محتوا"
+
+msgid "Open editor for AI rewrite"
+msgstr "باز کردن ویرایشگر برای بازنویسی AI"
+
+msgid "Open Full Insights"
+msgstr "باز کردن بینش کامل"
+
+msgid "Open Settings"
+msgstr "باز کردن تنظیمات"
+
+msgid "Open Source"
+msgstr "متن‌باز"
+
+msgid "Open targeted reset options for A/B stats, goal counters, action clicks, or even stored conversations when you need a clean slate."
+msgstr "بازنشانی هدفمند A/B، شمارنده هدف، کلیک action یا مکالمات ذخیره‌شده."
+
+msgid "Open this workflow to refresh existing content with AI-powered SEO recommendations instead of rewriting from scratch."
+msgstr "workflow بهبود محتوای موجود با پیشنهاد SEO AI بدون بازنویسی از صفر."
+
+msgid "OpenAI API Base URL:"
+msgstr "آدرس پایه OpenAI API:"
+
+msgid "Opportunity"
+msgstr "فرصت"
+
+msgid "Opportunity Scoring"
+msgstr "امتیازدهی فرصت"
+
+msgid "Opportunity threshold:"
+msgstr "آستانه فرصت:"
+
+msgid "Optimize your chatbot with A/B testing and engagement insights"
+msgstr "چت‌بات را با تست A/B و بینش تعامل بهینه کنید"
+
+msgid "Optional AI rule for this reply"
+msgstr "قانون اختیاری AI برای این پاسخ"
+
+msgid "Optional allowlist: at least one pattern must match when provided."
+msgstr "allowlist اختیاری: حداقل یک الگو باید match کند."
+
+msgid "Optional blocklist: matching any pattern suppresses this trigger."
+msgstr "blocklist اختیاری: match هر الگو trigger را سرکوب می‌کند."
+
+msgid "Optional custom OpenAI-compatible endpoint (proxy, Azure gateway, local server). Include /v1 when your gateway expects it (e.g. https://llmapi.ntk.ir/v1). Leave empty for api.openai.com."
+msgstr "آدرس سفارشی سازگار با OpenAI (پروکسی، Azure، سرور محلی). در صورت نیاز /v1 را وارد کنید (مثلاً https://llmapi.ntk.ir/v1). خالی = api.openai.com."
+
+msgid "Optional formatting for regular chat answers. Free AI is fastest. Template Locked can add latency, especially when AI slots are used."
+msgstr "قالب‌بندی اختیاری برای پاسخ‌های عادی. حالت آزاد سریع‌تر است. قالب قفل‌شده ممکن است تأخیر ایجاد کند."
+
+msgid "Optional scope: at least one pattern must match current URL when provided."
+msgstr "اختیاری: حداقل یک الگو باید با URL فعلی match کند."
+
+msgid "Optional scope: if any pattern matches, the trigger is suppressed."
+msgstr "اختیاری: اگر هر الگو match کند، trigger سرکوب می‌شود."
+
+msgid "Optional. For any trigger type, wait until this section is visible before opening the chat. Plain text like pricing matches an ID or class with that name."
+msgstr "اختیاری. برای هر نوع تریگر، تا visible شدن بخش صبر کنید. متن ساده مثل pricing با ID یا class همان نام."
+
+msgid "Our Companies"
+msgstr "شرکت‌های ما"
+
+msgid "Outline"
+msgstr "خط دور"
+
+msgid "Page Depth"
+msgstr "عمق صفحه"
+
+msgid "Page type"
+msgstr "نوع صفحه"
+
+msgid "Page Views / Product Views"
+msgstr "بازدید صفحه / بازدید محصول"
+
+msgid "Pages"
+msgstr "برگه‌ها"
+
+msgid "Pages viewed"
+msgstr "صفحات دیده‌شده"
+
+msgid "Pages viewed weight"
+msgstr "وزن صفحات دیده‌شده"
+
+msgid "Paid"
+msgstr "پولی"
+
+msgid "Panel Position"
+msgstr "موقعیت پنل"
+
+msgid "PASS"
+msgstr "تأیید"
+
+msgid "Pattern"
+msgstr "الگو"
+
+msgid "Pattern prediction metrics"
+msgstr "معیارهای پیش‌بینی الگو"
+
+msgid "Percentage of the viewport height used for the bottom sheet when it first opens."
+msgstr "درصد ارتفاع viewport برای bottom sheet هنگام باز شدن."
+
+msgid "Performance & Cost Controls"
+msgstr "کنترل عملکرد و هزینه"
+
+msgid "Persian (Farsi)"
+msgstr "فارسی"
+
+msgid "Persona / Instructions"
+msgstr "شخصیت / دستورالعمل"
+
+msgid "Persona Max Chars"
+msgstr "حداکثر کاراکتر Persona"
+
+msgid "Personal Website"
+msgstr "وب‌سایت شخصی"
+
+msgid "PhD in Artificial Intelligence — University of Isfahan"
+msgstr "دکترای هوش مصنوعی — دانشگاه اصفهان"
+
+msgid "PhD in Entrepreneurship Management — University of Tehran"
+msgstr "دکترای مدیریت کارآفرینی — دانشگاه تهران"
+
+msgid "Phone"
+msgstr "تلفن"
+
+msgid "Phone link click"
+msgstr "کلیک لینک تلفن"
+
+msgid "Pick a cheaper model that will handle short or greeting-type questions."
+msgstr "مدل ارزان‌تر برای سوالات کوتاه یا سلام."
+
+msgid "Pick Sections & Limits"
+msgstr "انتخاب بخش‌ها و محدودیت‌ها"
+
+msgid "Pill"
+msgstr "قرصی"
+
+msgid "Please choose one or more targets first."
+msgstr "ابتدا یک یا چند هدف انتخاب کنید."
+
+msgid "Please enter a question first."
+msgstr "لطفاً ابتدا سؤال را وارد کنید."
+
+msgid "Please enter a topic to analyze."
+msgstr "موضوع برای تحلیل وارد کنید."
+
+msgid "Please Note:"
+msgstr "توجه:"
+
+msgid "Please provide a business description first."
+msgstr "ابتدا توضیح کسب‌وکار را وارد کنید."
+
+msgid "Please select a CSV file first."
+msgstr "لطفاً ابتدا یک فایل CSV انتخاب کنید."
+
+msgid "Please select at least one option to reset."
+msgstr "لطفاً حداقل یک گزینه برای بازنشانی انتخاب کنید."
+
+msgid "Please upload a valid CSV file."
+msgstr "لطفاً یک فایل CSV معتبر بارگذاری کنید."
+
+msgid "Popular WordPress Action"
+msgstr "action رایج وردپرس"
+
+msgid "Portfolio Snapshot"
+msgstr "نمای کلی پورتfolio"
+
+msgid "Position (Desktop)"
+msgstr "موقعیت (دسکتاپ)"
+
+msgid "Position (Mobile)"
+msgstr "موقعیت (موبایل)"
+
+msgid "Position:"
+msgstr "موقعیت:"
+
+msgid "Post / Product URL or ID (Required)"
+msgstr "URL یا ID پست/محصول (الزامی)"
+
+msgid "Post and Page Insights"
+msgstr "بینش نوشته و برگه"
+
+msgid "Post Author"
+msgstr "نویسنده پست"
+
+msgid "Post Status"
+msgstr "وضعیت پست"
+
+msgid "Post Type"
+msgstr "نوع پست"
+
+msgid "Posts"
+msgstr "نوشته‌ها"
+
+msgid "Posts & Pages Performance"
+msgstr "عملکرد نوشته و برگه"
+
+msgid "Posts / Pages"
+msgstr "نوشته / برگه"
+
+msgid "Posts heading"
+msgstr "عنوان بخش نوشته‌ها"
+
+msgid "Posts to Generate per Run"
+msgstr "تعداد نوشته در هر اجرا"
+
+msgid "pp"
+msgstr "امتیاز درصد"
+
+msgid "Predicted next step"
+msgstr "گام بعدی پیش‌بینی‌شده"
+
+msgid "Prediction Confidence (%)"
+msgstr "اطمینان پیش‌بینی (%)"
+
+msgid "Prefer database-first processing and storage for analytics datasets (trigger analytics and virtual content metrics)"
+msgstr "ترجیح پردازش و ذخیره database-first برای مجموعه‌های analytics (trigger analytics و متریک محتوای مجازی)"
+
+msgid "Prefer database-first profile aggregation (faster on larger datasets)"
+msgstr "ترجیح تجمیع پروفایل database-first (سریع‌تر در داده بزرگ)"
+
+msgid "Preparing a quick tip..."
+msgstr "در حال آماده‌سازی نکته سریع..."
+
+msgid "Prevent Duplicate Generation"
+msgstr "جلوگیری از تولید تکراری"
+
+msgid "Prevents accidental duplicate firing on rapid repeated clicks."
+msgstr "جلوگیری از اجرای تکراری با کلیک‌های پشت‌سرهم."
+
+msgid "Preview URL"
+msgstr "URL پیش‌نمایش"
+
+msgid "Primary call-to-action shown when this trigger fires."
+msgstr "CTA اصلی هنگام اجرای این تریگر."
+
+msgid "Primary Color"
+msgstr "رنگ اصلی"
+
+msgid "Primary CTA label"
+msgstr "برچسب CTA اصلی"
+
+msgid "Primary CTA URL"
+msgstr "URL CTA اصلی"
+
+msgid "Primary CTA Variant"
+msgstr "نوع CTA اصلی"
+
+msgid "Priority"
+msgstr "اولویت"
+
+msgid "Priority Score"
+msgstr "امتیاز اولویت"
+
+msgid "Proactive Message"
+msgstr "پیام پیش‌دستانه"
+
+msgid "Processing error:"
+msgstr "خطای پردازش:"
+
+msgid "Product"
+msgstr "محصول"
+
+msgid "Product Checkout Insights"
+msgstr "بینش checkout محصول"
+
+msgid "Product Excerpt Words"
+msgstr "تعداد کلمات excerpt محصول"
+
+msgid "Product Tool-Calling"
+msgstr "فراخوانی ابزار محصول"
+
+msgid "Products"
+msgstr "محصولات"
+
+msgid "Products (IDs):"
+msgstr "محصولات (شناسه):"
+
+msgid "Products (WooCommerce)"
+msgstr "محصولات (WooCommerce)"
+
+msgid "Products Checkout Funnel"
+msgstr "قیف checkout محصولات"
+
+msgid "Products heading"
+msgstr "عنوان بخش محصولات"
+
+msgid "Products Queue"
+msgstr "صف محصولات"
+
+msgid "Profile retention (days)"
+msgstr "نگهداری پروفایل (روز)"
+
+msgid "Profile snapshots classify closers and non-converters into six behavior patterns with first-page, main-type mix, and last-page context."
+msgstr "snapshot پروفایل — شش الگوی رفتاری."
+
+msgid "Provide one or more conditions. Empty conditions are ignored; at least one populated condition must match."
+msgstr "یک یا چند شرط؛ خالی‌ها نادیده — حداقل یک مورد باید مطابقت کند."
+
+msgid "Provide Site Context"
+msgstr "ارائه context سایت"
+
+msgid "Provider Mode"
+msgstr "حالت ارائه‌دهنده"
+
+msgid "Provider not set"
+msgstr "ارائه‌دهنده تنظیم نشده"
+
+msgid "Publish Immediately"
+msgstr "انتشار فوری"
+
+msgid "Purpose"
+msgstr "هدف"
+
+msgid "QA preview only (admins)"
+msgstr "فقط پیش‌نمایش QA (ادمین)"
+
+msgid "Quick answer:\n{ai_answer}\n\nNext step: {ai_next_step}"
+msgstr "Ù¾Ø§Ø³Ø® Ø³Ø±ÛØ¹:\n{ai_answer}\n\nÙØ¯Ù Ø¨Ø¹Ø¯: {ai_next_step}"
+
+msgid "Quick Chat / Reply Buttons"
+msgstr "دکمه‌های سریع چت / پاسخ"
+
+msgid "Quick Chat Button Styling"
+msgstr "استایل دکمه چت سریع"
+
+msgid "Quick recovery action"
+msgstr "اقدام سریع بازیابی"
+
+msgid "Quickly check your AI provider status, API key configuration, and the number of keywords in your content queue."
+msgstr "وضعیت provider، API key و تعداد کلمات در صف محتوا را سریع بررسی کنید."
+
+msgid "Rate Limit Chat"
+msgstr "محدودیت نرخ چت"
+
+msgid "Rate Limit Settings"
+msgstr "تنظیمات محدودیت نرخ"
+
+msgid "Recommendations"
+msgstr "پیشنهادها"
+
+msgid "Recommendations are saved here so you can review later, delete old cards, or mark items as improved when updates are complete."
+msgstr "پیشنهادها اینجا ذخیره می‌شوند؛ بعداً مرور، حذف کارت قدیمی یا mark بهبود."
+
+msgid "Recommended products"
+msgstr "محصولات پیشنهادی"
+
+msgid "records."
+msgstr "رکورد."
+
+msgid "Reference matching (dynamic criteria)"
+msgstr "تطبیق مرجع (معیار پویا)"
+
+msgid "Reference matching is active. Current allowed match error is %1$s%%."
+msgstr "تطبیق مرجع فعال است. خطای مجاز تطبیق فعلی %1$s%% است."
+
+msgid "Reference matching is enabled, but %1$s source row(s) on this page are below the minimum profile threshold (%2$s). Keep collecting live sessions for more reliable pattern matching."
+msgstr "تطبیق مرجع فعال است، اما %1$s ردیف منبع در این صفحه زیر آستانه حداقل پروفایل (%2$s) است. نشست‌های زنده بیشتری جمع‌آوری کنید."
+
+msgid "Referral"
+msgstr "ارجاع"
+
+msgid "Referrer contains"
+msgstr "Referrer شامل"
+
+msgid "Refresh Interval"
+msgstr "فاصله بازخوانی"
+
+msgid "Refresh Order"
+msgstr "بازخوانی ترتیب"
+
+msgid "Related posts"
+msgstr "نوشته‌های مرتبط"
+
+msgid "Remove"
+msgstr "حذف"
+
+msgid "Remove Improved Tag"
+msgstr "حذف برچسب بهبودیافته"
+
+msgid "Rename section labels with your own language—for example “You might also love” or “Services we recommend.”"
+msgstr "برچسب بخش‌ها را سفارشی کنید—مثلاً «شما ممکن است دوست داشته باشید»."
+
+msgid "Rendered Page Max Chars"
+msgstr "حداکثر کاراکتر صفحه رندر شده"
+
+msgid "Replace existing queue with all products?"
+msgstr "صف موجود با همه محصولات جایگزین شود؟"
+
+msgid "Replied (30d)"
+msgstr "پاسخ (۳۰ روز)"
+
+msgid "Reply to simple greetings without using AI."
+msgstr "پاسخ به سلام ساده بدون AI."
+
+msgid "Reports Paused"
+msgstr "گزارش‌ها متوقف"
+
+msgid "Request failed:"
+msgstr "درخواست ناموفق:"
+
+msgid "requests per"
+msgstr "درخواست در"
+
+msgid "Required Placeholders"
+msgstr "Placeholderهای اجباری"
+
+msgid "RESET"
+msgstr "RESET"
+
+msgid "Reset"
+msgstr "بازنشانی"
+
+msgid "Reset A/B Test Statistics (Views & Conversions)"
+msgstr "بازنشانی آمار تست A/B (بازدید و تبدیل)"
+
+msgid "Reset All Individual Goal Counters"
+msgstr "بازنشانی همه شمارنده‌های Goal"
+
+msgid "Reset Behavior Pattern Data"
+msgstr "بازنشانی داده الگوی رفتار"
+
+msgid "Reset History"
+msgstr "بازنشانی تاریخچه"
+
+msgid "Reset Post and Page Insights"
+msgstr "بازنشانی بینش پست و صفحه"
+
+msgid "Reset Product Insights"
+msgstr "بازنشانی بینش محصول"
+
+msgid "Reset Selected Data"
+msgstr "بازنشانی داده انتخاب‌شده"
+
+msgid "Reset Top Action Click Counters"
+msgstr "بازنشانی شمارنده کلیک Top Action"
+
+msgid "Reset Trigger Analytics"
+msgstr "بازنشانی تحلیل تریگر"
+
+msgid "Resetting..."
+msgstr "در حال بازنشانی..."
+
+msgid "Response Cache"
+msgstr "کش پاسخ"
+
+msgid "Response Cache TTL (seconds)"
+msgstr "TTL کش پاسخ (ثانیه)"
+
+msgid "Response Template"
+msgstr "قالب پاسخ"
+
+msgid "Restart Tour"
+msgstr "راه‌اندازی مجدد تور"
+
+msgid "Restrict trigger by detected behavior pattern type."
+msgstr "محدود بر اساس نوع الگوی رفتار."
+
+msgid "Restrict trigger by inferred acquisition source."
+msgstr "محدود بر اساس منبع acquisition استنتاج‌شده."
+
+msgid "Restrict trigger by live predicted next step."
+msgstr "محدود بر اساس گام بعدی پیش‌بینی‌شده."
+
+msgid "Restrict trigger to a specific page classification."
+msgstr "محدود کردن trigger به طبقه‌بندی صفحه."
+
+msgid "Restrict trigger to desktop or mobile traffic."
+msgstr "محدود به ترافیک دسکتاپ یا موبایل."
+
+msgid "Resume checkout"
+msgstr "ادامه checkout"
+
+msgid "Return Visitor"
+msgstr "بازدیدکننده بازگشتی"
+
+msgid "Returning visitors only"
+msgstr "فقط بازدیدکنندگان بازگشتی"
+
+msgid "Reuse Last Context (Session)"
+msgstr "استفاده مجدد از آخرین زمینه (نشست)"
+
+msgid "Reuse the last context for short follow-up questions."
+msgstr "استفاده مجدد از آخرین زمینه برای سؤالات پیگیری کوتاه."
+
+msgid "Review how individual triggers are performing over time across 7-day, 30-day, and lifetime windows."
+msgstr "عملکرد triggerها در پنجره ۷ روز، ۳۰ روز و lifetime."
+
+msgid "Right"
+msgstr "راست"
+
+msgid "Right of button"
+msgstr "راست دکمه"
+
+msgid "Rounded"
+msgstr "گرد"
+
+msgid "Route short/greeting messages to a cheaper model."
+msgstr "مسیریابی پیام‌های کوتاه/سلام به مدل ارزان‌تر."
+
+msgid "Routing Model"
+msgstr "مدل مسیریابی"
+
+msgid "Routing Provider"
+msgstr "ارائه‌دهنده مسیریابی"
+
+msgid "Routing Threshold"
+msgstr "آستانه مسیریابی"
+
+msgid "Run Frontend Probe"
+msgstr "اجرای Frontend Probe"
+
+msgid "Run Health Check"
+msgstr "اجرای Health Check"
+
+msgid "Runs a multi-point diagnostic across provider setup, conflict signals, runtime logs, and frontend readiness."
+msgstr "تشخیص چندنقطه‌ای: setup provider، تداخل، لاگ runtime، آمادگی frontend."
+
+msgid "Sat"
+msgstr "شنبه"
+
+msgid "Save and Continue"
+msgstr "ذخیره و ادامه"
+
+msgid "Save as Draft"
+msgstr "ذخیره پیش‌نویس"
+
+msgid "Save Changes"
+msgstr "ذخیره تغییرات"
+
+msgid "Save collected contact/data requests from main chat to Submissions"
+msgstr "ذخیره درخواست‌های تماس/داده جمع‌آوری‌شده از چت در Submissions"
+
+msgid "Save collected contact/data requests to Submissions"
+msgstr "ذخیره درخواست‌های تماس/داده در Submissions"
+
+msgid "Save generated message to conversation history (for audit)"
+msgstr "ذخیره پیام تولیدشده در تاریخچه (audit)"
+
+msgid "Saved SEO Suggestions"
+msgstr "پیشنهادهای SEO ذخیره‌شده"
+
+msgid "Saved SEO suggestions will appear here."
+msgstr "پیشنهادهای SEO ذخیره‌شده اینجا نمایش داده می‌شوند."
+
+msgid "Saved suggestions stay here until you delete them."
+msgstr "پیشنهادهای ذخیره‌شده تا حذف شما باقی می‌مانند."
+
+msgid "Scan Complete! Found data from:"
+msgstr "اسکن کامل شد! داده از منابع:"
+
+msgid "Scan finished. No external analytics table or historical orders found to import."
+msgstr "اسکن پایان یافت. جدول analytics خارجی یا سفارش تاریخی برای واردات یافت نشد."
+
+msgid "Scan Local Data Sources"
+msgstr "اسکن منابع داده محلی"
+
+msgid "Scanning..."
+msgstr "در حال اسکن..."
+
+msgid "Schema generated and saved successfully!"
+msgstr "Schema با موفقیت تولید و ذخیره شد!"
+
+msgid "Score threshold"
+msgstr "آستانه امتیاز"
+
+msgid "Scroll"
+msgstr "اسکرول"
+
+msgid "Scroll Depth"
+msgstr "عمق اسکرول"
+
+msgid "Scroll depth"
+msgstr "عمق اسکرول"
+
+msgid "Scroll Depth (%)"
+msgstr "عمق اسکرول (%)"
+
+msgid "Scroll depth weight"
+msgstr "وزن عمق اسکرول"
+
+msgid "Scroll depth:"
+msgstr "عمق اسکرول:"
+
+msgid "Scroll inside this panel to browse more items, then select one or more targets to analyze."
+msgstr "در پنل اسکرول کنید و یک یا چند هدف انتخاب کنید."
+
+msgid "Scroll threshold (%)"
+msgstr "آستانه اسکرول (%)"
+
+msgid "Search"
+msgstr "جستجو"
+
+msgid "Search by title and filter by source (AI/manual) and improvement status so your team can prioritize what needs work first."
+msgstr "جستجو بر عنوان و فیلتر منبع (AI/manual) و وضعیت بهبود برای اولویت‌بندی تیم."
+
+msgid "Search for and add products..."
+msgstr "جستجو و افزودن محصول..."
+
+msgid "Search posts, pages, or products..."
+msgstr "جستجوی نوشته، برگه یا محصول..."
+
+msgid "Searching…"
+msgstr "در حال جستجو…"
+
+msgid "seconds"
+msgstr "ثانیه"
+
+msgid "Section Labels"
+msgstr "برچسب بخش‌ها"
+
+msgid "Sections"
+msgstr "بخش‌ها"
+
+msgid "See the GitHub release page for release notes."
+msgstr "یادداشت‌های انتشار را در صفحه GitHub release ببینید."
+
+msgid "See views, conversions, and conversion rate for each variation. When confidence reaches 95%, you can apply the winner."
+msgstr "بازدید، تبدیل و نرخ تبدیل هر variation؛ با اطمینان ۹۵٪ برنده را اعمال کنید."
+
+msgid "Segment exclude URL patterns"
+msgstr "الگوهای URL مستثنی segment"
+
+msgid "Segment include URL patterns"
+msgstr "الگوهای URL شامل segment"
+
+msgid "Segment Logic"
+msgstr "منطق segment"
+
+msgid "Select a model"
+msgstr "انتخاب مدل"
+
+msgid "Select a provider (like Google, OpenAI, etc.) and enter your API key. Models for that provider are fetched automatically once a valid key is entered."
+msgstr "provider (Google، OpenAI و…) و API key را وارد کنید؛ مدل‌ها پس از key معتبر خودکار fetch می‌شوند."
+
+msgid "Select a provider to fetch models."
+msgstr "ارائه‌دهنده را برای دریافت مدل انتخاب کنید."
+
+msgid "Select coupon"
+msgstr "انتخاب کوپن"
+
+msgid "Select from list or type model ID"
+msgstr "از لیست انتخاب کنید یا شناسه مدل را تایپ کنید"
+
+msgid "Select Knowledge Base files"
+msgstr "انتخاب فایل‌های پایگاه دانش"
+
+msgid "Select Logo"
+msgstr "انتخاب لوگو"
+
+msgid "Select Model"
+msgstr "انتخاب مدل"
+
+msgid "Select Provider"
+msgstr "انتخاب ارائه‌دهنده"
+
+msgid "Select weekdays when this trigger can run."
+msgstr "روزهای هفته مجاز اجرای این تریگر."
+
+msgid "Select which data you would like to reset or delete. This action cannot be undone."
+msgstr "داده‌ای که می‌خواهید reset یا حذف شود را انتخاب کنید. غیرقابل بازگشت."
+
+msgid "Selected logs deleted successfully."
+msgstr "لاگ‌های انتخاب‌شده حذف شد."
+
+msgid "Selected post types"
+msgstr "انواع نوشته انتخاب‌شده"
+
+msgid "Send"
+msgstr "ارسال"
+
+msgid "Send an email to:"
+msgstr "ارسال ایمیل به:"
+
+msgid "Send message"
+msgstr "ارسال پیام"
+
+msgid "Send Message"
+msgstr "ارسال پیام"
+
+msgid "SEO & Content Tools"
+msgstr "ابزارهای سئو و محتوا"
+
+msgid "SEO Improvement Plan"
+msgstr "برنامه بهبود SEO"
+
+msgid "SEO Improvement Plan:"
+msgstr "برنامه بهبود SEO:"
+
+msgid "SEO Suggestion"
+msgstr "پیشنهاد SEO"
+
+msgid "Server request failed."
+msgstr "درخواست سرور ناموفق بود."
+
+msgid "Server request failed. Please check network logs."
+msgstr "درخواست سرور ناموفق بود. لاگ شبکه را بررسی کنید."
+
+msgid "Server request failed. Please check the network tab."
+msgstr "درخواست سرور ناموفق بود. تب شبکه را بررسی کنید."
+
+msgid "service_category, service_tag"
+msgstr "service_category، service_tag"
+
+msgid "Services"
+msgstr "خدمات"
+
+msgid "Services (service/services)"
+msgstr "خدمات (service/services)"
+
+msgid "Services heading"
+msgstr "عنوان بخش خدمات"
+
+msgid "Set 'Firing Frequency' and 'High Priority' to override other triggers. Control exactly when and how often this trigger is delivered."
+msgstr "«Firing Frequency» و «High Priority» برای override triggerهای دیگر؛ زمان و تکرار تحویل."
+
+msgid "Set add to cart threshold for products."
+msgstr "آستانه افزودن به سبد برای محصولات."
+
+msgid "Set average time threshold in seconds."
+msgstr "آستانه میانگین زمان به ثانیه."
+
+msgid "Set checkout flow threshold as checkout success rate for products."
+msgstr "آستانه Checkout Flow به‌عنوان نرخ موفقیت checkout محصول."
+
+msgid "Set scroll depth threshold in percent."
+msgstr "آستانه عمق اسکرول به درصد."
+
+msgid "Set the conversion rate threshold and choose whether rate must be greater than or lower than that value."
+msgstr "آستانه نرخ تبدیل و بیشتر/کمتر بودن."
+
+msgid "Set the conversions threshold and choose whether conversions must be greater than or lower than that value."
+msgstr "آستانه تبدیل و بیشتر/کمتر بودن."
+
+msgid "Set the views threshold and choose whether views must be greater than or lower than that value."
+msgstr "آستانه بازدید و اینکه باید بیشتر یا کمتر از مقدار باشد."
+
+msgid "Settings"
+msgstr "تنظیمات"
+
+msgid "Settings sections"
+msgstr "بخش‌های تنظیمات"
+
+msgid "Shortest average time"
+msgstr "کوتاه‌ترین میانگین زمان"
+
+msgid "Show on Mobile?"
+msgstr "نمایش در موبایل؟"
+
+msgid "Show ONLY on pages containing this text."
+msgstr "فقط در صفحاتی که این متن را دارند."
+
+msgid "Shown only for Custom action, or Apply offer when Offer Type is Custom offer link."
+msgstr "فقط برای اکشن سفارشی، یا Apply offer وقتی نوع پیشنهاد لینک سفارشی است نمایش داده می‌شود."
+
+msgid "Shown while the AI is generating a response."
+msgstr "هنگام تولید پاسخ توسط هوش مصنوعی نمایش داده می‌شود."
+
+msgid "Shows the native beforeunload confirmation when exit intent is detected."
+msgstr "تأیید beforeunload مرورگر هنگام تشخیص exit intent."
+
+msgid "Shrink"
+msgstr "کوچک‌نمایی"
+
+msgid "Side Offset (Mobile)"
+msgstr "فاصله کناری (موبایل)"
+
+msgid "Size (Desktop)"
+msgstr "اندازه (دسکتاپ)"
+
+msgid "Size (Mobile)"
+msgstr "اندازه (موبایل)"
+
+msgid "Size of the logo relative to the button (10-100%)."
+msgstr "اندازه لوگو نسبت به دکمه (۱۰–۱۰۰٪)."
+
+msgid "Skim which proactive engagement triggers are active before diving into priorities, cart logic, or exit widgets inside settings."
+msgstr "triggerهای فعال را قبل از اولویت، منطق سبد یا exit widget در تنظیمات مرور کنید."
+
+msgid "Skip Tour"
+msgstr "رد کردن تور"
+
+msgid "Snapshot Data"
+msgstr "داده snapshot"
+
+msgid "Snapshot failed."
+msgstr "دریافت snapshot ناموفق بود."
+
+msgid "Social"
+msgstr "اجتماعی"
+
+msgid "Sorry, I couldn't get a response."
+msgstr "متأسفانه پاسخی دریافت نشد."
+
+msgid "Sort A to Z"
+msgstr "مرتب‌سازی A تا Z"
+
+msgid "Sort high to low"
+msgstr "مرتب‌سازی زیاد به کم"
+
+msgid "Sort low to high"
+msgstr "مرتب‌سازی کم به زیاد"
+
+msgid "Sort Z to A"
+msgstr "مرتب‌سازی Z تا A"
+
+msgid "Source"
+msgstr "منبع"
+
+msgid "Source A-Z"
+msgstr "منبع الف-ی"
+
+msgid "Source and Improvement Filters"
+msgstr "فیلتر منبع و بهبود"
+
+msgid "Source URL"
+msgstr "URL منبع"
+
+msgid "Source Z-A"
+msgstr "منبع ی-الف"
+
+msgid "Source:"
+msgstr "منبع:"
+
+msgid "Specific Page Visit"
+msgstr "بازدید صفحه مشخص"
+
+msgid "Specific Product IDs"
+msgstr "شناسه محصولات مشخص"
+
+msgid "Specific Products"
+msgstr "محصولات مشخص"
+
+msgid "Specificity"
+msgstr "specificity"
+
+msgid "Square"
+msgstr "مربع"
+
+msgid "Standard"
+msgstr "استاندارد"
+
+msgid "Star Karavi AI Assistant on GitHub"
+msgstr "ستاره دادن به دستیار هوش مصنوعی کاروی در GitHub"
+
+msgid "Start a conversation with the guide. Follow-up questions are supported."
+msgstr "گفتگو با راهنما را شروع کنید. سؤالات پیگیری پشتیبانی می‌شود."
+
+msgid "Start Date"
+msgstr "تاریخ شروع"
+
+msgid "Started chat"
+msgstr "شروع چت"
+
+msgid "Started Chat"
+msgstr "شروع چت"
+
+msgid "Started chat weight"
+msgstr "وزن شروع چت"
+
+msgid "Static only"
+msgstr "فقط ثابت"
+
+msgid "Status"
+msgstr "وضعیت"
+
+msgid "Status:"
+msgstr "وضعیت:"
+
+msgid "Stops this trigger after Karavi AI Assistant detects a confirmed conversion or purchase."
+msgstr "پس از تبدیل یا خرید تأییدشده این trigger متوقف می‌شود."
+
+msgid "Submission"
+msgstr "ثبت"
+
+msgid "Submission Details"
+msgstr "جزئیات ثبت"
+
+msgid "Submissions"
+msgstr "ارسال‌ها"
+
+msgid "Submissions (days)"
+msgstr "ثبت‌ها (روز)"
+
+msgid "Subtle"
+msgstr "ملایم"
+
+msgid "SUCCESS"
+msgstr "موفق"
+
+msgid "Success!"
+msgstr "موفق!"
+
+msgid "Suggest Again"
+msgstr "پیشنهاد دوباره"
+
+msgid "Suggest Internal Links"
+msgstr "پیشنهاد لینک‌های داخلی"
+
+msgid "Suggest SEO Improvements"
+msgstr "پیشنهاد بهبود SEO"
+
+msgid "Suggest with AI"
+msgstr "پیشنهاد با AI"
+
+msgid "Suggested Change"
+msgstr "تغییر پیشنهادی"
+
+msgid "Suggested Focus"
+msgstr "تمرکز پیشنهادی"
+
+msgid "Suggesting..."
+msgstr "در حال پیشنهاد..."
+
+msgid "Suggestions:"
+msgstr "پیشنهادها:"
+
+msgid "Sun"
+msgstr "یکشنبه"
+
+msgid "Support Center & Event Logs"
+msgstr "مرکز پشتیبانی و لاگ رویداد"
+
+msgid "Supported examples: {product_name}, {post_title}, {page_title}, {site_name}, {utm_campaign}, {button_url}, {ai_help_offer}."
+msgstr "نمونه‌ها: {product_name}، {post_title}، {page_title}، {site_name}، {utm_campaign}، {button_url}، {ai_help_offer}."
+
+msgid "Suppress after any detected conversion"
+msgstr "سرکوب پس از هر تبدیل شناسایی‌شده"
+
+msgid "Suppressed"
+msgstr "سرکوب‌شده"
+
+msgid "Sync interval (minutes)"
+msgstr "فاصله همگام‌سازی (دقیقه)"
+
+msgid "Synced"
+msgstr "همگام‌سازی شد"
+
+msgid "System Health"
+msgstr "سلامت سیستم"
+
+msgid "Tablet"
+msgstr "تبلت"
+
+msgid "Tags"
+msgstr "برچسب‌ها"
+
+msgid "Target Page URL (Contains)"
+msgstr "URL صفحه هدف (شامل)"
+
+msgid "Target Page URL (Contains). Add multiple partial matches, one per line, to track any URL containing those values."
+msgstr "URL صفحه هدف (شامل). هر خط یک match جزئی برای URLهای حاوی آن مقدار."
+
+msgid "Target Page URLs"
+msgstr "URL صفحات هدف"
+
+msgid "Target page URLs"
+msgstr "URL صفحات هدف"
+
+msgid "Target Section CSS Selector"
+msgstr "CSS selector بخش هدف"
+
+msgid "Target value used by the selected click match mode."
+msgstr "مقدار هدف برای حالت تطبیق کلیک انتخاب‌شده."
+
+msgid "Technical Findings"
+msgstr "یافته‌های فنی"
+
+msgid "Temperature"
+msgstr "Temperature"
+
+msgid "Template Locked"
+msgstr "قالب قفل‌شده"
+
+msgid "Template Locked - controlled layout, may be slower"
+msgstr "قالب قفل‌شده — layout کنترل‌شده، ممکن است کندتر باشد"
+
+msgid "Template Locked lets Karavi AI Assistant control the final format while AI fills only approved {ai_*} slots."
+msgstr "Template Locked: قالب نهایی دستیار کاروی؛ AI فقط slotهای {ai_*} تأییدشده را پر می‌کند."
+
+msgid "Template Locked wraps the normal answer after it is generated. If the template uses extra <code>{ai_*}</code> slots, Karavi AI Assistant may make one additional AI call."
+msgstr "قالب قفل‌شده پس از تولید پاسخ عادی آن را wrap می‌کند. اگر قالب slotهای اضافی <code>{ai_*}</code> داشته باشد، Karavi AI Assistant ممکن است یک فراخوانی AI دیگر انجام دهد."
+
+msgid "Template max words"
+msgstr "حداکثر کلمات قالب"
+
+msgid "Test Status"
+msgstr "وضعیت تست"
+
+msgid "Test Your Settings"
+msgstr "تست تنظیمات"
+
+msgid "Test your settings by instantly generating one post using the next available keyword from your queue."
+msgstr "با تولید فوری یک نوشته از کلمه بعدی صف، تنظیمات را تست کنید."
+
+msgid "Thank You!"
+msgstr "متشکریم!"
+
+msgid "Thanks for installing Karavi AI Assistant!"
+msgstr "از نصب دستیار هوش مصنوعی کاروی متشکریم!"
+
+msgid "The first message the user sees when they open the chat. Make it friendly and helpful!"
+msgstr "اولین پیام هنگام باز کردن چت؛ دوستانه و مفید باشد!"
+
+msgid "The Logs tab now starts with the Support Center. If any option or button is confusing, ask here first, then run checks for conflicts and errors before reading raw event entries."
+msgstr "تب Logs با مرکز پشتیبانی شروع می‌شود؛ ابهام را اینجا بپرسید، سپس conflict/error و بعد رویداد خام."
+
+msgid "Theme: Auto"
+msgstr "تم: خودکار"
+
+msgid "Theme: Dark"
+msgstr "تم: تاریک"
+
+msgid "Theme: Light"
+msgstr "تم: روشن"
+
+msgid "These controls now appear after chat. Filter by type, sort, apply, delete selected rows, or clear all logs."
+msgstr "کنترل‌ها پس از چت: فیلتر نوع، sort، اعمال، حذف انتخاب‌شده یا پاک همه."
+
+msgid "These credentials are required whenever Independent mode is selected. Models are fetched automatically."
+msgstr "در حالت Independent این credentialها الزامی است. مدل‌ها خودکار دریافت می‌شوند."
+
+msgid "This engine uses your AI provider to auto-generate SEO-ready posts on a schedule or on demand."
+msgstr "موتور با provider AI نوشته SEO-ready زمان‌بندی‌شده یا درخواستی تولید می‌کند."
+
+msgid "This is only a public GitHub support link. Karavi AI Assistant does not track whether you star the project."
+msgstr "این فقط یک لینک عمومی پشتیبانی GitHub است. Karavi AI Assistant پیگیری نمی‌کند که آیا پروژه را ستاره می‌دهید."
+
+msgid "This is the Advanced Appearance section. Next, we will open it and explain the styling options."
+msgstr "بخش ظاهر پیشرفته؛ باز می‌کنیم و گزینه‌های استایل را توضیح می‌دهیم."
+
+msgid "This is the core settings area for Variation A. Next, we will open it and configure your AI integration and identity."
+msgstr "تنظیمات اصلی Variation A؛ AI و هویت را پیکربندی می‌کنیم."
+
+msgid "This is the main control center for your chatbot. Here you can configure AI providers, A/B testing, appearance, and behavior."
+msgstr "مرکز کنترل چت‌بات؛ provider، A/B، ظاهر و رفتار."
+
+msgid "This is the most important setting. Give the AI clear instructions on its tone, purpose, and rules. A well-defined persona leads to much better results."
+msgstr "مهم‌ترین تنظیم؛ دستورالعمل tone، هدف و قوانین AI—persona خوب نتیجه بهتر."
+
+msgid "This is the Performance & Cost Controls section. Next, we will open it and walk through each option."
+msgstr "بخش کنترل عملکرد و هزینه؛ باز می‌کنیم و هر گزینه را مرور می‌کنیم."
+
+msgid "This merges AI content performance into the same report instead of keeping a separate analytics view."
+msgstr "عملکرد محتوای AI را در همان گزارش ادغام می‌کند."
+
+msgid "This page provides you with comprehensive analytics and actionable insights regarding your content performance and engagement."
+msgstr "analytics جامع و بینش عملی از عملکرد و تعامل محتوا."
+
+msgid "This quick tour will guide you through the main features. Let's start with your A/B test performance."
+msgstr "این تور سریع ویژگی‌های اصلی را نشان می‌دهد. با عملکرد تست A/B شروع می‌کنیم."
+
+msgid "This section connects content performance with trigger decisions. Next, we will open it and explain each option."
+msgstr "عملکرد محتوا با تصمیم trigger؛ باز می‌کنیم و گزینه‌ها را توضیح می‌دهیم."
+
+msgid "This simulates which trigger wins first based on priority score > specificity > created date."
+msgstr "شبیه‌سازی برنده بر اساس امتیاز اولویت > specificity > تاریخ ایجاد."
+
+msgid "Thu"
+msgstr "پنجشنبه"
+
+msgid "Time End"
+msgstr "زمان پایان"
+
+msgid "Time on Page"
+msgstr "زمان در صفحه"
+
+msgid "Time Start"
+msgstr "زمان شروع"
+
+msgid "Timeout for AI provider requests such as OpenAI, Gemini, Anthropic, Grok, Mistral, or DeepSeek."
+msgstr "مهلت درخواست به ارائه‌دهنده‌های OpenAI، Gemini، Anthropic، Grok، Mistral یا DeepSeek."
+
+msgid "Timestamp"
+msgstr "زمان"
+
+msgid "Title A-Z"
+msgstr "عنوان الف-ی"
+
+msgid "Title Z-A"
+msgstr "عنوان ی-الف"
+
+msgid "To confirm, please type RESET in the box below."
+msgstr "برای تأیید، RESET را در کادر زیر تایپ کنید."
+
+msgid "Toggle chat size"
+msgstr "تغییر اندازه چت"
+
+msgid "Toggle to show or hide the chat widget on the frontend."
+msgstr "نمایش یا مخفی کردن ویجت چت در فرانت‌اند."
+
+msgid "Tool Results Limit"
+msgstr "حد نتایج ابزار"
+
+msgid "Top"
+msgstr "بالا"
+
+msgid "Top decision label:"
+msgstr "برچسب تصمیم برتر:"
+
+msgid "Top In-Chat Actions Clicked"
+msgstr "پرکلیک‌ترین اقدامات داخل چت"
+
+msgid "Top Left"
+msgstr "بالا چپ"
+
+msgid "Top of screen"
+msgstr "بالای صفحه"
+
+msgid "Top opportunities"
+msgstr "فرصت‌های برتر"
+
+msgid "Top opportunities limit"
+msgstr "حد فرصت‌های برتر"
+
+msgid "Top Right"
+msgstr "بالا راست"
+
+msgid "Topic & Keyword Analysis"
+msgstr "تحلیل موضوع و کلمه کلیدی"
+
+msgid "Topic Keywords (one per line)"
+msgstr "کلیدواژه موضوع (هر خط یک مورد)"
+
+msgid "Topic Keywords Queue"
+msgstr "صف کلیدواژه موضوع"
+
+msgid "Total conversions:"
+msgstr "کل تبدیل:"
+
+msgid "Total Profiles"
+msgstr "کل پروفایل‌ها"
+
+msgid "Total tracked items:"
+msgstr "کل موارد ردیابی‌شده:"
+
+msgid "Total views:"
+msgstr "کل بازدید:"
+
+msgid "Track all public content, selected post types, or only your target URL rules depending on your campaign goals."
+msgstr "همه محتوای عمومی، post type انتخابی یا فقط URL هدف بسته به کمپین."
+
+msgid "Track Conversions"
+msgstr "ردیابی تبدیل"
+
+msgid "Track conversions by page URL, any detected payment success, CSS selector clicks, form submissions, popular WordPress actions, or WooCommerce product visits."
+msgstr "ردیابی تبدیل با URL، پرداخت، selector، فرم، action وردپرس یا بازدید محصول."
+
+msgid "Track posts, products, and target page URLs, then use simple decision labels to guide your next move."
+msgstr "ردیابی نوشته، محصول و URL هدف؛ سپس برچسب تصمیم برای اقدام بعدی."
+
+msgid "Track selected content and surface a simple decision label such as Promote, Watch, or Improve."
+msgstr "ردیابی محتوای انتخاب‌شده و برچسب تصمیم ساده (Promote، Watch، Improve)."
+
+msgid "Tracked items:"
+msgstr "موارد ردیابی‌شده:"
+
+msgid "Tracking and behavior reports are paused until Content Insights is enabled."
+msgstr "گزارش‌های ردیابی تا فعال شدن Content Insights متوقف است."
+
+msgid "Tracking mode:"
+msgstr "حالت ردیابی:"
+
+msgid "Tracking Scope"
+msgstr "محدوده ردیابی"
+
+msgid "Tracking Summary"
+msgstr "خلاصه ردیابی"
+
+msgid "Tracks checkout, proceed-to-checkout, and place-order button clicks."
+msgstr "کلیک checkout، proceed-to-checkout و place-order را ردیابی می‌کند."
+
+msgid "Tracks clicks on mailto: links."
+msgstr "کلیک روی لینک‌های mailto: را ردیابی می‌کند."
+
+msgid "Tracks clicks on tel: links."
+msgstr "کلیک روی لینک‌های tel: را ردیابی می‌کند."
+
+msgid "Tracks common downloadable file links and links with a download attribute."
+msgstr "لینک‌های فایل قابل دانلود و لینک‌های با attribute download را ردیابی می‌کند."
+
+msgid "Tracks common WordPress, block editor, Elementor, Divi, and button-style CTA clicks."
+msgstr "کلیک‌های رایج وردپرس، block editor، Elementor، Divi و CTA دکمه‌ای را ردیابی می‌کند."
+
+msgid "Tracks Contact Form 7 form submits and successful mail sent events."
+msgstr "ارسال فرم Contact Form 7 و رویداد mail sent موفق را ردیابی می‌کند."
+
+msgid "Tracks Elementor Pro form submissions."
+msgstr "ارسال فرم‌های Elementor Pro را ردیابی می‌کند."
+
+msgid "Tracks Fluent Forms submissions."
+msgstr "ارسال Fluent Forms را ردیابی می‌کند."
+
+msgid "Tracks Formidable Forms submissions."
+msgstr "ارسال Formidable Forms را ردیابی می‌کند."
+
+msgid "Tracks Gravity Forms form submissions."
+msgstr "ارسال فرم‌های Gravity Forms را ردیابی می‌کند."
+
+msgid "Tracks Ninja Forms submissions."
+msgstr "ارسال Ninja Forms را ردیابی می‌کند."
+
+msgid "Tracks product add-to-cart button clicks."
+msgstr "کلیک دکمه افزودن به سبد محصول را ردیابی می‌کند."
+
+msgid "Tracks WPForms form submissions."
+msgstr "ارسال فرم‌های WPForms را ردیابی می‌کند."
+
+msgid "Traffic source"
+msgstr "منبع ترافیک"
+
+msgid "Transparent"
+msgstr "شفاف"
+
+msgid "Transparent (for custom logos)"
+msgstr "شفاف (برای لوگوی سفارشی)"
+
+msgid "Trigger"
+msgstr "تریگر"
+
+msgid "Trigger after this many seconds with no meaningful user activity."
+msgstr "پس از این تعداد ثانیه بدون فعالیت معنادار کاربر اجرا شود."
+
+msgid "Trigger after visitor has viewed at least this many distinct pages in the current session."
+msgstr "پس از دیدن حداقل این تعداد صفحه متمایز در نشست فعلی."
+
+msgid "Trigger Analytics"
+msgstr "Analytics trigger"
+
+msgid "Trigger Analytics (7d / 30d / Lifetime)"
+msgstr "تحلیل تریگر (۷ روز / ۳۰ روز / کل)"
+
+msgid "Trigger Analytics CSV"
+msgstr "CSV تحلیل تریگر"
+
+msgid "Trigger Name is required."
+msgstr "نام تریگر الزامی است."
+
+msgid "Trigger Order Preview:"
+msgstr "پیش‌نمایش ترتیب تریگر:"
+
+msgid "Trigger Overview"
+msgstr "نمای کلی trigger"
+
+msgid "Trigger Quick Reply Buttons"
+msgstr "دکمه‌های پاسخ سریع تریگر"
+
+msgid "Trigger quick reply placement"
+msgstr "محل دکمه‌های پاسخ سریع تریگر"
+
+msgid "Trigger Type"
+msgstr "نوع trigger"
+
+msgid "Trigger:"
+msgstr "Trigger:"
+
+msgid "Triggered Chat Lead"
+msgstr "سرنخ چت تریگرشده"
+
+msgid "Trim long persona instructions before sending them to the AI to control prompt size and cost."
+msgstr "کوتاه کردن دستورالعمل‌های طولانی شخصیت قبل از ارسال به AI."
+
+msgid "Trim Persona Prompt"
+msgstr "کوتاه‌سازی پرامپت شخصیت"
+
+msgid "Try Again"
+msgstr "تلاش دوباره"
+
+msgid "Tue"
+msgstr "سه‌شنبه"
+
+msgid "Tune Caching"
+msgstr "تنظیم cache"
+
+msgid "Turn on A/B testing to experiment with different personas, colors, messages, or buttons. The \"Variation B\" settings will appear when this is enabled."
+msgstr "تست A/B را برای persona، رنگ، پیام یا دکمه فعال کنید؛ «Variation B» ظاهر می‌شود."
+
+msgid "Turn On Recommendations"
+msgstr "فعال‌سازی پیشنهادها"
+
+msgid "Twice Daily"
+msgstr "روزی دو بار"
+
+msgid "Type"
+msgstr "نوع"
+
+msgid "Type (A-Z)"
+msgstr "نوع (الف-ی)"
+
+msgid "Type (Z-A)"
+msgstr "نوع (ی-الف)"
+
+msgid "Type A-Z"
+msgstr "نوع الف-ی"
+
+msgid "Type at least 3 characters"
+msgstr "حداقل ۳ کاراکتر تایپ کنید"
+
+msgid "Type your message..."
+msgstr "پیام خود را بنویسید..."
+
+msgid "Type Z-A"
+msgstr "نوع ی-الف"
+
+msgid "Type:"
+msgstr "نوع:"
+
+msgid "Unable to load results"
+msgstr "بارگذاری نتایج ممکن نیست"
+
+msgid "Under trigger message only"
+msgstr "فقط زیر پیام تریگر"
+
+msgid "Under welcome/trigger messages and bottom chat bar"
+msgstr "زیر پیام خوش‌آمد/trigger و نوار پایین چت"
+
+msgid "Under welcome/trigger messages only"
+msgstr "فقط زیر پیام خوش‌آمد/trigger"
+
+msgid "Unknown"
+msgstr "ناشناخته"
+
+msgid "Unknown error"
+msgstr "خطای ناشناخته"
+
+msgid "Unknown processing error."
+msgstr "خطای پردازش ناشناخته."
+
+msgid "Unknown Trigger"
+msgstr "Trigger ناشناخته"
+
+msgid "Unlike the trigger Persona / Instructions below, this is appended to the regular chat prompt for conversations attributed to this trigger."
+msgstr "برخلاف Persona/دستورالعمل تریگر پایین، به prompt عادی چت برای مکالمات این تریگر append می‌شود."
+
+msgid "Unlimited"
+msgstr "نامحدود"
+
+msgid "Unnamed Goal"
+msgstr "هدف بدون نام"
+
+msgid "Unnamed Trigger"
+msgstr "تریگر بدون نام"
+
+msgid "Untitled"
+msgstr "بدون عنوان"
+
+msgid "Upload"
+msgstr "بارگذاری"
+
+msgid "Upload a custom icon for the floating chat bubble. If left empty, the default icon is used."
+msgstr "آیکون سفارشی حباب چت؛ خالی = آیکون پیش‌فرض."
+
+msgid "Upload and Map Columns"
+msgstr "بارگذاری و نگاشت ستون‌ها"
+
+msgid "Uploaded File Context"
+msgstr "زمینه فایل بارگذاری‌شده"
+
+msgid "Uploaded Knowledge Base Files"
+msgstr "فایل‌های بارگذاری‌شده پایگاه دانش"
+
+msgid "Uploading..."
+msgstr "در حال بارگذاری..."
+
+msgid "Urgency"
+msgstr "فوریت"
+
+msgid "URL (Link)"
+msgstr "URL (لینک)"
+
+msgid "URL contains"
+msgstr "URL شامل"
+
+msgid "URLs (Contains)"
+msgstr "URLها (شامل)"
+
+msgid "Use 'inherit' to use your theme's font. For custom fonts, ensure they are loaded by your theme."
+msgstr "از inherit برای فونت قالب استفاده کنید. فونت‌های سفارشی باید توسط قالب بارگذاری شوند."
+
+msgid "Use a fallback provider if the primary fails."
+msgstr "در صورت خطای اصلی از fallback استفاده شود."
+
+msgid "Use a higher value to keep pattern history long-term. You can reset behavior pattern data from Dashboard > Manage & Reset Data."
+msgstr "مقدار بالاتر = نگهداری طولانی‌تر history. reset از Dashboard > Manage & Reset Data."
+
+msgid "Use AI to generate this message"
+msgstr "تولید این پیام با AI"
+
+msgid "Use browser leave warning"
+msgstr "استفاده از هشدار خروج مرورگر"
+
+msgid "Use categories/tags (and product categories/tags) to improve relevance when matching."
+msgstr "استفاده از دسته/برچسب برای بهبود relevance."
+
+msgid "Use Content Insights gate"
+msgstr "استفاده از gate Content Insights"
+
+msgid "Use Delete to remove a card. Use Mark as Improved when the content refresh is done."
+msgstr "Delete برای حذف کارت · Mark as Improved پس از اتمام به‌روزرسانی."
+
+msgid "Use fallback message"
+msgstr "استفاده از پیام fallback"
+
+msgid "Use for A/B test"
+msgstr "استفاده در تست A/B"
+
+msgid "Use generic fallback text"
+msgstr "متن fallback عمومی"
+
+msgid "Use Object Cache"
+msgstr "استفاده از Object Cache"
+
+msgid "Use one placement to avoid duplicate trigger quick replies."
+msgstr "یک محل برای جلوگیری از duplicate پاسخ سریع تریگر."
+
+msgid "Use original answer"
+msgstr "استفاده از پاسخ اصلی"
+
+msgid "Use selected files"
+msgstr "استفاده از فایل‌های انتخاب‌شده"
+
+msgid "Use Target Page URLs and Exclude URL rules to focus insights on revenue pages and hide pages like checkout, preview, or thank-you screens."
+msgstr "URL هدف و Exclude برای تمرکز روی صفحات درآمد و پنهان checkout/preview/thank-you."
+
+msgid "Use Taxonomy Relevance"
+msgstr "استفاده از relevance taxonomy"
+
+msgid "Use taxonomy relevance and optional custom service taxonomies to keep recommendations laser-focused."
+msgstr "relevance taxonomy و taxonomy سفارشی خدمات برای پیشنهاد دقیق."
+
+msgid "Use the SEO Improvement panel to mark content as improved, then include or exclude that content here without losing the AI/manual source filter."
+msgstr "از پنل SEO Improvement برای علامت بهبود استفاده کنید؛ فیلتر AI/manual حفظ می‌شود."
+
+msgid "Use this logo"
+msgstr "استفاده از این لوگو"
+
+msgid "Use This Version"
+msgstr "استفاده از این نسخه"
+
+msgid "Use WordPress object cache (Redis/Memcached) when available."
+msgstr "استفاده از object cache وردپرس (Redis/Memcached) در صورت وجود."
+
+msgid "Used after tapping Expand. Set different from the initial width to widen or narrow the expanded sheet."
+msgstr "پس از Expand. برای پهن/باریک کردن sheet گسترش‌یافته."
+
+msgid "Used by Hybrid mode and validation. Separate with commas or new lines."
+msgstr "برای Hybrid و validation. با ویرگول یا خط جدید جدا کنید."
+
+msgid "Used mainly with Hybrid mode to ask AI to include specific resolved page values."
+msgstr "عمدتاً در حالت Hybrid برای درخواست از AI جهت گنجاندن مقادیر resolve شده صفحه."
+
+msgid "Used when Tracking Scope is set to selected post types."
+msgstr "وقتی محدوده ردیابی روی post typeهای انتخاب‌شده است."
+
+msgid "User"
+msgstr "کاربر"
+
+msgid "User ID"
+msgstr "شناسه کاربر"
+
+msgid "User Message BG Color"
+msgstr "رنگ پس‌زمینه پیام کاربر"
+
+msgid "User Message Text Color"
+msgstr "رنگ متن پیام کاربر"
+
+msgid "Uses confirmed conversion signals such as WooCommerce order received pages, configured thank-you/success URL goals, or external checkout calls to window.KaraviAiAssistant.markConversion()."
+msgstr "از سیگنال‌های تأییدشده مثل صفحه order-received، URL thank-you/success یا window.KaraviAiAssistant.markConversion() استفاده می‌کند."
+
+msgid "UTM / Referrer"
+msgstr "UTM / ارجاع"
+
+msgid "UTM Campaign contains"
+msgstr "UTM Campaign شامل"
+
+msgid "UTM Medium contains"
+msgstr "UTM Medium شامل"
+
+msgid "UTM Source contains"
+msgstr "UTM Source شامل"
+
+msgid "Variation A"
+msgstr "نسخه A"
+
+msgid "Variation A only"
+msgstr "فقط نسخه A"
+
+msgid "Variation B"
+msgstr "نسخه B"
+
+msgid "Variation B only"
+msgstr "فقط نسخه B"
+
+msgid "Verification & Segmentation"
+msgstr "تأیید و segmentation"
+
+msgid "View cart"
+msgstr "مشاهده سبد"
+
+msgid "View details"
+msgstr "مشاهده جزئیات"
+
+msgid "View Details"
+msgstr "مشاهده جزئیات"
+
+msgid "View Product"
+msgstr "مشاهده محصول"
+
+msgid "View Repository"
+msgstr "مشاهده مخزن"
+
+msgid "Views"
+msgstr "بازدید"
+
+msgid "Views threshold"
+msgstr "آستانه بازدید"
+
+msgid "Visit frequency"
+msgstr "فرکانس بازدید"
+
+msgid "Visit frequency weight"
+msgstr "وزن فرکانس بازدید"
+
+msgid "Visit Karavi Canada"
+msgstr "مشاهده کاروی کانادا"
+
+msgid "Visit NTK Iran"
+msgstr "مشاهده NTK ایران"
+
+msgid "Visit source"
+msgstr "منبع بازدید"
+
+msgid "Visit Source Mix"
+msgstr "ترکیب منبع بازدید"
+
+msgid "Visit source weight"
+msgstr "وزن منبع بازدید"
+
+msgid "Visitor Segment"
+msgstr "بخش بازدیدکننده"
+
+msgid "Visual Styling (Global)"
+msgstr "استایل بصری (سراسری)"
+
+msgid "Wait time before showing recovery message after abandonment intent is detected."
+msgstr "زمان انتظار قبل از پیام بازیابی پس از تشخیص intent رها کردن."
+
+msgid "WARNING"
+msgstr "هشدار"
+
+msgid "We appreciate your business. Configure your settings below to get started."
+msgstr "تنظیمات زیر را برای شروع پیکربندی کنید."
+
+msgid "Wed"
+msgstr "چهارشنبه"
+
+msgid "Weights amplify or reduce each metric during reference calibration. Example: Scroll depth weight <code>2</code> applies as <code>scroll_depth * 2</code> in live-vs-reference scoring."
+msgstr "وزن‌ها هر metric را در کالیبراسیون مرجع تقویت/کاهش می‌دهند. مثال: وزن عمق اسکرول <code>2</code> یعنی <code>scroll_depth * 2</code>."
+
+msgid "Welcome Message"
+msgstr "پیام خوش‌آمد"
+
+msgid "Welcome to Content Insights!"
+msgstr "به بینش محتوا خوش آمدید!"
+
+msgid "Welcome to Karavi AI Assistant!"
+msgstr "به دستیار هوش مصنوعی کاروی خوش آمدید!"
+
+msgid "Welcome to KaraviAiAssistant!"
+msgstr "به دستیار هوش مصنوعی کاروی خوش آمدید!"
+
+msgid "When enabled, AI receives both stored behavior-pattern references and the live behavior snapshot for the current attributed source when available. When disabled, Content Insights behavior patterns are not added to chat Knowledge Base context."
+msgstr "الگوهای رفتاری ذخیره‌شده و snapshot زنده به AI داده می‌شود."
+
+msgid "When enabled, Karavi AI Assistant fetches visible public page output from the selected Knowledge Base post types. This lets chat answer from homepages, landing pages, page builders, blocks, shortcodes, theme templates, and custom fields that are not stored in raw post content. Uncheck it to use only database post content plus any other enabled Knowledge Base sources."
+msgstr "متن قابل‌مشاهده صفحات عمومی از انواع انتخاب‌شده خوانده می‌شود تا چت از لندینگ، بلوک، شورت‌کد و قالب پاسخ دهد."
+
+msgid "When enabled, the chat widget reads visible text from the page the visitor is viewing and sends it with the chat request. This helps answer questions about theme-rendered, hardcoded, or dynamic content that is not available from the WordPress database."
+msgstr "ویجت متن قابل‌مشاهده صفحه بازدیدکننده را با درخواست چت ارسال می‌کند."
+
+msgid "When enabled, this trigger only runs for admins. Force it with preview query parameter."
+msgstr "وقتی فعال است، این تریگر فقط برای ادمین‌ها اجرا می‌شود. با پارامتر preview query اجبار کنید."
+
+msgid "Window"
+msgstr "پنجره"
+
+msgid "WooCommerce add to cart click"
+msgstr "کلیک افزودن به سبد WooCommerce"
+
+msgid "WooCommerce checkout / place order click"
+msgstr "کلیک checkout / ثبت سفارش WooCommerce"
+
+msgid "WooCommerce Product Visit"
+msgstr "بازدید محصول WooCommerce"
+
+msgid "WooCommerce Products"
+msgstr "محصولات WooCommerce"
+
+msgid "WooCommerce purchase (primary conversion)"
+msgstr "خرید WooCommerce (تبدیل اصلی)"
+
+msgid "WordPress button / CTA click"
+msgstr "کلیک دکمه/CTA وردپرس"
+
+msgid "WordPress content types"
+msgstr "انواع محتوای وردپرس"
+
+msgid "WordPress media uploader is not available on this screen. Refresh the settings page and try again."
+msgstr "بارگذار رسانه وردپرس در این صفحه در دسترس نیست. صفحه تنظیمات را تازه‌سازی کنید و دوباره تلاش کنید."
+
+msgid "WPForms submit"
+msgstr "ارسال WPForms"
+
+msgid "You"
+msgstr "شما"
+
+msgid "You are a friendly, concise product assistant. Keep messages under 45 words and include at most one actionable button using syntax: [BUTTON: Label](https://url)."
+msgstr "دستیار محصول دوستانه و مختصر. پیام زیر ۴۵ کلمه و حداکثر یک دکمه با syntax: [BUTTON: Label](https://url)."
+
+msgid "You can now use a dedicated AI provider and API key for content generation, separate from your chatbot settings."
+msgstr "provider و API key جدا برای تولید محتوا، مستقل از چت‌بات."
+
+msgid "You have completed the Karavi AI Assistant guided tour. Thank you so much for choosing Karavi AI Assistant! We hope this tour helped you understand all the powerful features at your fingertips. Have a wonderful day and happy generating! 😊"
+msgstr "تور دستیار هوش مصنوعی کاروی تمام شد. از انتخاب دستیار هوش مصنوعی کاروی سپاسگزاریم! امیدواریم همه قابلیت‌ها را فهمیده باشید. روز خوب و تولید محتوای پربار! 😊"
+
+msgid "You have completed the KaraviAiAssistant guided tour. Thank you so much for choosing KaraviAiAssistant! We hope this tour helped you understand all the powerful features at your fingertips. Have a wonderful day and happy generating! 😊"
+msgstr "تور دستیار هوش مصنوعی کاروی تمام شد. از انتخاب دستیار هوش مصنوعی کاروی سپاسگزاریم! امیدواریم همه قابلیت‌ها را فهمیده باشید. روز خوب و تولید محتوای پربار! 😊"
+
+msgid "You must map at least one column as the Post / Product URL or ID."
+msgstr "حداقل یک ستون باید به URL یا ID پست/محصول نگاشت شود."
