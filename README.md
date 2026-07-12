@@ -64,42 +64,6 @@ Generic chat widgets usually wait for a visitor to ask a question. KaraviAiAssis
 
 For WooCommerce stores and marketplaces, Karavi AI Assistant is useful because it can connect AI help to real buying behavior: product views, add-to-cart events, checkout drop-off, cart state, coupons, order attribution, and product-specific Knowledge Base answers.
 
-## Media Gallery
-
-Screenshots and GIFs are stored in this repository under `docs/media/`. Previews link to the full animated capture when available.
-
-### Dashboard
-
-[![Karavi AI Assistant dashboard](docs/media/previews/dashboard.png)](docs/media/dashboard.gif)
-
-### Chat
-
-[![Karavi AI Assistant chat settings](docs/media/previews/chat.png)](docs/media/chat.gif)
-
-### Behavior Triggers
-
-[![Karavi AI Assistant behavior triggers](docs/media/previews/triggers.png)](docs/media/triggers.gif)
-
-### Content Insights
-
-[![Karavi AI Assistant content insights](docs/media/previews/content-insights.png)](docs/media/content-insights.gif)
-
-### Conversion Goals
-
-[![Karavi AI Assistant conversion goals](docs/media/previews/goals.png)](docs/media/goals.gif)
-
-### Cost Controls
-
-[![Karavi AI Assistant cost controls](docs/media/previews/cost-controls.png)](docs/media/cost-controls.gif)
-
-### SEO Tools
-
-[![Karavi AI Assistant SEO tools](docs/media/previews/seo.png)](docs/media/seo.gif)
-
-### Logs And Diagnostics
-
-![Karavi AI Assistant logs and diagnostics](docs/media/logs-diagnostics.png)
-
 ## Feature Map
 
 ### AI Providers And Model Control
